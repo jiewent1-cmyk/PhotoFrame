@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Encadré — Support</title>
+<meta name="description" content="Support and FAQ for Encadré for iPhone and iPad: lossless JPEG framing, HEIC handling, the eyedropper, Auto colour, sharing from Photos, and export options.">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="../assets/icon.png">
+<style>
+:root {
+  --bg: #fbfaf7;
+  --bg-2: #f3f0ea;
+  --card: #ffffff;
+  --text: #1d1d1f;
+  --text-2: #5b5b61;
+  --text-3: #8a8a90;
+  --line: rgba(0,0,0,.08);
+  --accent: #e8653a;
+  --accent-2: #c94f28;
+  --accent-soft: rgba(232,101,58,.12);
+  --shadow: 0 1px 2px rgba(0,0,0,.06), 0 12px 40px rgba(0,0,0,.10);
+  --radius: 18px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111113; --bg-2: #18181b; --card: #1e1e22;
+    --text: #f2f2f4; --text-2: #b4b4bb; --text-3: #85858d;
+    --line: rgba(255,255,255,.09);
+    --accent-soft: rgba(232,101,58,.18);
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 16px 48px rgba(0,0,0,.45);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111113; --bg-2: #18181b; --card: #1e1e22;
+  --text: #f2f2f4; --text-2: #b4b4bb; --text-3: #85858d;
+  --line: rgba(255,255,255,.09);
+  --accent-soft: rgba(232,101,58,.18);
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 16px 48px rgba(0,0,0,.45);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-2); text-decoration: underline; }
+code { font: 13.5px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--bg-2); padding: 2px 7px; border-radius: 6px; overflow-wrap: anywhere; }
+
+header {
+  position: sticky; top: 0; z-index: 10;
+  backdrop-filter: saturate(180%) blur(16px); -webkit-backdrop-filter: saturate(180%) blur(16px);
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  border-bottom: 1px solid var(--line);
+}
+.bar { max-width: 720px; margin: 0 auto; padding: 0 24px; height: 60px; display: flex; align-items: center; gap: 14px; }
+.brand { display: flex; align-items: center; gap: 9px; font-weight: 650; color: var(--text); text-decoration: none; }
+.brand img { width: 28px; height: 28px; }
+.lang { margin-left: auto; font-size: 14px; color: var(--text-2); white-space: nowrap; }
+.lang a { color: var(--text-2); }
+.lang a:hover { color: var(--text); text-decoration: none; }
+.lang .sep { color: var(--text-3); padding: 0 6px; }
+
+main { max-width: 720px; margin: 0 auto; padding: 0 24px 40px; }
+h1 { font-size: clamp(28px, 5.5vw, 40px); line-height: 1.2; letter-spacing: -.02em; margin: 52px 0 8px; font-weight: 750; }
+.meta { color: var(--text-3); font-size: 14px; margin: 0 0 30px; }
+h2 { font-size: 18px; letter-spacing: -.01em; margin: 40px 0 10px; font-weight: 650; }
+p { margin: 0 0 14px; color: var(--text-2); }
+p strong { color: var(--text); font-weight: 600; }
+ul { margin: 0 0 14px; padding-left: 22px; color: var(--text-2); }
+li { margin-bottom: 8px; }
+li:last-child { margin-bottom: 0; }
+.lead { color: var(--text-2); font-size: 17px; margin-bottom: 26px; }
+.note {
+  background: var(--card); border-radius: var(--radius); box-shadow: 0 0 0 1px var(--line);
+  padding: 20px 22px; margin: 0 0 14px; color: var(--text-2);
+}
+.note p:last-child { margin-bottom: 0; }
+details { background: var(--card); border-radius: 14px; padding: 16px 20px; margin-bottom: 10px; box-shadow: 0 0 0 1px var(--line); }
+summary { cursor: pointer; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 16px; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: "+"; color: var(--text-3); font-size: 20px; line-height: 1; }
+details[open] summary::after { content: "−"; }
+details p { margin: 12px 0 0; font-size: 15.5px; }
+details ul { margin: 12px 0 0; font-size: 15.5px; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 64px 0 0; }
+.backtop { display: inline-block; margin-top: 14px; font-size: 14px; color: var(--text-3); }
+
+footer { border-top: 1px solid var(--line); margin-top: 64px; }
+footer .bar { height: auto; padding: 26px 24px 34px; display: block; color: var(--text-3); font-size: 14px; }
+footer .bar a { color: var(--text-2); }
+footer .bar span { display: block; }
+
+@media (max-width: 560px) {
+  .bar, main { padding-left: 16px; padding-right: 16px; }
+  h1 { margin-top: 38px; }
+  .note { padding: 18px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <a class="brand" href="../index.html"><img src="../assets/icon.png" alt="">Encadré</a>
+    <div class="lang"><a href="#en">English</a><span class="sep">·</span><a href="#zh">简体中文</a></div>
+  </div>
+</header>
+
+<main>
+
+<section id="en">
+  <h1>Support</h1>
+  <p class="meta">Encadré for iPhone and iPad · iOS 16 or later · Free</p>
+
+  <p class="lead">Encadré adds a border around your photos without touching the photo itself. This page answers the questions that come up most often.</p>
+
+  <h2>Frequently asked questions</h2>
+
+  <details>
+    <summary>What does lossless mean here, and why is JPEG the only export format?</summary>
+    <p>Adding a border usually means decoding the photo, painting around it, and compressing the whole image again — one more lossy pass.</p>
+    <p>Encadré builds the border at the JPEG DCT level instead. The compressed data of the photo is reused exactly as it was stored, and only the new border area is encoded. Nothing inside the frame is recompressed, so image quality, colour and colour space — including wide-gamut Display P3 — are unchanged, and the EXIF data is carried through.</p>
+    <p>JPEG is the only export format because it is the only format with existing compressed data to build on. A small number of JPEGs (for example, unusual encoder layouts) can't take this path; they are re-encoded at maximum quality instead, and the export screen tells you how many.</p>
+  </details>
+
+  <details>
+    <summary>What happens to HEIC and PNG photos?</summary>
+    <p>HEIC, PNG and other formats have no JPEG data to build on, so they are decoded and re-encoded to JPEG at maximum quality: Q100 with 4:4:4 chroma, no subsampling. That is the highest quality JPEG encoding available.</p>
+    <p>The result is not bit-for-bit identical to the original, because the original was not a JPEG to begin with.</p>
+  </details>
+
+  <details>
+    <summary>How do I use the eyedropper?</summary>
+    <p>Press and hold on the photo. A loupe follows your finger and shows the exact pixel colour under it. Alternatively, tap the eyedropper button and drag across the photo.</p>
+    <p>The sampled colour is applied to the border, not to the photo.</p>
+  </details>
+
+  <details>
+    <summary>What does “Auto per photo” do?</summary>
+    <p>Auto per photo uses each photo's own dominant colour — the colour covering the largest part of the frame — as its border colour.</p>
+    <p>It matters most for batches: every photo in the batch ends up with its own matching colour instead of one shared colour across the set.</p>
+  </details>
+
+  <details>
+    <summary>How do I bring photos in from the Photos app?</summary>
+    <p>Select one or more photos in Photos, tap the Share button, and choose Encadré. The photos are handed to Encadré and the app opens on them.</p>
+    <p>You can also import from the Photos library or from the Files app inside Encadré itself.</p>
+  </details>
+
+  <details>
+    <summary>I shared from Photos but the app did not open. What now?</summary>
+    <p>Your photos are waiting — open Encadré yourself and they will be there.</p>
+    <p>The share extension runs under a small memory limit, so on some devices iOS does not switch to the app automatically after the hand-off. Nothing was lost, and nothing was uploaded.</p>
+  </details>
+
+  <details>
+    <summary>Where do my exported photos end up?</summary>
+    <p>Wherever you chose to send them:</p>
+    <ul>
+      <li><strong>Photos</strong> — saved to your library, and into an album named Encadré if you turned that option on.</li>
+      <li><strong>Share sheet</strong> — sent to the app you picked.</li>
+      <li><strong>Files</strong> — written to the location you chose.</li>
+    </ul>
+    <p>Exports never overwrite or replace the originals in your library.</p>
+  </details>
+
+  <details>
+    <summary>What does Remove location do?</summary>
+    <p>It removes the GPS coordinates stored in a photo's EXIF metadata from the copy being exported. The original in your Photos library is not modified.</p>
+    <p>Encadré never reads your device's location — this is only about metadata inside the photo file. The option is off by default; turn it on when exporting photos you would rather not share the location of.</p>
+  </details>
+
+  <details>
+    <summary>Why is my exported file bigger or smaller than the original?</summary>
+    <p>A border adds pixels, so the exported image is larger in dimensions than the original. On the lossless JPEG path the file size works out roughly as the original file plus the area the border occupies, because the photo's own compressed data is copied rather than regenerated.</p>
+    <p>Photos that have to be re-encoded, such as HEIC, usually come out noticeably larger: a maximum-quality JPEG keeps more data than the HEIC it came from.</p>
+  </details>
+
+  <details>
+    <summary>Does Encadré work on iPad?</summary>
+    <p>Yes. Encadré is a universal app for iPhone and iPad, requires iOS 16 or later, and on iPad uses a three-column layout with the photo list, the preview and the controls side by side. Dark Mode is supported on both.</p>
+  </details>
+
+  <details>
+    <summary>Do I need an account? Do my photos get uploaded?</summary>
+    <p>There is no account and no sign-in. Encadré makes no network requests: photos are read only when you select them, processed on your device, and written back only when you save. No analytics, no tracking, no ads.</p>
+    <p>The <a href="privacy.html">Privacy Policy</a> covers this in full.</p>
+  </details>
+
+  <h2>Feedback</h2>
+  <p>Found a bug, or something that should behave differently? Opening an issue is the fastest way to reach the developer. Reproducible steps and a sample of the source photo help a lot.</p>
+  <p><code>https://github.com/jiewent1-cmyk/PhotoFrame/issues</code></p>
+
+  <h2>Also available on macOS</h2>
+  <p>照片边框 PhotoFrame is the Mac version of the same lossless engine — also free.</p>
+  <p><a href="https://jiewent1-cmyk.github.io/PhotoFrame/">https://jiewent1-cmyk.github.io/PhotoFrame/</a></p>
+</section>
+
+<hr>
+
+<section id="zh">
+  <h1>技术支持</h1>
+  <p class="meta">Encadré（iPhone 与 iPad） · 需要 iOS 16 或更新版本 · 免费</p>
+
+  <p class="lead">Encadré 在照片外面加一道边框，照片本身不动。这一页回答最常被问到的问题。</p>
+
+  <h2>常见问题</h2>
+
+  <details>
+    <summary>什么叫无损？为什么只能导出 JPEG？</summary>
+    <p>一般的加边框流程是：解码照片 → 画上边框 → 把整张照片重新压缩一遍。多一次有损压缩，就多一次损失。</p>
+    <p>Encadré 换了一种做法：边框在 JPEG 的 DCT 系数层面拼接。照片已经压缩好的数据原样复用，只为新增的边框区域编码。边框里面的画面一个字节都没有重新压缩，所以画质、色彩和色彩空间（包括 Display P3 广色域）与原图完全一致，EXIF 也一并保留。</p>
+    <p>之所以只导出 JPEG，是因为只有 JPEG 本身带着可以直接复用的压缩数据。少数编码方式特殊的 JPEG 无法走这条路径，会改用最高质量重新编码，导出界面会告诉你有几张。</p>
+  </details>
+
+  <details>
+    <summary>HEIC 的照片会怎么样？</summary>
+    <p>HEIC、PNG 等格式没有可以直接复用的 JPEG 数据，只能解码后重新编码成 JPEG，参数为最高质量：Q100、4:4:4，不做色度抽样。这已经是 JPEG 能达到的编码质量上限。</p>
+    <p>结果不会和原文件逐字节相同——原文件本来也不是 JPEG。</p>
+  </details>
+
+  <details>
+    <summary>吸管怎么用？</summary>
+    <p>长按照片。放大镜会跟着手指移动，显示当前位置的像素颜色。也可以先点吸管按钮，再在照片上拖动。</p>
+    <p>取到的颜色只作用于边框，不会改变照片本身。</p>
+  </details>
+
+  <details>
+    <summary>「每张自动取色」是做什么的？</summary>
+    <p>它会取每张照片自己的主色调——在画面里占比最大的那个颜色——作为这张照片的边框色。</p>
+    <p>它在批量处理时最有用：一整批照片会各自配上与画面呼应的颜色，而不是共用同一个颜色。</p>
+  </details>
+
+  <details>
+    <summary>怎么从「照片」App 把照片弄进来？</summary>
+    <p>在「照片」App 里选中一张或多张照片，点分享按钮，选择 Encadré。照片会交给 Encadré，App 随之打开。</p>
+    <p>也可以在 Encadré 内部从「照片」相册或「文件」App 导入。</p>
+  </details>
+
+  <details>
+    <summary>分享之后 App 没有自动打开，怎么办？</summary>
+    <p>照片已经在里面了——手动打开 Encadré 就能看到。</p>
+    <p>分享扩展的内存上限比较紧，所以在部分设备上 iOS 不会在交接完成后自动切换到主 App。没有任何丢失，也没有上传到网络。</p>
+  </details>
+
+  <details>
+    <summary>导出的照片去哪里了？</summary>
+    <p>去了你选择的目标：</p>
+    <ul>
+      <li><strong>相册</strong> —— 保存到「照片」，如果你打开了那个选项，还会放进名为「Encadré」的相簿。</li>
+      <li><strong>分享面板</strong> —— 发送给你选的那个 App。</li>
+      <li><strong>文件</strong> —— 写入你选择的位置。</li>
+    </ul>
+    <p>导出不会覆盖、也不会替换相册里的原图。</p>
+  </details>
+
+  <details>
+    <summary>「去除位置信息」做了什么？</summary>
+    <p>它把照片 EXIF 数据里的 GPS 坐标从导出的那份副本中去掉。相册里的原图不会被修改。</p>
+    <p>Encadré 从不读取设备定位——它处理的只是照片文件内部的元数据。这个选项默认关闭；导出不希望透露拍摄地点的照片时再打开它。</p>
+  </details>
+
+  <details>
+    <summary>为什么导出的文件变大或变小了？</summary>
+    <p>加了边框之后像素变多，导出图片的尺寸比原图大。在 JPEG 无损这条路径上，文件大小大致等于原文件加上边框所占的部分，因为照片自身的压缩数据是被复制而不是重新生成的。</p>
+    <p>需要重新编码的照片（比如 HEIC）导出后通常会明显变大：最高质量的 JPEG 比原来的 HEIC 保留了更多数据。</p>
+  </details>
+
+  <details>
+    <summary>Encadré 支持 iPad 吗？</summary>
+    <p>支持。Encadré 是 iPhone 和 iPad 通用的 App，需要 iOS 16 或更新版本；在 iPad 上使用三栏布局，照片列表、预览和参数设置并排显示。两个平台都支持深色模式。</p>
+  </details>
+
+  <details>
+    <summary>需要注册账号吗？照片会被上传吗？</summary>
+    <p>不需要账号，也不需要登录。Encadré 不发起任何网络请求：照片只在你选择时读取，只在你的设备上处理，只在你保存时写回。没有统计分析，没有追踪，没有广告。</p>
+    <p><a href="privacy.html">隐私政策</a>里有完整说明。</p>
+  </details>
+
+  <h2>反馈</h2>
+  <p>发现 bug，或者觉得某个行为应该换一种做法？欢迎提 issue，这是联系开发者最快的方式。附上可复现的步骤和一张原始照片，会帮上大忙。</p>
+  <p><code>https://github.com/jiewent1-cmyk/PhotoFrame/issues</code></p>
+
+  <h2>macOS 版</h2>
+  <p>照片边框 PhotoFrame 是同一套无损引擎的 Mac 版本，同样免费。</p>
+  <p><a href="https://jiewent1-cmyk.github.io/PhotoFrame/">https://jiewent1-cmyk.github.io/PhotoFrame/</a></p>
+
+  <a class="backtop" href="#en">↑ 回到英文版 / Back to English</a>
+</section>
+
+</main>
+
+<footer>
+  <div class="bar">
+    <span>Encadré · <a href="privacy.html">Privacy Policy</a> · <a href="../index.html">照片边框 PhotoFrame</a></span>
+    <span>© 2026 Chong Chang Tan</span>
+  </div>
+</footer>
+
+</body>
+</html>
