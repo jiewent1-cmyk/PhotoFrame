@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>照片边框 PhotoFrame</title>
-<meta name="description" content="macOS 照片批量加边框工具：多种边框尺寸、吸管取色、自动主色调，JPG 无损导出，不损失画质与色彩。">
+<meta name="description" content="macOS 照片批量加边框工具：多种边框尺寸、吸管取色、自动主色调、2.0 相机水印（数码读 EXIF，胶片手选机身），JPG 无损导出，不损失画质与色彩。">
 <meta property="og:title" content="照片边框 PhotoFrame — 给照片加边框，不损失一个像素">
-<meta property="og:description" content="macOS 原生 App：批量加边框、吸管取色、自动主色调，JPG 原图无损导出。">
+<meta property="og:description" content="macOS 原生 App：批量加边框、吸管取色、自动主色调、2.0 相机水印，JPG 原图无损导出。">
 <meta property="og:image" content="assets/shot-dark.jpg">
 <link rel="icon" href="assets/icon.png">
 <style>
@@ -186,6 +186,16 @@ h2 { font-size: clamp(28px, 4vw, 42px); line-height: 1.2; letter-spacing: -.015e
 .shot p { color: var(--text-2); margin-top: 16px; font-size: 15px; }
 @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 
+/* 2.0 水印 */
+section.banded { background: linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 72%); }
+.wm-templates { margin: 40px 0 26px; }
+.wm-shot { display: none; }
+.wm-shot.on { display: block; animation: fade .35s ease; }
+.wm-shot p { color: var(--text-2); margin-top: 16px; font-size: 15px; }
+.wm-frame { background: var(--card); border-radius: var(--radius); padding: 24px; box-shadow: 0 0 0 1px var(--line); text-align: center; }
+.wm-frame img { max-height: 540px; width: auto; max-width: 100%; margin: 0 auto; object-fit: contain; box-shadow: 0 12px 34px rgba(0,0,0,.16); }
+.wm-checks { margin-top: 54px; grid-template-columns: repeat(2, 1fr); gap: 24px 44px; }
+
 /* 作品墙 */
 .wall {
   background: linear-gradient(180deg, #ece7de, #e2dccf); border-radius: 22px; padding: 56px 40px;
@@ -222,6 +232,7 @@ footer .btn { margin-bottom: 22px; }
 @media (max-width: 900px) {
   .modes, .steps, .stats { grid-template-columns: 1fr; }
   .demo, .quality { grid-template-columns: 1fr; }
+  .wm-checks { grid-template-columns: 1fr; }
   .wall { columns: 2; padding: 32px 22px; }
   nav .links { display: none; }
   nav .wrap { justify-content: space-between; }
@@ -232,6 +243,8 @@ footer .btn { margin-bottom: 22px; }
   .wall { columns: 1; }
   .bar { grid-template-columns: 110px 1fr 54px; font-size: 13px; }
   .demo-stage { padding: 20px; min-height: 320px; }
+  .wm-frame { padding: 14px; }
+  .wm-frame img { max-height: 420px; }
 }
 </style>
 </head>
@@ -243,6 +256,7 @@ footer .btn { margin-bottom: 22px; }
     <div class="links">
       <a href="#modes">边框样式</a>
       <a href="#demo">取色</a>
+      <a href="#watermark">水印</a>
       <a href="#quality">画质</a>
       <a href="#install">安装</a>
       <a href="#faq">常见问题</a>
@@ -255,7 +269,7 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <span class="badge">● macOS 原生 App · 免费</span>
     <h1>给照片加一道边框，<br><em>不损失一个像素。</em></h1>
-    <p class="lead">批量为照片加上等宽、画布比例或拍立得风格的边框；用吸管从画面里取色，或者自动匹配照片的主色调。JPG 原图直接无损拼接，画质和色彩都和原图一样。</p>
+    <p class="lead">批量为照片加上等宽、画布比例或拍立得风格的边框；用吸管从画面里取色，或者自动匹配照片的主色调。2.0 还加了相机水印：数码照片读 EXIF 自动填机型和参数，胶片照片手选机身和胶卷。JPG 原图直接无损拼接，画质和色彩都和原图一样。</p>
     <div class="cta">
       <a class="btn" href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/latest/download/PhotoFrame-1.2.0.dmg">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
@@ -330,6 +344,41 @@ footer .btn { margin-bottom: 22px; }
         <div class="eyedrop-tip">💡 App 里还可以开启「每张自动主色调」，批量导出时每张照片自动配上自己的颜色。</div>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="watermark" class="banded">
+  <div class="wrap">
+    <div class="eyebrow">2.0 · 相机水印</div>
+    <h2>给照片加一条相机水印</h2>
+    <p class="sub">数码照片读 EXIF，机型、镜头、光圈、快门、ISO 自动填好；胶片照片自己选机身和胶卷。水印和边框可以一起用。</p>
+    <div class="tags wm-templates">
+      <span class="tag">经典 Classic</span><span class="tag">经典深色 Classic Dark</span><span class="tag">居中 Centered</span><span class="tag">签名 Signature</span><span class="tag">角标 Corner</span><span class="tag">胶片 Film</span><span class="tag">极简 Minimal</span>
+    </div>
+    <div class="tabs" id="wmTabs">
+      <button data-t="0" class="on">数码模式</button>
+      <button data-t="1">胶片模式</button>
+      <button data-t="2">角标</button>
+    </div>
+    <div class="wm-shot on">
+      <div class="wm-frame"><img src="assets/wm-digital.jpg" alt="数码模式水印：照片底部的信息条，左边是机型名 Nikon Z 8 和镜头 NIKKOR Z 24-70mm f/2.8 S，右边是 Nikon 品牌标志和参数 f/2.8 1/250s ISO 64" width="1100" height="857" loading="lazy"></div>
+      <p>数码模式 · 经典模板：左边是机型「Nikon Z 8」和镜头，右边是 Nikon 品牌标志和 f/2.8 · 1/250s · ISO 64。</p>
+    </div>
+    <div class="wm-shot">
+      <div class="wm-frame"><img src="assets/wm-film.jpg" alt="胶片模式水印：照片底部的信息条，左边是胶卷 Kodak Portra 400 和 ISO 400，右边是 Nikon 品牌标志和机身 Nikon F100" width="1408" height="963" loading="lazy"></div>
+      <p>胶片模式 · 胶片模板：左边是胶卷「Kodak Portra 400」和 ISO 400，右边是机身「Nikon F100」。</p>
+    </div>
+    <div class="wm-shot">
+      <div class="wm-frame"><img src="assets/wm-corner.jpg" alt="角标水印：加了黑色边框的竖幅照片，右下角是机型名 Nikon Z 8 和参数 f/2.8 1/250s ISO 64" width="900" height="1100" loading="lazy"></div>
+      <p>角标模板：机身和参数压在右下角。这张是照片加了边框之后，再叠一层水印。</p>
+    </div>
+    <ul class="checks wm-checks">
+      <li><div class="ic" style="background:var(--green)">✓</div><div><b>数码模式：读 EXIF 自动填</b><span>机型、镜头、光圈、快门、ISO 都从 EXIF 里读出来，日期想加就加。机型名是完整名，「Nikon Z 8」这种品牌加型号的写法。</span></div></li>
+      <li><div class="ic" style="background:var(--blue)">✓</div><div><b>胶片模式：机身和胶卷手选</b><span>自己挑胶片机身和胶卷，比如 Nikon F100 配 Kodak Portra 400。扫描翻拍的照片不会误读扫描仪的 EXIF。</span></div></li>
+      <li><div class="ic" style="background:#d6457a">✓</div><div><b>7 套模板，元素逐项开关</b><span>经典、经典深色、居中、签名、角标、胶片、极简，深浅色都能用。品牌 Logo、机型、参数、日期可以单独关掉，摆放方式在底部信息条和照片角标之间选。</span></div></li>
+      <li><div class="ic" style="background:#f0b429">✓</div><div><b>没有 EXIF 也能手选机型</b><span>照片没写机型，或者识别不出来，手动挑一个品牌和型号就行，水印照常出。</span></div></li>
+      <li><div class="ic" style="background:var(--accent)">✓</div><div><b>和边框一起用，JPG 仍然无损</b><span>信息条画在边框区域，照片像素一个都不重新压缩，JPG 无损拼接照旧；导出还是一张 JPG。</span></div></li>
+    </ul>
   </div>
 </section>
 
@@ -426,6 +475,7 @@ footer .btn { margin-bottom: 22px; }
       <details><summary>为什么边框位置会微调几个像素？</summary><p>无损拼接要求左边、上边的边框宽度是 JPEG 数据块（8 或 16 像素）的整数倍，所以边框可能会挪动几个像素，画布总尺寸不变。如果边框太窄、对不齐，App 会自动改用高精度重新编码，并在导出结果里说明。</p></details>
       <details><summary>可以批量处理吗？会覆盖原图吗？</summary><p>可以把整个文件夹拖进来一次处理完。导出的文件放在你指定的输出文件夹，文件名会加上后缀（默认 _border），永远不会覆盖原图；遇到同名文件会自动加序号。</p></details>
       <details><summary>边框颜色和我选的完全一样吗？</summary><p>JPG 使用 YCbCr 色彩编码，有些 RGB 颜色没法精确表示，边框颜色可能在某个通道上差 1 个色阶（满分 255）。这已经是标准 JPG 能做到的最好结果，肉眼看不出差别。</p></details>
+      <details><summary>加水印会影响画质吗？</summary><p>底部信息条的水印画在边框区域，照片像素和原来一样，一个都不重新压缩，JPG 无损拼接照旧，导出也还是一张 JPG。如果改成角标、把水印压在照片上，那只有被水印盖住的那几个数据块会重新编码，其他地方不动。</p></details>
     </div>
   </div>
 </section>
@@ -563,6 +613,13 @@ footer .btn { margin-bottom: 22px; }
   tabs.forEach(t => t.onclick = () => {
     tabs.forEach(x => x.classList.toggle('on', x === t));
     shots.forEach((s, i) => s.classList.toggle('on', String(i) === t.dataset.t));
+  });
+
+  // ---------- 水印演示切换 ----------
+  const wmTabs = document.querySelectorAll('#wmTabs button'), wmShots = document.querySelectorAll('.wm-shot');
+  wmTabs.forEach(t => t.onclick = () => {
+    wmTabs.forEach(x => x.classList.toggle('on', x === t));
+    wmShots.forEach((s, i) => s.classList.toggle('on', String(i) === t.dataset.t));
   });
 
   // ---------- 复制命令 ----------
