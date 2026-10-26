@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/latest/download/PhotoFrame-1.2.0.dmg"><b>⬇️ 下载 macOS 版（约 2.2 MB）</b></a>
+  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.0.0/PhotoFrame-1.0.0.dmg"><b>⬇️ 下载 macOS 版（约 1.0 MB）</b></a>
   &nbsp;·&nbsp;
   <a href="https://jiewent1-cmyk.github.io/PhotoFrame/">🌐 产品主页 / 在线试用</a>
 </p>
@@ -53,7 +53,7 @@
 
 ## 安装
 
-1. [下载 PhotoFrame-1.2.0.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/latest/download/PhotoFrame-1.2.0.dmg)，打开后把「照片边框」拖到「Applications（应用程序）」文件夹。
+1. [下载 PhotoFrame-1.0.0.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.0.0/PhotoFrame-1.0.0.dmg)，打开后把「照片边框」拖到「Applications（应用程序）」文件夹。
 2. 第一次打开时，macOS 可能会提示「无法验证开发者」。这是因为本 App 没有付费的 Apple 开发者签名，并不是病毒。任选一种方法放行：
    - 打开「系统设置 → 隐私与安全性」，滚到页面底部，点「仍要打开」；
    - 或者在「终端」里运行下面这行命令，然后再打开 App：
