@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>照片边框 PhotoFrame</title>
-<meta name="description" content="macOS 照片批量加边框工具：多种边框尺寸、吸管取色、自动主色调、2.0 相机水印（数码读 EXIF，胶片手选机身），JPG 无损导出，不损失画质与色彩。">
-<meta property="og:title" content="照片边框 PhotoFrame — 给照片加边框，不损失一个像素">
-<meta property="og:description" content="macOS 原生 App：批量加边框、吸管取色、自动主色调、2.0 相机水印，JPG 原图无损导出。">
+<title>Encadré — 给照片加边框，不损失一个像素</title>
+<meta name="description" content="Encadré：Mac 照片批量加边框工具。多种边框尺寸、吸管取色、自动主色调、相机水印（数码读 EXIF，胶片手选机身）、平台尺寸导出与预设，JPG 无损导出，不损失画质与色彩。">
+<meta property="og:title" content="Encadré — 给照片加边框，不损失一个像素">
+<meta property="og:description" content="Mac 原生 App：批量加边框、吸管取色、自动主色调、相机水印、平台尺寸导出与预设，JPG 原图无损导出。iPhone / iPad 版即将上架 App Store。">
 <meta property="og:image" content="assets/shot-dark.jpg">
 <link rel="icon" href="assets/icon.png">
 <style>
@@ -76,6 +76,8 @@ nav .links a:hover { color: var(--text); }
 .btn.small { padding: 7px 14px; font-size: 14px; box-shadow: none; }
 .btn.ghost { background: transparent; color: var(--text); box-shadow: inset 0 0 0 1.5px var(--line); }
 .btn.ghost:hover { background: var(--bg-2); }
+/* App Store 尚未上架，先隐藏入口 */
+.appstore-link { display: none; }
 
 /* 网格子项允许收缩，避免撑宽页面 */
 .demo > *, .quality > *, .modes > *, .steps > *, .stats > * { min-width: 0; }
@@ -85,6 +87,8 @@ nav .links a:hover { color: var(--text); }
 .hero::before {
   content: ""; position: absolute; inset: 0; z-index: -2;
   background: url(assets/hero.jpg) center/cover;
+  background: url(assets/hero.jpg) center/cover;
+  background: image-set(url(assets/hero.webp) type("image/webp"), url(assets/hero.jpg) type("image/jpeg")) center/cover;
   opacity: .5; filter: saturate(.9);
 }
 .hero::after {
@@ -104,6 +108,7 @@ nav .links a:hover { color: var(--text); }
   margin-top: 56px; border-radius: 14px; overflow: hidden; box-shadow: var(--shadow), 0 0 0 1px var(--line);
   background: #1e1e1e;
 }
+#platforms .window, #batch .window { margin-top: 0; }
 
 /* 通用段落 */
 section { padding: 96px 0; }
@@ -252,12 +257,14 @@ footer .btn { margin-bottom: 22px; }
 
 <nav>
   <div class="wrap">
-    <a class="brand" href="#"><img src="assets/icon.png" alt="">照片边框</a>
+    <a class="brand" href="#"><picture><source type="image/webp" srcset="assets/icon.webp"><img src="assets/icon.png" alt="" width="256" height="256"></picture>Encadré</a>
     <div class="links">
       <a href="#modes">边框样式</a>
       <a href="#demo">取色</a>
       <a href="#watermark">水印</a>
       <a href="#quality">画质</a>
+      <a href="#platforms">平台导出</a>
+      <a href="#batch">批量与预设</a>
       <a href="#install">安装</a>
       <a href="#faq">常见问题</a>
     </div>
@@ -267,18 +274,20 @@ footer .btn { margin-bottom: 22px; }
 
 <header class="hero">
   <div class="wrap">
-    <span class="badge">● macOS 原生 App · 免费</span>
+    <span class="badge">● Mac 原生 App · 全部功能免费</span>
     <h1>给照片加一道边框，<br><em>不损失一个像素。</em></h1>
-    <p class="lead">批量为照片加上等宽、画布比例或拍立得风格的边框；用吸管从画面里取色，或者自动匹配照片的主色调。2.0 还加了相机水印：数码照片读 EXIF 自动填机型和参数，胶片照片手选机身和胶卷。JPG 原图直接无损拼接，画质和色彩都和原图一样。</p>
+    <p class="lead">批量为照片加上等宽、画布比例或拍立得风格的边框；用吸管从画面里取色，或者自动匹配照片的主色调。还能加相机水印：数码照片读 EXIF 自动填机型和参数，胶片照片手选机身和胶卷。JPG 原图直接无损拼接，画质和色彩都和原图一样。iPhone 与 iPad 版已提交 App Store 审核，即将上架。</p>
     <div class="cta">
       <a class="btn" href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
         下载 macOS 版
       </a>
+      <!-- 上架后删掉 .appstore-link 的隐藏样式 -->
+      <a class="btn ghost appstore-link" href="https://apps.apple.com/app/id6826110807">App Store 版（iPhone / iPad / Mac）</a>
       <a class="btn ghost" href="#demo">在线试一试</a>
     </div>
-    <div class="meta">版本 1.3.0 · 约 2.4 MB · macOS 13 及以上 · Apple 芯片 / Intel 通用</div>
-    <div class="window"><img src="assets/shot-dark.jpg" alt="照片边框主界面：左侧照片列表，中间边框预览，右侧边框尺寸、颜色和导出设置" width="2000" height="1192"></div>
+    <div class="meta">版本 1.3.0 · 约 3.5 MB · macOS 13 及以上 · Apple 芯片 / Intel 通用 · 中英文界面，跟随系统语言</div>
+    <div class="window"><picture><source type="image/webp" srcset="assets/shot-dark.webp"><img src="assets/shot-dark.jpg" alt="Encadré 主界面：左侧照片列表，中间边框预览，右侧边框尺寸、颜色和导出设置" width="2000" height="1192" decoding="async"></picture></div>
   </div>
 </header>
 
@@ -289,19 +298,19 @@ footer .btn { margin-bottom: 22px; }
     <p class="sub">尺寸可以按照片长边的百分比设置，一批横竖不一、尺寸不同的照片，边框比例都能保持一致；也可以直接按像素设置。</p>
     <div class="modes">
       <div class="mode-card">
-        <div class="stage"><img src="assets/frame-lake.jpg" alt="等宽白色边框示例" loading="lazy"></div>
+        <div class="stage"><picture><source type="image/webp" srcset="assets/frame-lake.webp"><img src="assets/frame-lake.jpg" alt="等宽白色边框示例" width="1000" height="697" loading="lazy" decoding="async"></picture></div>
         <h3>等宽</h3>
         <p>四边一样宽，简洁的画廊感。适合作品集和打印。</p>
         <div class="tags"><span class="tag">细边 2%</span><span class="tag">标准 5%</span><span class="tag">宽边 10%</span></div>
       </div>
       <div class="mode-card">
-        <div class="stage"><img src="assets/frame-street.jpg" alt="4:5 画布比例边框示例" loading="lazy"></div>
+        <div class="stage"><picture><source type="image/webp" srcset="assets/frame-street.webp"><img src="assets/frame-street.jpg" alt="4:5 画布比例边框示例" width="800" height="1000" loading="lazy" decoding="async"></picture></div>
         <h3>画布比例</h3>
         <p>把照片放进固定比例的画布里并居中，横图竖图都不用裁切。</p>
         <div class="tags"><span class="tag">Instagram 4:5</span><span class="tag">方形 1:1</span><span class="tag">壁纸 9:16</span><span class="tag">自定义比例</span></div>
       </div>
       <div class="mode-card">
-        <div class="stage"><img src="assets/frame-coast.jpg" alt="拍立得风格边框示例" loading="lazy"></div>
+        <div class="stage"><picture><source type="image/webp" srcset="assets/frame-coast.webp"><img src="assets/frame-coast.jpg" alt="拍立得风格边框示例" width="1000" height="890" loading="lazy" decoding="async"></picture></div>
         <h3>自定义四边</h3>
         <p>上下左右分别设置。下边加宽就是经典的拍立得相纸效果。</p>
         <div class="tags"><span class="tag">拍立得</span><span class="tag">上下留白</span><span class="tag">任意组合</span></div>
@@ -349,11 +358,11 @@ footer .btn { margin-bottom: 22px; }
 
 <section id="watermark" class="banded">
   <div class="wrap">
-    <div class="eyebrow">2.0 · 相机水印</div>
+    <div class="eyebrow">相机水印</div>
     <h2>给照片加一条相机水印</h2>
     <p class="sub">数码照片读 EXIF，机型、镜头、光圈、快门、ISO 自动填好；胶片照片自己选机身和胶卷。水印和边框可以一起用。</p>
     <div class="stats">
-      <div class="stat"><b>5900+</b><span>数码机型可自动识别：188 款相机 + 5700+ 款手机，读 EXIF 就对上号</span></div>
+      <div class="stat"><b>5900+</b><span>数码机型可自动识别：188 款相机 + 5700+ 款手机，读 EXIF 就对上号。现在也认识无人机与运动相机</span></div>
       <div class="stat"><b>269</b><span>胶片机身可选，共 35 个品牌，从徕卡哈苏到海鸥、Holga</span></div>
       <div class="stat"><b>101</b><span>款胶卷可选，选中自动填好 ISO</span></div>
     </div>
@@ -366,15 +375,15 @@ footer .btn { margin-bottom: 22px; }
       <button data-t="2">角标</button>
     </div>
     <div class="wm-shot on">
-      <div class="wm-frame"><img src="assets/wm-digital.jpg" alt="数码模式水印：照片底部的信息条，左边是机型名 Nikon Z 8 和镜头 NIKKOR Z 24-70mm f/2.8 S，右边是 Nikon 品牌标志和参数 f/2.8 1/250s ISO 64" width="1100" height="857" loading="lazy"></div>
+      <div class="wm-frame"><picture><source type="image/webp" srcset="assets/wm-digital.webp"><img src="assets/wm-digital.jpg" alt="数码模式水印：照片底部的信息条，左边是机型名 Nikon Z 8 和镜头 NIKKOR Z 24-70mm f/2.8 S，右边是 Nikon 品牌标志和参数 f/2.8 1/250s ISO 64" width="1100" height="857" loading="lazy" decoding="async"></picture></div>
       <p>数码模式 · 经典模板：左边是机型「Nikon Z 8」和镜头，右边是 Nikon 品牌标志和 f/2.8 · 1/250s · ISO 64。</p>
     </div>
     <div class="wm-shot">
-      <div class="wm-frame"><img src="assets/wm-film.jpg" alt="胶片模式水印：照片底部的信息条，左边是胶卷 Kodak Portra 400 和 ISO 400，右边是 Nikon 品牌标志和机身 Nikon F100" width="1408" height="963" loading="lazy"></div>
+      <div class="wm-frame"><picture><source type="image/webp" srcset="assets/wm-film.webp"><img src="assets/wm-film.jpg" alt="胶片模式水印：照片底部的信息条，左边是胶卷 Kodak Portra 400 和 ISO 400，右边是 Nikon 品牌标志和机身 Nikon F100" width="1408" height="963" loading="lazy" decoding="async"></picture></div>
       <p>胶片模式 · 胶片模板：左边是胶卷「Kodak Portra 400」和 ISO 400，右边是机身「Nikon F100」。</p>
     </div>
     <div class="wm-shot">
-      <div class="wm-frame"><img src="assets/wm-corner.jpg" alt="角标水印：加了黑色边框的竖幅照片，右下角是机型名 Nikon Z 8 和参数 f/2.8 1/250s ISO 64" width="900" height="1100" loading="lazy"></div>
+      <div class="wm-frame"><picture><source type="image/webp" srcset="assets/wm-corner.webp"><img src="assets/wm-corner.jpg" alt="角标水印：加了黑色边框的竖幅照片，右下角是机型名 Nikon Z 8 和参数 f/2.8 1/250s ISO 64" width="900" height="1100" loading="lazy" decoding="async"></picture></div>
       <p>角标模板：机身和参数压在右下角。这张是照片加了边框之后，再叠一层水印。</p>
     </div>
     <ul class="checks wm-checks">
@@ -383,6 +392,8 @@ footer .btn { margin-bottom: 22px; }
       <li><div class="ic" style="background:#d6457a">✓</div><div><b>7 套模板，元素逐项开关</b><span>经典、经典深色、居中、签名、角标、胶片、极简，深浅色都能用。品牌 Logo、机型、参数、日期可以单独关掉，摆放方式在底部信息条和照片角标之间选。</span></div></li>
       <li><div class="ic" style="background:#f0b429">✓</div><div><b>没有 EXIF 也能手选机型</b><span>照片没写机型，或者识别不出来，手动挑一个品牌和型号就行，水印照常出。</span></div></li>
       <li><div class="ic" style="background:var(--accent)">✓</div><div><b>和边框一起用，JPG 仍然无损</b><span>信息条画在边框区域，照片像素一个都不重新压缩，JPG 无损拼接照旧；导出还是一张 JPG。</span></div></li>
+      <li><div class="ic" style="background:var(--green)">✓</div><div><b>胶片水印的细部控制</b><span>可以手填镜头焦距和光圈；胶卷名旁边可以显示官方胶卷 Logo；镜头行和胶卷 Logo 都可以单独开关。</span></div></li>
+      <li><div class="ic" style="background:var(--blue)">✓</div><div><b>无人机与运动相机</b><span>大疆 DJI 各系列无人机和 Osmo、Insta360、GoPro、Autel、Parrot、Skydio 等也在机型库里，读 EXIF 一样对上号。</span></div></li>
     </ul>
   </div>
 </section>
@@ -391,7 +402,7 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <div class="eyebrow">画质</div>
     <h2>导出的 JPG，画质和原图一样</h2>
-    <p class="sub">大部分加边框工具会把整张照片重新压缩一遍，每导出一次画质就降一点。照片边框换了一种做法。</p>
+    <p class="sub">大部分加边框工具会把整张照片重新压缩一遍，每导出一次画质就降一点。Encadré 换了一种做法。</p>
     <div class="quality">
       <div>
         <div class="stats">
@@ -403,6 +414,7 @@ footer .btn { margin-bottom: 22px; }
           <li><div class="ic" style="background:var(--green)">✓</div><div><b>JPG：在 DCT 域无损拼接</b><span>直接复用原图压缩后的数据块，只为边框编码新的块。照片部分完全不重新压缩。</span></div></li>
           <li><div class="ic" style="background:var(--blue)">✓</div><div><b>其他格式：高精度编码</b><span>HEIC、PNG、TIFF 等用 Q100、4:4:4 不做色度抽样的自研编码器，精度高于常见编码器。</span></div></li>
           <li><div class="ic" style="background:#d6457a">✓</div><div><b>色彩与元数据原样保留</b><span>沿用 sRGB / Adobe RGB / Display P3 原色彩空间和 ICC；相机、镜头、曝光、GPS 等 EXIF 信息全部保留。</span></div></li>
+          <li><div class="ic" style="background:var(--accent)">✓</div><div><b>隐私三档，原图不动</b><span>全部保留 / 去除位置 / 再去除机身与镜头序列号、机主姓名等身份信息。无论哪一档，原图文件都不会被改动。</span></div></li>
           <li><div class="ic" style="background:#f0b429">!</div><div><b>自动识别损坏文件</b><span>拷贝中断、被截断的照片会被标记出来并跳过，不会导出花屏的图。</span></div></li>
         </ul>
       </div>
@@ -411,11 +423,44 @@ footer .btn { margin-bottom: 22px; }
         <p class="note">数值越高越接近原图。用同一张 2000 万像素的照片实测。</p>
         <div class="bar"><span>macOS 系统编码器</span><div class="track"><div class="fill" style="width:60%"></div></div><span class="v">49.7 dB</span></div>
         <div class="bar"><span>libjpeg（质量 100）</span><div class="track"><div class="fill" style="width:72%"></div></div><span class="v">56.7 dB</span></div>
-        <div class="bar me"><span>照片边框 · 重编码</span><div class="track"><div class="fill" style="width:74%"></div></div><span class="v">57.3 dB</span></div>
-        <div class="bar lossless"><span>照片边框 · JPG 无损拼接</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="v">∞</span></div>
+        <div class="bar me"><span>Encadré · 重编码</span><div class="track"><div class="fill" style="width:74%"></div></div><span class="v">57.3 dB</span></div>
+        <div class="bar lossless"><span>Encadré · JPG 无损拼接</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="v">∞</span></div>
         <p class="note" style="margin:16px 0 0">无损拼接时照片像素与原图完全相同，PSNR 为无穷大。只有右边、下边最后不足 8 像素的一条边缘需要重新计算。</p>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="platforms" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">导出</div>
+    <h2>为平台而导出</h2>
+    <p class="sub">社交平台各有自己的尺寸要求。选一个平台尺寸，导出直接得到对应像素，不用事后再裁再缩。</p>
+    <div class="demo">
+      <div class="window"><picture><source type="image/webp" srcset="assets/shot-export.webp"><img src="assets/shot-export.jpg" alt="Encadré 导出设置：输出尺寸选小红书 3:4（1080×1440），同时导出原尺寸与 Instagram 竖版 4:5，隐私选去除位置与身份信息；中间是带胶片水印的 3:4 预览" width="2000" height="1335" loading="lazy" decoding="async"></picture></div>
+      <ul class="checks">
+        <li><div class="ic" style="background:var(--green)">✓</div><div><b>内置平台尺寸</b><span>Instagram 竖版 4:5（1080×1350）、方形 1:1、快拍 9:16（1080×1920）、小红书 3:4（1080×1440）、微博方形 / 竖版。</span></div></li>
+        <li><div class="ic" style="background:var(--blue)">✓</div><div><b>导出即平台像素</b><span>比例不同会先在两侧补边，再高质量缩放到目标尺寸，导出的文件就是平台要的像素。</span></div></li>
+        <li><div class="ic" style="background:#d6457a">✓</div><div><b>同时导出多个尺寸</b><span>原尺寸也算一种。原尺寸副本仍然无损，缩放副本是高质量重新编码。</span></div></li>
+        <li><div class="ic" style="background:#f0b429">✓</div><div><b>平台优化（文件更小）</b><span>需要控制体积时打开这个开关，导出的文件更小。</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="batch">
+  <div class="wrap center">
+    <div class="eyebrow">批量 · 预设</div>
+    <h2>一批照片，各自的效果一屏看完</h2>
+    <p class="sub">网格预览里每张照片都按自己的设置渲染；整套参数存成预设，一次套用整批。</p>
+    <div class="window"><picture><source type="image/webp" srcset="assets/shot-grid.webp"><img src="assets/shot-grid.jpg" alt="Encadré 网格预览：6 张照片各自带边框和水印效果，coast.jpg 带单独设置标记，lake.jpg 已排除变灰；窗口上方是预设切换条" width="2000" height="1144" loading="lazy" decoding="async"></picture></div>
+    <ul class="checks wm-checks" style="text-align:left">
+      <li><div class="ic" style="background:var(--green)">✓</div><div><b>网格预览</b><span>一屏看到所有照片各自的效果；可以把某张排除在导出之外，也可以只调整某一张，不影响其他照片。</span></div></li>
+      <li><div class="ic" style="background:var(--blue)">✓</div><div><b>预设一键套用</b><span>边框、颜色、水印、胶片 / 机型、输出尺寸与隐私整套存成预设；网格上方能切换预设，对比整批效果。</span></div></li>
+      <li><div class="ic" style="background:#d6457a">✓</div><div><b>预设绑定相机</b><span>把预设绑定到相机，导入这台相机拍的照片时自动套用，可以撤销。</span></div></li>
+      <li><div class="ic" style="background:var(--accent)">✓</div><div><b>颜色默认只改所选照片</b><span>给某张换边框色不会牵动其他照片；想统一时点「应用到全部照片」。</span></div></li>
+      <li><div class="ic" style="background:#f0b429">✓</div><div><b>iCloud 同步（App Store 版）</b><span>App Store 版（iPhone / iPad / Mac）可以通过用户自己的 iCloud 同步预设；官网 DMG 版没有 iCloud 同步。</span></div></li>
+    </ul>
   </div>
 </section>
 
@@ -429,9 +474,9 @@ footer .btn { margin-bottom: 22px; }
       <button data-t="1">拍立得</button>
       <button data-t="2">自动主色调</button>
     </div>
-    <div class="shot on"><div class="window"><img src="assets/shot-light-ratio.jpg" alt="浅色模式：4:5 画布比例，自动主色调边框" loading="lazy"></div><p>4:5 画布比例，自动取照片主色调作为边框色</p></div>
-    <div class="shot"><div class="window"><img src="assets/shot-light-polaroid.jpg" alt="浅色模式：拍立得风格边框" loading="lazy"></div><p>自定义四边，下边加宽成拍立得效果，配暖白色</p></div>
-    <div class="shot"><div class="window"><img src="assets/shot-dark-dominant.jpg" alt="深色模式：每张照片自动主色调" loading="lazy"></div><p>深色模式：每张照片自动配上自己的主色调，色带按占比显示</p></div>
+    <div class="shot on"><div class="window"><picture><source type="image/webp" srcset="assets/shot-light-ratio.webp"><img src="assets/shot-light-ratio.jpg" alt="浅色模式：4:5 画布比例，自动主色调边框" width="2000" height="1192" loading="lazy" decoding="async"></picture></div><p>4:5 画布比例，自动取照片主色调作为边框色</p></div>
+    <div class="shot"><div class="window"><picture><source type="image/webp" srcset="assets/shot-light-polaroid.webp"><img src="assets/shot-light-polaroid.jpg" alt="浅色模式：拍立得风格边框" width="2000" height="1192" loading="lazy" decoding="async"></picture></div><p>自定义四边，下边加宽成拍立得效果，配暖白色</p></div>
+    <div class="shot"><div class="window"><picture><source type="image/webp" srcset="assets/shot-dark-dominant.webp"><img src="assets/shot-dark-dominant.jpg" alt="深色模式：每张照片自动主色调" width="2000" height="1192" loading="lazy" decoding="async"></picture></div><p>深色模式：每张照片自动配上自己的主色调，色带按占比显示</p></div>
   </div>
 </section>
 
@@ -439,14 +484,14 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <div class="eyebrow">作品</div>
     <h2>同一个工具，不同的气质</h2>
-    <p class="sub">以下全部由「照片边框」直接导出，没有经过任何后期。（示例照片由 AI 生成）</p>
+    <p class="sub">以下全部由 Encadré 直接导出，没有经过任何后期。（示例照片由 AI 生成）</p>
     <div class="wall">
-      <figure><img src="assets/frame-forest.jpg" alt="秋日森林，4:5 画布，自动主色调" loading="lazy"><figcaption>秋日森林 · 4:5 · 自动主色调</figcaption></figure>
-      <figure><img src="assets/frame-lake.jpg" alt="晨雾湖泊，白色等宽边框" loading="lazy"><figcaption>晨雾湖泊 · 等宽 5% · 白色</figcaption></figure>
-      <figure><img src="assets/frame-cafe.jpg" alt="窗边咖啡，黑色细边" loading="lazy"><figcaption>窗边咖啡 · 等宽 4% · 黑色</figcaption></figure>
-      <figure><img src="assets/frame-dunes.jpg" alt="沙丘日落，1:1 方形，自动主色调" loading="lazy"><figcaption>沙丘日落 · 1:1 · 自动主色调</figcaption></figure>
-      <figure><img src="assets/frame-street.jpg" alt="雨夜街道，4:5 画布" loading="lazy"><figcaption>雨夜街道 · 4:5 · 自动主色调</figcaption></figure>
-      <figure><img src="assets/frame-coast.jpg" alt="海岸灯塔，拍立得风格" loading="lazy"><figcaption>海岸灯塔 · 拍立得 · 暖白</figcaption></figure>
+      <figure><picture><source type="image/webp" srcset="assets/frame-forest.webp"><img src="assets/frame-forest.jpg" alt="秋日森林，4:5 画布，自动主色调" width="800" height="1000" loading="lazy" decoding="async"></picture><figcaption>秋日森林 · 4:5 · 自动主色调</figcaption></figure>
+      <figure><picture><source type="image/webp" srcset="assets/frame-lake.webp"><img src="assets/frame-lake.jpg" alt="晨雾湖泊，白色等宽边框" width="1000" height="697" loading="lazy" decoding="async"></picture><figcaption>晨雾湖泊 · 等宽 5% · 白色</figcaption></figure>
+      <figure><picture><source type="image/webp" srcset="assets/frame-cafe.webp"><img src="assets/frame-cafe.jpg" alt="窗边咖啡，黑色细边" width="1000" height="1000" loading="lazy" decoding="async"></picture><figcaption>窗边咖啡 · 等宽 4% · 黑色</figcaption></figure>
+      <figure><picture><source type="image/webp" srcset="assets/frame-dunes.webp"><img src="assets/frame-dunes.jpg" alt="沙丘日落，1:1 方形，自动主色调" width="1000" height="1000" loading="lazy" decoding="async"></picture><figcaption>沙丘日落 · 1:1 · 自动主色调</figcaption></figure>
+      <figure><picture><source type="image/webp" srcset="assets/frame-street.webp"><img src="assets/frame-street.jpg" alt="雨夜街道，4:5 画布" width="800" height="1000" loading="lazy" decoding="async"></picture><figcaption>雨夜街道 · 4:5 · 自动主色调</figcaption></figure>
+      <figure><picture><source type="image/webp" srcset="assets/frame-coast.webp"><img src="assets/frame-coast.jpg" alt="海岸灯塔，拍立得风格" width="1000" height="890" loading="lazy" decoding="async"></picture><figcaption>海岸灯塔 · 拍立得 · 暖白</figcaption></figure>
     </div>
   </div>
 </section>
@@ -455,10 +500,10 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <div class="eyebrow">安装</div>
     <h2>三步装好</h2>
-    <p class="sub">需要 macOS 13 Ventura 或更新版本，Apple 芯片和 Intel 芯片的 Mac 都能用。</p>
+    <p class="sub">需要 macOS 13 Ventura 或更新版本，Apple 芯片和 Intel 芯片的 Mac 都能用。Mac App Store 版已提交审核，iPhone / iPad 版即将上架，上架后这里也会出现 App Store 入口。</p>
     <div class="steps">
-      <div class="step"><div class="n">1</div><h3>下载</h3><p>下载 <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg">PhotoFrame-1.3.0.dmg</a>（约 2.4 MB）。</p></div>
-      <div class="step"><div class="n">2</div><h3>拖进应用程序</h3><p>打开 dmg，把「照片边框」拖到「Applications」文件夹。</p></div>
+      <div class="step"><div class="n">1</div><h3>下载</h3><p>下载 <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg">PhotoFrame-1.3.0.dmg</a>（约 3.5 MB）。</p></div>
+      <div class="step"><div class="n">2</div><h3>拖进应用程序</h3><p>打开 dmg，把 Encadré 拖到「Applications」文件夹。</p></div>
       <div class="step"><div class="n">3</div><h3>首次打开</h3><p>如果系统拦截，按下方说明放行一次，以后就能正常打开了。</p></div>
     </div>
     <div class="gk">
@@ -466,7 +511,7 @@ footer .btn { margin-bottom: 22px; }
       <p>这是因为本 App 没有付费的 Apple 开发者签名，并不是病毒。任选一种方法放行：</p>
       <p><b>方法一：</b>打开「系统设置 → 隐私与安全性」，滚到页面底部，点「仍要打开」。</p>
       <p><b>方法二：</b>打开「终端」，粘贴下面这行命令并回车，然后再打开 App：</p>
-      <div class="code"><code id="cmd">xattr -dr com.apple.quarantine "/Applications/照片边框.app"</code><button id="copy">复制</button></div>
+      <div class="code"><code id="cmd">xattr -dr com.apple.quarantine "/Applications/Encadré.app"</code><button id="copy">复制</button></div>
     </div>
   </div>
 </section>
@@ -476,19 +521,22 @@ footer .btn { margin-bottom: 22px; }
     <div class="center"><div class="eyebrow">常见问题</div><h2>常见问题</h2></div>
     <div class="faq" style="margin-top:34px">
       <details><summary>支持哪些照片格式？</summary><p>导入支持 JPG、HEIC、PNG、TIFF、WebP，以及常见的相机 RAW（NEF、CR3、ARW、DNG 等）。导出统一为 JPG。</p></details>
-      <details><summary>照片会上传到网上吗？</summary><p>不会。所有处理都在你的 Mac 本地完成，App 不联网。</p></details>
+      <details><summary>照片会上传到网上吗？</summary><p>不会。所有处理都在你的设备本地完成，照片不会离开你的设备。官网 DMG 版不联网；App Store 版只有可选的 iCloud 预设同步会用到网络，同步的只是设置，不含照片。</p></details>
       <details><summary>为什么边框位置会微调几个像素？</summary><p>无损拼接要求左边、上边的边框宽度是 JPEG 数据块（8 或 16 像素）的整数倍，所以边框可能会挪动几个像素，画布总尺寸不变。如果边框太窄、对不齐，App 会自动改用高精度重新编码，并在导出结果里说明。</p></details>
       <details><summary>可以批量处理吗？会覆盖原图吗？</summary><p>可以把整个文件夹拖进来一次处理完。导出的文件放在你指定的输出文件夹，文件名会加上后缀（默认 _border），永远不会覆盖原图；遇到同名文件会自动加序号。</p></details>
       <details><summary>边框颜色和我选的完全一样吗？</summary><p>JPG 使用 YCbCr 色彩编码，有些 RGB 颜色没法精确表示，边框颜色可能在某个通道上差 1 个色阶（满分 255）。这已经是标准 JPG 能做到的最好结果，肉眼看不出差别。</p></details>
       <details><summary>加水印会影响画质吗？</summary><p>底部信息条的水印画在边框区域，照片像素和原来一样，一个都不重新压缩，JPG 无损拼接照旧，导出也还是一张 JPG。如果改成角标、把水印压在照片上，那只有被水印盖住的那几个数据块会重新编码，其他地方不动。</p></details>
+      <details><summary>iCloud 同步在哪个版本有？</summary><p>App Store 版（iPhone / iPad / Mac）可以通过你自己的 iCloud 同步预设，走的是你的 iCloud 账号，开发者无法访问。官网 DMG 版没有 iCloud 同步，预设只存在本机。</p></details>
+      <details><summary>平台尺寸导出为什么不是无损？</summary><p>原尺寸副本仍然是 JPG 无损拼接，像素和原图一致。按平台比例补边、缩放得到的副本需要重新编码，用的是高质量编码器；开启「平台优化（文件更小）」时文件还会再小一些。</p></details>
+      <details><summary>界面支持哪些语言？</summary><p>中文和英文，跟随系统语言自动切换。</p></details>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <a class="btn" href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg">下载照片边框</a>
-    <div>照片边框 PhotoFrame · <a href="https://github.com/jiewent1-cmyk/PhotoFrame">GitHub</a> · <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases">版本历史</a></div>
+    <a class="btn" href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg">下载 Encadré</a>
+    <div>Encadré · <a href="https://github.com/jiewent1-cmyk/PhotoFrame">GitHub</a> · <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases">版本历史</a></div>
     <div style="margin-top:6px">页面中的示例照片和背景图由 AI 生成</div>
   </div>
 </footer>

@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/assets/icon.png" width="96" alt="照片边框图标">
+  <img src="docs/assets/icon.png" width="96" alt="Encadré 图标">
 </p>
 
-<h1 align="center">照片边框 PhotoFrame</h1>
+<h1 align="center">Encadré</h1>
 
 <p align="center">
   <b>给照片加一道边框，不损失一个像素。</b><br>
@@ -10,13 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg"><b>⬇️ 下载 macOS 版（约 2.4 MB）</b></a>
+  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg"><b>⬇️ 下载 macOS 版（约 3.5 MB）</b></a>
   &nbsp;·&nbsp;
   <a href="https://jiewent1-cmyk.github.io/PhotoFrame/">🌐 产品主页 / 在线试用</a>
 </p>
 
 <p align="center">
-  <img src="docs/assets/shot-dark.jpg" alt="照片边框主界面" width="900">
+  <img src="docs/assets/shot-dark.jpg" alt="Encadré 主界面" width="900">
 </p>
 
 ## 三种边框模式
@@ -40,6 +40,19 @@
   <img src="docs/assets/shot-light-ratio.jpg" alt="4:5 画布比例，自动主色调边框" width="900">
 </p>
 
+## 1.3 新增
+
+- **平台尺寸导出**：Instagram、小红书、微博推荐尺寸；比例不同时两侧补边，导出就是平台像素；可以一次导出多个尺寸
+- **网格预览**：一屏看到每张照片各自的效果，可以排除某张，或只调整某一张
+- **预设**：边框、颜色、水印、胶片 / 机型、输出尺寸与隐私存成一套，一键套用；可以绑定相机，导入时自动套用
+- **隐私三档**：全部保留 / 去除位置 / 另去除序列号、机主等身份信息
+- **相机水印**：胶片模式可手填镜头焦距与光圈、显示胶卷 Logo；机型库新增无人机与运动相机
+- 中文 / 英文界面
+
+<p align="center">
+  <img src="docs/assets/shot-grid.jpg" alt="网格预览" width="900">
+</p>
+
 ## 画质保证
 
 | 原图 | 处理方式 | 结果 |
@@ -53,12 +66,12 @@
 
 ## 安装
 
-1. [下载 PhotoFrame-1.3.0.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg)，打开后把「照片边框」拖到「Applications（应用程序）」文件夹。
+1. [下载 PhotoFrame-1.3.0.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg)，打开后把「Encadré」拖到「Applications（应用程序）」文件夹。
 2. 第一次打开时，macOS 可能会提示「无法验证开发者」。这是因为本 App 没有付费的 Apple 开发者签名，并不是病毒。任选一种方法放行：
    - 打开「系统设置 → 隐私与安全性」，滚到页面底部，点「仍要打开」；
    - 或者在「终端」里运行下面这行命令，然后再打开 App：
      ```bash
-     xattr -dr com.apple.quarantine "/Applications/照片边框.app"
+     xattr -dr com.apple.quarantine "/Applications/Encadré.app"
      ```
 
 系统要求：macOS 13 Ventura 或更新版本，Apple 芯片和 Intel 芯片都支持。所有处理都在本地完成，App 不联网。
