@@ -106,18 +106,19 @@ footer .bar span { display: block; }
 
 <section id="en">
   <h1>Privacy Policy</h1>
-  <p class="meta">Encadré for iPhone and iPad · Effective 23 October 2026</p>
+  <p class="meta">Encadré for iPhone, iPad and Mac · Effective 27 October 2026</p>
 
   <div class="note">
     <p><strong>Encadré does not collect, store on a server, or share any personal data.</strong> There is no account, no analytics, and no advertising. Every photo is processed on your own device.</p>
   </div>
 
   <h2>No data is collected</h2>
-  <p>Encadré has no account system and makes no network requests. Nothing you open, import, or export is sent anywhere. Your photos never leave the device, so there is nothing for anyone — including us — to receive.</p>
+  <p>Encadré has no account system and makes no network requests of its own. Nothing you open, import, or export is sent anywhere. Your photos never leave the device, so there is nothing for anyone — including us — to receive.</p>
 
   <h2>Photos stay on your device</h2>
   <p>Photos are read only after you choose them: from the Photos library, from the Files app, or through the share sheet from the Photos app. The border is built entirely on your device, from the file you selected.</p>
   <p>When you export, the result is written to the destination you picked — your Photos library, the Files app, or another app you share it to. Photos you did not select are never accessed.</p>
+  <p>On Mac, Encadré reads only the photos and folders you open or drag in, and writes only to the export folder you choose.</p>
 
   <h2>Photos permission</h2>
   <p>The Photos permission is requested at the moment it is needed, and is used for two things only:</p>
@@ -128,13 +129,15 @@ footer .bar span { display: block; }
 
   <h2>Location information</h2>
   <p>Some photos carry GPS coordinates in their EXIF metadata. That information belongs to the photo, not to the app: <strong>Encadré never asks for your device's location and never reads it.</strong></p>
-  <p>If you would rather not share where a photo was taken, turn on <strong>Remove location</strong> before exporting. It strips the GPS tags from the copy you export and leaves the original in your library untouched. The option is off by default.</p>
+  <p>Before exporting you can choose a <strong>Privacy</strong> level: <strong>Keep all</strong>, <strong>Remove location</strong> (GPS and location tags), or <strong>Remove location and identity</strong> (also the camera serial number, owner name and similar fields). It applies only to the copy you export and leaves the original untouched. The default is Keep all.</p>
 
   <h2>Settings stored on your device</h2>
-  <p>Encadré stores your border preferences — mode, widths and colour choices — in UserDefaults, the standard iOS settings store. They stay on your device and are never transmitted.</p>
+  <p>Encadré stores your preferences — border, colour, watermark and export choices — and the presets you save on your device. We never receive them.</p>
+  <h2>iCloud sync of presets</h2>
+  <p>If <strong>Sync with iCloud</strong> is on (you can turn it off in the Presets screen), your presets and camera profiles are kept in sync between your iPhone, iPad and Mac through Apple's iCloud key-value storage, in your own iCloud account. Only preset settings are synced — never photos. This data is handled by Apple under Apple's privacy policy; we cannot access it.</p>
 
   <h2>No third-party SDKs</h2>
-  <p>Encadré contains no analytics SDK, no advertising SDK and no tracking SDK. It integrates no third-party services and makes no network calls.</p>
+  <p>Encadré contains no analytics SDK, no advertising SDK and no tracking SDK, and integrates no third-party services. The only service it uses is Apple's iCloud, for the optional preset sync described above.</p>
 
   <h2>Children's privacy</h2>
   <p>Encadré collects no data from anyone, including children under 13. Because nothing is collected, there is no information that could identify a user.</p>
@@ -151,18 +154,19 @@ footer .bar span { display: block; }
 
 <section id="zh">
   <h1>隐私政策</h1>
-  <p class="meta">Encadré（iPhone 与 iPad） · 生效日期：2026 年 10 月 23 日</p>
+  <p class="meta">Encadré（iPhone、iPad 与 Mac） · 生效日期：2026 年 10 月 27 日</p>
 
   <div class="note">
     <p><strong>Encadré 不收集任何个人数据，不在服务器上存储，也不与任何人分享。</strong>没有账号，没有统计分析，没有广告。所有照片都在你自己的设备上处理。</p>
   </div>
 
   <h2>不收集任何数据</h2>
-  <p>Encadré 没有账号体系，也不发起任何网络请求。你打开、导入或导出的内容不会被发送到任何地方。照片不会离开设备，因此没有任何数据会被传送到我们这里。</p>
+  <p>Encadré 没有账号体系，自身也不发起任何网络请求。你打开、导入或导出的内容不会被发送到任何地方。照片不会离开设备，因此没有任何数据会被传送到我们这里。</p>
 
   <h2>照片只在设备上处理</h2>
   <p>照片只在你选择之后才会被读取：从「照片」相册、从「文件」App，或从「照片」App 的分享菜单进来。边框完全在你的设备上，基于你选中的那个文件生成。</p>
   <p>导出时，结果只会写入你选择的目标：你的「照片」相册、「文件」App，或你分享到的其它 App。你没有选中的照片，App 永远不会访问。</p>
+  <p>在 Mac 上，Encadré 只读取你打开或拖入的照片和文件夹，只写入你选择的导出文件夹。</p>
 
   <h2>相册权限</h2>
   <p>相册权限只在需要的那一刻才请求，并且只用于两件事：</p>
@@ -173,13 +177,15 @@ footer .bar span { display: block; }
 
   <h2>位置信息</h2>
   <p>有些照片的 EXIF 数据里带有 GPS 坐标。那是照片本身携带的信息，不是 App 获取的：<strong>Encadré 从不请求、也从不读取你设备的位置。</strong></p>
-  <p>如果不想让别人知道照片是在哪里拍的，可以在导出前打开 <strong>去除位置信息</strong>。它只会去掉导出副本里的 GPS 标签，相册里的原图不会被动。这个选项默认关闭。</p>
+  <p>导出前可以选择<strong>隐私</strong>级别：<strong>全部保留</strong>、<strong>去除位置</strong>（GPS 与位置相关标签），或<strong>去除位置与身份信息</strong>（另去掉相机序列号、机主姓名等字段）。它只作用于导出的副本，原图不会被动。默认为全部保留。</p>
 
   <h2>保存在设备上的设置</h2>
-  <p>Encadré 会把你的边框偏好——模式、边框宽度和颜色选择——存进 UserDefaults，也就是 iOS 标准的设置存储。这些数据留在你的设备上，绝不会被传走。</p>
+  <p>Encadré 会把你的偏好——边框、颜色、水印和导出选项——以及你存的预设保存在设备上。我们不会收到这些数据。</p>
+  <h2>预设的 iCloud 同步</h2>
+  <p>打开<strong>通过 iCloud 同步</strong>后（可在「预设」界面关闭），你的预设和相机档案会通过苹果的 iCloud 键值存储，在你自己的 iCloud 账户里于 iPhone、iPad 与 Mac 之间同步。同步的只有预设设置，从不包括照片。这些数据由苹果按其隐私政策处理，我们无法访问。</p>
 
   <h2>没有第三方 SDK</h2>
-  <p>Encadré 不包含统计分析 SDK、广告 SDK 或追踪 SDK，也没有接入任何第三方服务，不会发起任何网络请求。</p>
+  <p>Encadré 不包含统计分析 SDK、广告 SDK 或追踪 SDK，也没有接入任何第三方服务。唯一用到的服务是苹果的 iCloud，即上面所说的可选预设同步。</p>
 
   <h2>儿童隐私</h2>
   <p>Encadré 不收集任何人的数据，13 岁以下的儿童同样如此。既然什么都不收集，也就不存在任何可以识别用户的信息。</p>
