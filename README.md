@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg"><b>⬇️ 下载 macOS 版（约 3.5 MB）</b></a>
+  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.0/PhotoFrame-1.4.0.dmg"><b>⬇️ 下载 macOS 版（约 3.8 MB）</b></a>
   &nbsp;·&nbsp;
   <a href="https://jiewent1-cmyk.github.io/PhotoFrame/">🌐 产品主页 / 在线试用</a>
 </p>
@@ -40,6 +40,15 @@
   <img src="docs/assets/shot-light-ratio.jpg" alt="4:5 画布比例，自动主色调边框" width="900">
 </p>
 
+## 1.4 新增
+
+- **水印元素自由拖动**：Logo、机型、参数、日期都能在预览里拖到任意位置，双击复位
+- **水印预设**：水印样式单独保存，一键应用到全部照片
+- **品牌 Logo 修复**：导出大小与预览一致，大小滑块正常生效；机型名太长时自动缩小，不再和 Logo 重叠
+- **使用指南**：首次打开有 6 页快速上手，之后可从「帮助」菜单再看
+- **机型库在线更新**：启动时从官网下载新机型数据（只下载、不上传，可关闭）
+- 新增 Autel、Skydio、Potensic、FIMI、Yuneec、SJCAM 品牌 Logo
+
 ## 1.3 新增
 
 - **平台尺寸导出**：Instagram、小红书、微博推荐尺寸；比例不同时两侧补边，导出就是平台像素；可以一次导出多个尺寸
@@ -66,7 +75,7 @@
 
 ## 安装
 
-1. [下载 PhotoFrame-1.3.0.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.3.0/PhotoFrame-1.3.0.dmg)，打开后把「Encadré」拖到「Applications（应用程序）」文件夹。
+1. [下载 PhotoFrame-1.4.0.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.0/PhotoFrame-1.4.0.dmg)，打开后把「Encadré」拖到「Applications（应用程序）」文件夹。
 2. 第一次打开时，macOS 可能会提示「无法验证开发者」。这是因为本 App 没有付费的 Apple 开发者签名，并不是病毒。任选一种方法放行：
    - 打开「系统设置 → 隐私与安全性」，滚到页面底部，点「仍要打开」；
    - 或者在「终端」里运行下面这行命令，然后再打开 App：
