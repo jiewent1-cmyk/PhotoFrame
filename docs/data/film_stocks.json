@@ -1,0 +1,1206 @@
+[
+ {
+  "brand": "Kodak",
+  "name": "Ektacolor Pro 160",
+  "series": "kodak-ektacolor",
+  "iso": 160,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Ektacolor Pro 400",
+  "series": "kodak-ektacolor",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Ektacolor Pro 800",
+  "series": "kodak-ektacolor",
+  "iso": 800,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Portra 160",
+  "series": "kodak-portra",
+  "iso": 160,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Portra 400",
+  "series": "kodak-portra",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Portra 800",
+  "series": "kodak-portra",
+  "iso": 800,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Ektar 100",
+  "series": "kodak-ektar",
+  "iso": 100,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Gold 200",
+  "series": "kodak-gold",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "UltraMax 400",
+  "series": "kodak-ultramax",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "ColorPlus 200",
+  "series": "kodak-colorplus",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Kodak",
+  "name": "Kodacolor 200",
+  "series": "kodak-kodacolor",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Pro Image 100",
+  "series": "kodak-proimage",
+  "iso": 100,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Ektachrome E100",
+  "series": "kodak-ektachrome",
+  "iso": 100,
+  "type": "slide",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Tri-X 400",
+  "series": "kodak-trix",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Ektapan 100",
+  "series": "kodak-ektapan",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Ektapan 400",
+  "series": "kodak-ektapan",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Ektapan P3200",
+  "series": "kodak-ektapan",
+  "iso": 3200,
+  "type": "bw negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "T-Max 100",
+  "series": "kodak-tmax",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "T-Max 400",
+  "series": "kodak-tmax",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "T-Max P3200",
+  "series": "kodak-tmax",
+  "iso": 3200,
+  "type": "bw negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Plus-X 125",
+  "series": "kodak-plusx",
+  "iso": 125,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Kodak",
+  "name": "Kodachrome 25",
+  "series": "kodak-kodachrome",
+  "iso": 25,
+  "type": "slide",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Kodak",
+  "name": "Kodachrome 64",
+  "series": "kodak-kodachrome",
+  "iso": 64,
+  "type": "slide",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Kodak",
+  "name": "Kodachrome 200",
+  "series": "kodak-kodachrome",
+  "iso": 200,
+  "type": "slide",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Kodak",
+  "name": "Vision3 50D",
+  "series": "kodak-vision3",
+  "iso": 50,
+  "type": "cine",
+  "formats": [
+   "35mm",
+   "16mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Vision3 250D",
+  "series": "kodak-vision3",
+  "iso": 250,
+  "type": "cine",
+  "formats": [
+   "35mm",
+   "16mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Vision3 200T",
+  "series": "kodak-vision3",
+  "iso": 200,
+  "type": "cine",
+  "formats": [
+   "35mm",
+   "16mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Vision3 500T",
+  "series": "kodak-vision3",
+  "iso": 500,
+  "type": "cine",
+  "formats": [
+   "35mm",
+   "16mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Kodak",
+  "name": "Eastman Double-X",
+  "series": "kodak-doublex",
+  "iso": 250,
+  "type": "cine",
+  "formats": [
+   "35mm",
+   "16mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Velvia 50",
+  "series": "fujifilm-velvia",
+  "iso": 50,
+  "type": "slide",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Velvia 100",
+  "series": "fujifilm-velvia",
+  "iso": 100,
+  "type": "slide",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Provia 100F",
+  "series": "fujifilm-provia",
+  "iso": 100,
+  "type": "slide",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Sensia 100",
+  "series": "fujifilm-sensia",
+  "iso": 100,
+  "type": "slide",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Reala 100",
+  "series": "fujifilm-reala",
+  "iso": 100,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Superia X-TRA 400",
+  "series": "fujifilm-superia",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Fujicolor C200",
+  "series": "fujifilm-fujicolor",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Fujifilm 200",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Fujifilm 400",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Pro 400H",
+  "series": "fujifilm-pro400h",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Natura 1600",
+  "series": "fujifilm-natura",
+  "iso": 1600,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Acros II",
+  "series": "fujifilm-acros",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Neopan 100 Acros",
+  "series": "fujifilm-acros",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Neopan 400 Presto",
+  "series": "fujifilm-neopan",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Neopan 1600",
+  "series": "fujifilm-neopan",
+  "iso": 1600,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "FP-100C",
+  "series": "fujifilm-fp100c",
+  "iso": 100,
+  "type": "instant",
+  "formats": [
+   "pack"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Instax Mini",
+  "series": "fujifilm-instax",
+  "iso": 800,
+  "type": "instant",
+  "formats": [
+   "instax mini"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Instax Square",
+  "series": "fujifilm-instax",
+  "iso": 800,
+  "type": "instant",
+  "formats": [
+   "instax square"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Fujifilm",
+  "name": "Instax Wide",
+  "series": "fujifilm-instax",
+  "iso": 800,
+  "type": "instant",
+  "formats": [
+   "instax wide"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "HP5 Plus",
+  "series": "ilford-hp5",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "FP4 Plus",
+  "series": "ilford-fp4",
+  "iso": 125,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "Delta 100",
+  "series": "ilford-delta",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "Delta 400",
+  "series": "ilford-delta",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "Delta 3200",
+  "series": "ilford-delta",
+  "iso": 3200,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "XP2 Super",
+  "series": "ilford-xp2",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "Pan F Plus",
+  "series": "ilford-panf",
+  "iso": 50,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "SFX 200",
+  "series": "ilford-sfx",
+  "iso": 200,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Ilford",
+  "name": "Ortho Plus",
+  "series": "ilford-ortho",
+  "iso": 80,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Harman",
+  "name": "Kentmere Pan 100",
+  "series": "harman-kentmere",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Harman",
+  "name": "Kentmere Pan 400",
+  "series": "harman-kentmere",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Harman",
+  "name": "Phoenix II 200",
+  "series": "harman-phoenix",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "CineStill",
+  "name": "800T",
+  "series": "cinestill",
+  "iso": 800,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "CineStill",
+  "name": "400D",
+  "series": "cinestill",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "CineStill",
+  "name": "50D",
+  "series": "cinestill",
+  "iso": 50,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "CineStill",
+  "name": "BwXX",
+  "series": "cinestill",
+  "iso": 250,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "Color Negative 100",
+  "series": "lomography-colornegative",
+  "iso": 100,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "Color Negative 400",
+  "series": "lomography-colornegative",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "Color Negative 800",
+  "series": "lomography-colornegative",
+  "iso": 800,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "LomoChrome Color '92",
+  "series": "lomography-lomochrome",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "LomoChrome Purple",
+  "series": "lomography-lomochrome",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120",
+   "110"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "LomoChrome Metropolis",
+  "series": "lomography-lomochrome",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "LomoChrome Turquoise",
+  "series": "lomography-lomochrome",
+  "iso": 400,
+  "type": "color negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "Berlin Kino",
+  "series": "lomography-berlinkino",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "Lady Grey",
+  "series": "lomography-ladygrey",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "Earl Grey",
+  "series": "lomography-earlgrey",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "Fantome Kino",
+  "series": "lomography-fantomekino",
+  "iso": 8,
+  "type": "bw negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lomography",
+  "name": "Babylon Kino",
+  "series": "lomography-babylonkino",
+  "iso": 13,
+  "type": "bw negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Agfa",
+  "name": "APX 100",
+  "series": "agfa-apx",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Agfa",
+  "name": "APX 400",
+  "series": "agfa-apx",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Agfa",
+  "name": "Vista Plus 200",
+  "series": "agfa-vista",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Agfa",
+  "name": "Precisa CT 100",
+  "series": "agfa-precisa",
+  "iso": 100,
+  "type": "slide",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Agfa",
+  "name": "Scala 200",
+  "series": "agfa-scala",
+  "iso": 200,
+  "type": "slide",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": true
+ },
+ {
+  "brand": "Foma",
+  "name": "Fomapan 100 Classic",
+  "series": "foma-fomapan",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Foma",
+  "name": "Fomapan 200 Creative",
+  "series": "foma-fomapan",
+  "iso": 200,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Foma",
+  "name": "Fomapan 400 Action",
+  "series": "foma-fomapan",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Rollei",
+  "name": "RPX 25",
+  "series": "rollei-rpx",
+  "iso": 25,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Rollei",
+  "name": "RPX 100",
+  "series": "rollei-rpx",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Rollei",
+  "name": "RPX 400",
+  "series": "rollei-rpx",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Rollei",
+  "name": "Retro 80S",
+  "series": "rollei-retro",
+  "iso": 80,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Rollei",
+  "name": "Retro 400S",
+  "series": "rollei-retro",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Rollei",
+  "name": "Infrared 400",
+  "series": "rollei-infrared",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Adox",
+  "name": "CHS 100 II",
+  "series": "adox-chs",
+  "iso": 100,
+  "type": "bw negative",
+  "formats": [
+   "35mm",
+   "120",
+   "sheet"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Adox",
+  "name": "Color Mission",
+  "series": "adox-colormission",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Adox",
+  "name": "Silvermax",
+  "series": "adox-silvermax",
+  "iso": 21,
+  "type": "bw negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Polaroid",
+  "name": "i-Type Color",
+  "series": "polaroid-itype",
+  "iso": 640,
+  "type": "instant",
+  "formats": [
+   "i-Type"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Polaroid",
+  "name": "B&W i-Type",
+  "series": "polaroid-itype",
+  "iso": 640,
+  "type": "instant",
+  "formats": [
+   "i-Type"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Polaroid",
+  "name": "600 Color",
+  "series": "polaroid-600",
+  "iso": 640,
+  "type": "instant",
+  "formats": [
+   "600"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Polaroid",
+  "name": "B&W 600",
+  "series": "polaroid-600",
+  "iso": 640,
+  "type": "instant",
+  "formats": [
+   "600"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Polaroid",
+  "name": "SX-70 Color",
+  "series": "polaroid-sx70",
+  "iso": 160,
+  "type": "instant",
+  "formats": [
+   "SX-70"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Polaroid",
+  "name": "Go Color",
+  "series": "polaroid-go",
+  "iso": 640,
+  "type": "instant",
+  "formats": [
+   "Go"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lucky",
+  "name": "C200",
+  "series": "lucky",
+  "iso": 200,
+  "type": "color negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ },
+ {
+  "brand": "Lucky",
+  "name": "SHD 400",
+  "series": "lucky",
+  "iso": 400,
+  "type": "bw negative",
+  "formats": [
+   "35mm"
+  ],
+  "discontinued": false
+ }
+]

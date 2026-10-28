@@ -1,0 +1,1571 @@
+[
+ {
+  "brandId": "leica",
+  "name": "M3",
+  "type": "35mm rangefinder",
+  "year": 1954
+ },
+ {
+  "brandId": "leica",
+  "name": "M2",
+  "type": "35mm rangefinder",
+  "year": 1957
+ },
+ {
+  "brandId": "leica",
+  "name": "M4",
+  "type": "35mm rangefinder",
+  "year": 1967
+ },
+ {
+  "brandId": "leica",
+  "name": "M5",
+  "type": "35mm rangefinder",
+  "year": 1971
+ },
+ {
+  "brandId": "leica",
+  "name": "M4-2",
+  "type": "35mm rangefinder",
+  "year": 1977
+ },
+ {
+  "brandId": "leica",
+  "name": "M4-P",
+  "type": "35mm rangefinder",
+  "year": 1981
+ },
+ {
+  "brandId": "leica",
+  "name": "M6",
+  "type": "35mm rangefinder",
+  "year": 1984
+ },
+ {
+  "brandId": "leica",
+  "name": "M6 TTL",
+  "type": "35mm rangefinder",
+  "year": 1998
+ },
+ {
+  "brandId": "leica",
+  "name": "M7",
+  "type": "35mm rangefinder",
+  "year": 2002
+ },
+ {
+  "brandId": "leica",
+  "name": "MP",
+  "type": "35mm rangefinder",
+  "year": 2003
+ },
+ {
+  "brandId": "leica",
+  "name": "M-A",
+  "type": "35mm rangefinder",
+  "year": 2014
+ },
+ {
+  "brandId": "leica",
+  "name": "CL",
+  "type": "35mm rangefinder",
+  "year": 1973
+ },
+ {
+  "brandId": "leica",
+  "name": "IIIf",
+  "type": "35mm rangefinder",
+  "year": 1950
+ },
+ {
+  "brandId": "leica",
+  "name": "IIIg",
+  "type": "35mm rangefinder",
+  "year": 1957
+ },
+ {
+  "brandId": "leica",
+  "name": "Minilux",
+  "type": "35mm compact",
+  "year": 1995
+ },
+ {
+  "brandId": "leica",
+  "name": "R4",
+  "type": "35mm SLR",
+  "year": 1980
+ },
+ {
+  "brandId": "leica",
+  "name": "R6.2",
+  "type": "35mm SLR",
+  "year": 1992
+ },
+ {
+  "brandId": "leica",
+  "name": "R8",
+  "type": "35mm SLR",
+  "year": 1996
+ },
+ {
+  "brandId": "nikon",
+  "name": "S2",
+  "type": "35mm rangefinder",
+  "year": 1954
+ },
+ {
+  "brandId": "nikon",
+  "name": "SP",
+  "type": "35mm rangefinder",
+  "year": 1957
+ },
+ {
+  "brandId": "nikon",
+  "name": "S3",
+  "type": "35mm rangefinder",
+  "year": 1958
+ },
+ {
+  "brandId": "nikon",
+  "name": "F",
+  "type": "35mm SLR",
+  "year": 1959
+ },
+ {
+  "brandId": "nikon",
+  "name": "Nikkormat FT",
+  "type": "35mm SLR",
+  "year": 1965
+ },
+ {
+  "brandId": "nikon",
+  "name": "Nikkormat FTN",
+  "type": "35mm SLR",
+  "year": 1967
+ },
+ {
+  "brandId": "nikon",
+  "name": "Nikkormat FT2",
+  "type": "35mm SLR",
+  "year": 1975
+ },
+ {
+  "brandId": "nikon",
+  "name": "Nikkormat FT3",
+  "type": "35mm SLR",
+  "year": 1977
+ },
+ {
+  "brandId": "nikon",
+  "name": "F2",
+  "type": "35mm SLR",
+  "year": 1971
+ },
+ {
+  "brandId": "nikon",
+  "name": "F3",
+  "type": "35mm SLR",
+  "year": 1980
+ },
+ {
+  "brandId": "nikon",
+  "name": "F4",
+  "type": "35mm SLR",
+  "year": 1988
+ },
+ {
+  "brandId": "nikon",
+  "name": "F5",
+  "type": "35mm SLR",
+  "year": 1996
+ },
+ {
+  "brandId": "nikon",
+  "name": "F6",
+  "type": "35mm SLR",
+  "year": 2004
+ },
+ {
+  "brandId": "nikon",
+  "name": "F100",
+  "type": "35mm SLR",
+  "year": 1999
+ },
+ {
+  "brandId": "nikon",
+  "name": "F90X",
+  "type": "35mm SLR",
+  "year": 1994
+ },
+ {
+  "brandId": "nikon",
+  "name": "F80",
+  "type": "35mm SLR",
+  "year": 2000
+ },
+ {
+  "brandId": "nikon",
+  "name": "F801",
+  "type": "35mm SLR",
+  "year": 1990
+ },
+ {
+  "brandId": "nikon",
+  "name": "FM",
+  "type": "35mm SLR",
+  "year": 1977
+ },
+ {
+  "brandId": "nikon",
+  "name": "FM2",
+  "type": "35mm SLR",
+  "year": 1982
+ },
+ {
+  "brandId": "nikon",
+  "name": "FM3A",
+  "type": "35mm SLR",
+  "year": 2001
+ },
+ {
+  "brandId": "nikon",
+  "name": "FM10",
+  "type": "35mm SLR",
+  "year": 1995
+ },
+ {
+  "brandId": "nikon",
+  "name": "FE",
+  "type": "35mm SLR",
+  "year": 1978
+ },
+ {
+  "brandId": "nikon",
+  "name": "FE2",
+  "type": "35mm SLR",
+  "year": 1983
+ },
+ {
+  "brandId": "nikon",
+  "name": "FA",
+  "type": "35mm SLR",
+  "year": 1983
+ },
+ {
+  "brandId": "nikon",
+  "name": "FG",
+  "type": "35mm SLR",
+  "year": 1982
+ },
+ {
+  "brandId": "nikon",
+  "name": "EM",
+  "type": "35mm SLR",
+  "year": 1979
+ },
+ {
+  "brandId": "nikon",
+  "name": "L35AF",
+  "type": "35mm compact",
+  "year": 1983
+ },
+ {
+  "brandId": "nikon",
+  "name": "35Ti",
+  "type": "35mm compact",
+  "year": 1993
+ },
+ {
+  "brandId": "nikon",
+  "name": "28Ti",
+  "type": "35mm compact",
+  "year": 1994
+ },
+ {
+  "brandId": "nikon",
+  "name": "Nikonos III",
+  "type": "35mm compact",
+  "year": 1975
+ },
+ {
+  "brandId": "nikon",
+  "name": "Nikonos V",
+  "type": "35mm compact",
+  "year": 1984
+ },
+ {
+  "brandId": "canon",
+  "name": "P",
+  "type": "35mm rangefinder",
+  "year": 1959
+ },
+ {
+  "brandId": "canon",
+  "name": "7",
+  "type": "35mm rangefinder",
+  "year": 1961
+ },
+ {
+  "brandId": "canon",
+  "name": "Canonet QL17 GIII",
+  "type": "35mm rangefinder",
+  "year": 1972
+ },
+ {
+  "brandId": "canon",
+  "name": "Canonet QL19",
+  "type": "35mm rangefinder",
+  "year": 1965
+ },
+ {
+  "brandId": "canon",
+  "name": "Demi",
+  "type": "35mm half-frame",
+  "year": 1963
+ },
+ {
+  "brandId": "canon",
+  "name": "Dial 35",
+  "type": "35mm half-frame",
+  "year": 1963
+ },
+ {
+  "brandId": "canon",
+  "name": "AE-1",
+  "type": "35mm SLR",
+  "year": 1976
+ },
+ {
+  "brandId": "canon",
+  "name": "AE-1 Program",
+  "type": "35mm SLR",
+  "year": 1981
+ },
+ {
+  "brandId": "canon",
+  "name": "AT-1",
+  "type": "35mm SLR",
+  "year": 1976
+ },
+ {
+  "brandId": "canon",
+  "name": "A-1",
+  "type": "35mm SLR",
+  "year": 1978
+ },
+ {
+  "brandId": "canon",
+  "name": "AV-1",
+  "type": "35mm SLR",
+  "year": 1979
+ },
+ {
+  "brandId": "canon",
+  "name": "T50",
+  "type": "35mm SLR",
+  "year": 1983
+ },
+ {
+  "brandId": "canon",
+  "name": "T70",
+  "type": "35mm SLR",
+  "year": 1984
+ },
+ {
+  "brandId": "canon",
+  "name": "T90",
+  "type": "35mm SLR",
+  "year": 1986
+ },
+ {
+  "brandId": "canon",
+  "name": "FTb",
+  "type": "35mm SLR",
+  "year": 1971
+ },
+ {
+  "brandId": "canon",
+  "name": "F-1",
+  "type": "35mm SLR",
+  "year": 1971
+ },
+ {
+  "brandId": "canon",
+  "name": "New F-1",
+  "type": "35mm SLR",
+  "year": 1981
+ },
+ {
+  "brandId": "canon",
+  "name": "EOS 650",
+  "type": "35mm SLR",
+  "year": 1987
+ },
+ {
+  "brandId": "canon",
+  "name": "EOS-1",
+  "type": "35mm SLR",
+  "year": 1989
+ },
+ {
+  "brandId": "canon",
+  "name": "EOS-1N",
+  "type": "35mm SLR",
+  "year": 1994
+ },
+ {
+  "brandId": "canon",
+  "name": "EOS 5",
+  "type": "35mm SLR",
+  "year": 1992
+ },
+ {
+  "brandId": "canon",
+  "name": "EOS 3",
+  "type": "35mm SLR",
+  "year": 1998
+ },
+ {
+  "brandId": "canon",
+  "name": "EOS-1V",
+  "type": "35mm SLR",
+  "year": 2000
+ },
+ {
+  "brandId": "canon",
+  "name": "Autoboy",
+  "type": "35mm compact",
+  "year": 1979
+ },
+ {
+  "brandId": "pentax",
+  "name": "Spotmatic",
+  "type": "35mm SLR",
+  "year": 1964
+ },
+ {
+  "brandId": "pentax",
+  "name": "KX",
+  "type": "35mm SLR",
+  "year": 1975
+ },
+ {
+  "brandId": "pentax",
+  "name": "KM",
+  "type": "35mm SLR",
+  "year": 1975
+ },
+ {
+  "brandId": "pentax",
+  "name": "K2",
+  "type": "35mm SLR",
+  "year": 1975
+ },
+ {
+  "brandId": "pentax",
+  "name": "K1000",
+  "type": "35mm SLR",
+  "year": 1976
+ },
+ {
+  "brandId": "pentax",
+  "name": "MX",
+  "type": "35mm SLR",
+  "year": 1976
+ },
+ {
+  "brandId": "pentax",
+  "name": "ME",
+  "type": "35mm SLR",
+  "year": 1977
+ },
+ {
+  "brandId": "pentax",
+  "name": "ME Super",
+  "type": "35mm SLR",
+  "year": 1979
+ },
+ {
+  "brandId": "pentax",
+  "name": "LX",
+  "type": "35mm SLR",
+  "year": 1980
+ },
+ {
+  "brandId": "pentax",
+  "name": "Super Program",
+  "type": "35mm SLR",
+  "year": 1983
+ },
+ {
+  "brandId": "pentax",
+  "name": "Program A",
+  "type": "35mm SLR",
+  "year": 1984
+ },
+ {
+  "brandId": "pentax",
+  "name": "P30",
+  "type": "35mm SLR",
+  "year": 1985
+ },
+ {
+  "brandId": "pentax",
+  "name": "Z-1",
+  "type": "35mm SLR",
+  "year": 1991
+ },
+ {
+  "brandId": "pentax",
+  "name": "MZ-S",
+  "type": "35mm SLR",
+  "year": 2001
+ },
+ {
+  "brandId": "pentax",
+  "name": "PC35AF",
+  "type": "35mm compact",
+  "year": 1982
+ },
+ {
+  "brandId": "pentax",
+  "name": "Espio",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "pentax",
+  "name": "17",
+  "type": "35mm half-frame",
+  "year": 2024
+ },
+ {
+  "brandId": "pentax",
+  "name": "6x7",
+  "type": "medium format SLR",
+  "year": 1969
+ },
+ {
+  "brandId": "pentax",
+  "name": "67",
+  "type": "medium format SLR",
+  "year": 1990
+ },
+ {
+  "brandId": "pentax",
+  "name": "67II",
+  "type": "medium format SLR",
+  "year": 1998
+ },
+ {
+  "brandId": "pentax",
+  "name": "645",
+  "type": "medium format SLR",
+  "year": 1984
+ },
+ {
+  "brandId": "pentax",
+  "name": "645N",
+  "type": "medium format SLR",
+  "year": 1997
+ },
+ {
+  "brandId": "pentax",
+  "name": "645NII",
+  "type": "medium format SLR",
+  "year": 2001
+ },
+ {
+  "brandId": "olympus",
+  "name": "OM-1",
+  "type": "35mm SLR",
+  "year": 1972
+ },
+ {
+  "brandId": "olympus",
+  "name": "OM-2",
+  "type": "35mm SLR",
+  "year": 1975
+ },
+ {
+  "brandId": "olympus",
+  "name": "OM-1n",
+  "type": "35mm SLR",
+  "year": 1979
+ },
+ {
+  "brandId": "olympus",
+  "name": "OM-2n",
+  "type": "35mm SLR",
+  "year": 1979
+ },
+ {
+  "brandId": "olympus",
+  "name": "OM-10",
+  "type": "35mm SLR",
+  "year": 1979
+ },
+ {
+  "brandId": "olympus",
+  "name": "OM-3",
+  "type": "35mm SLR"
+ },
+ {
+  "brandId": "olympus",
+  "name": "OM-4",
+  "type": "35mm SLR",
+  "year": 1983
+ },
+ {
+  "brandId": "olympus",
+  "name": "OM-4Ti",
+  "type": "35mm SLR"
+ },
+ {
+  "brandId": "olympus",
+  "name": "XA",
+  "type": "35mm compact",
+  "year": 1979
+ },
+ {
+  "brandId": "olympus",
+  "name": "XA2",
+  "type": "35mm compact",
+  "year": 1980
+ },
+ {
+  "brandId": "olympus",
+  "name": "Trip 35",
+  "type": "35mm compact",
+  "year": 1967
+ },
+ {
+  "brandId": "olympus",
+  "name": "35 SP",
+  "type": "35mm rangefinder",
+  "year": 1969
+ },
+ {
+  "brandId": "olympus",
+  "name": "35 RC",
+  "type": "35mm rangefinder",
+  "year": 1970
+ },
+ {
+  "brandId": "olympus",
+  "name": "AF-1",
+  "type": "35mm compact",
+  "year": 1986
+ },
+ {
+  "brandId": "olympus",
+  "name": "μ[mju:]",
+  "type": "35mm compact",
+  "year": 1991
+ },
+ {
+  "brandId": "olympus",
+  "name": "μ[mju:] II",
+  "type": "35mm compact",
+  "year": 1997
+ },
+ {
+  "brandId": "olympus",
+  "name": "Pen S",
+  "type": "35mm half-frame",
+  "year": 1960
+ },
+ {
+  "brandId": "olympus",
+  "name": "Pen EE",
+  "type": "35mm half-frame",
+  "year": 1961
+ },
+ {
+  "brandId": "olympus",
+  "name": "Pen D",
+  "type": "35mm half-frame",
+  "year": 1962
+ },
+ {
+  "brandId": "olympus",
+  "name": "Pen F",
+  "type": "35mm half-frame",
+  "year": 1963
+ },
+ {
+  "brandId": "olympus",
+  "name": "Pen FT",
+  "type": "35mm half-frame",
+  "year": 1966
+ },
+ {
+  "brandId": "olympus",
+  "name": "Pen EE-2",
+  "type": "35mm half-frame",
+  "year": 1968
+ },
+ {
+  "brandId": "minolta",
+  "name": "SRT 101",
+  "type": "35mm SLR",
+  "year": 1966
+ },
+ {
+  "brandId": "minolta",
+  "name": "XD-7",
+  "type": "35mm SLR",
+  "year": 1977
+ },
+ {
+  "brandId": "minolta",
+  "name": "X-700",
+  "type": "35mm SLR",
+  "year": 1981
+ },
+ {
+  "brandId": "minolta",
+  "name": "X-300",
+  "type": "35mm SLR",
+  "year": 1984
+ },
+ {
+  "brandId": "minolta",
+  "name": "Maxxum 7000",
+  "type": "35mm SLR",
+  "year": 1985
+ },
+ {
+  "brandId": "minolta",
+  "name": "Maxxum 9",
+  "type": "35mm SLR",
+  "year": 1998
+ },
+ {
+  "brandId": "minolta",
+  "name": "CLE",
+  "type": "35mm rangefinder",
+  "year": 1981
+ },
+ {
+  "brandId": "minolta",
+  "name": "TC-1",
+  "type": "35mm compact",
+  "year": 1996
+ },
+ {
+  "brandId": "minolta",
+  "name": "Hi-Matic 7",
+  "type": "35mm rangefinder",
+  "year": 1963
+ },
+ {
+  "brandId": "minolta",
+  "name": "Hi-Matic F",
+  "type": "35mm compact",
+  "year": 1972
+ },
+ {
+  "brandId": "minolta",
+  "name": "Autocord",
+  "type": "TLR"
+ },
+ {
+  "brandId": "contax",
+  "name": "T",
+  "type": "35mm compact",
+  "year": 1984
+ },
+ {
+  "brandId": "contax",
+  "name": "T2",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "contax",
+  "name": "T3",
+  "type": "35mm compact",
+  "year": 2001
+ },
+ {
+  "brandId": "contax",
+  "name": "TVS",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "contax",
+  "name": "G1",
+  "type": "35mm rangefinder",
+  "year": 1994
+ },
+ {
+  "brandId": "contax",
+  "name": "G2",
+  "type": "35mm rangefinder",
+  "year": 1996
+ },
+ {
+  "brandId": "contax",
+  "name": "RTS",
+  "type": "35mm SLR",
+  "year": 1975
+ },
+ {
+  "brandId": "contax",
+  "name": "RTS III",
+  "type": "35mm SLR"
+ },
+ {
+  "brandId": "contax",
+  "name": "Aria",
+  "type": "35mm SLR",
+  "year": 1998
+ },
+ {
+  "brandId": "contax",
+  "name": "S2",
+  "type": "35mm SLR",
+  "year": 1992
+ },
+ {
+  "brandId": "contax",
+  "name": "645",
+  "type": "medium format SLR",
+  "year": 1999
+ },
+ {
+  "brandId": "yashica",
+  "name": "Electro 35",
+  "type": "35mm rangefinder",
+  "year": 1966
+ },
+ {
+  "brandId": "yashica",
+  "name": "Electro 35 GSN",
+  "type": "35mm rangefinder",
+  "year": 1973
+ },
+ {
+  "brandId": "yashica",
+  "name": "Lynx-14",
+  "type": "35mm rangefinder",
+  "year": 1965
+ },
+ {
+  "brandId": "yashica",
+  "name": "FX-3",
+  "type": "35mm SLR",
+  "year": 1979
+ },
+ {
+  "brandId": "yashica",
+  "name": "T4",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "yashica",
+  "name": "T5",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "yashica",
+  "name": "Samurai Z",
+  "type": "35mm half-frame"
+ },
+ {
+  "brandId": "yashica",
+  "name": "Yashica-A",
+  "type": "TLR"
+ },
+ {
+  "brandId": "yashica",
+  "name": "Yashica-Mat 124G",
+  "type": "TLR",
+  "year": 1970
+ },
+ {
+  "brandId": "rollei",
+  "name": "Rolleiflex 3.5F",
+  "type": "TLR",
+  "year": 1958
+ },
+ {
+  "brandId": "rollei",
+  "name": "Rolleiflex 2.8F",
+  "type": "TLR",
+  "year": 1960
+ },
+ {
+  "brandId": "rollei",
+  "name": "Rolleiflex 2.8GX",
+  "type": "TLR",
+  "year": 1987
+ },
+ {
+  "brandId": "rollei",
+  "name": "Rolleicord Vb",
+  "type": "TLR",
+  "year": 1962
+ },
+ {
+  "brandId": "rollei",
+  "name": "Rollei 35",
+  "type": "35mm compact",
+  "year": 1966
+ },
+ {
+  "brandId": "rollei",
+  "name": "Rollei 35 S",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "rollei",
+  "name": "Rollei 35 T",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "rollei",
+  "name": "SL35",
+  "type": "35mm SLR",
+  "year": 1970
+ },
+ {
+  "brandId": "rollei",
+  "name": "SL66",
+  "type": "medium format SLR",
+  "year": 1966
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "1600F",
+  "type": "medium format SLR",
+  "year": 1948
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "500C",
+  "type": "medium format SLR",
+  "year": 1957
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "500C/M",
+  "type": "medium format SLR",
+  "year": 1970
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "500 ELM",
+  "type": "medium format SLR"
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "503CX",
+  "type": "medium format SLR",
+  "year": 1988
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "501CM",
+  "type": "medium format SLR",
+  "year": 1997
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "503CW",
+  "type": "medium format SLR",
+  "year": 1996
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "SWC",
+  "type": "medium format SLR",
+  "year": 1954
+ },
+ {
+  "brandId": "hasselblad",
+  "name": "XPan",
+  "type": "35mm rangefinder",
+  "year": 1998
+ },
+ {
+  "brandId": "mamiya",
+  "name": "C220",
+  "type": "TLR"
+ },
+ {
+  "brandId": "mamiya",
+  "name": "C330",
+  "type": "TLR"
+ },
+ {
+  "brandId": "mamiya",
+  "name": "M645",
+  "type": "medium format SLR",
+  "year": 1975
+ },
+ {
+  "brandId": "mamiya",
+  "name": "645 Pro",
+  "type": "medium format SLR"
+ },
+ {
+  "brandId": "mamiya",
+  "name": "RB67",
+  "type": "medium format SLR",
+  "year": 1970
+ },
+ {
+  "brandId": "mamiya",
+  "name": "RZ67",
+  "type": "medium format SLR",
+  "year": 1982
+ },
+ {
+  "brandId": "mamiya",
+  "name": "RZ67 Pro II",
+  "type": "medium format SLR",
+  "year": 1995
+ },
+ {
+  "brandId": "mamiya",
+  "name": "6",
+  "type": "medium format rangefinder",
+  "year": 1989
+ },
+ {
+  "brandId": "mamiya",
+  "name": "7",
+  "type": "medium format rangefinder",
+  "year": 1995
+ },
+ {
+  "brandId": "mamiya",
+  "name": "7II",
+  "type": "medium format rangefinder",
+  "year": 1999
+ },
+ {
+  "brandId": "mamiya",
+  "name": "Universal Press",
+  "type": "medium format rangefinder",
+  "year": 1969
+ },
+ {
+  "brandId": "bronica",
+  "name": "ETR",
+  "type": "medium format SLR",
+  "year": 1976
+ },
+ {
+  "brandId": "bronica",
+  "name": "ETRS",
+  "type": "medium format SLR",
+  "year": 1978
+ },
+ {
+  "brandId": "bronica",
+  "name": "SQ",
+  "type": "medium format SLR",
+  "year": 1980
+ },
+ {
+  "brandId": "bronica",
+  "name": "SQ-A",
+  "type": "medium format SLR"
+ },
+ {
+  "brandId": "bronica",
+  "name": "SQ-Ai",
+  "type": "medium format SLR"
+ },
+ {
+  "brandId": "bronica",
+  "name": "GS-1",
+  "type": "medium format SLR",
+  "year": 1983
+ },
+ {
+  "brandId": "bronica",
+  "name": "RF645",
+  "type": "medium format rangefinder",
+  "year": 2000
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "GW690",
+  "type": "medium format rangefinder",
+  "year": 1978
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "GW690II",
+  "type": "medium format rangefinder",
+  "year": 1985
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "GW690III",
+  "type": "medium format rangefinder",
+  "year": 1992
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "GSW690",
+  "type": "medium format rangefinder"
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "GS645",
+  "type": "medium format rangefinder",
+  "year": 1983
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "GA645",
+  "type": "medium format rangefinder",
+  "year": 1995
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "GA645i",
+  "type": "medium format rangefinder",
+  "year": 1997
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "GA645Zi",
+  "type": "medium format rangefinder",
+  "year": 1998
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Klasse",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Klasse W",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Natura S",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Natura Classica",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "TX-1",
+  "type": "35mm rangefinder",
+  "year": 1998
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "TX-2",
+  "type": "35mm rangefinder"
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Instax Mini 11",
+  "type": "instant",
+  "year": 2020
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Instax Mini 12",
+  "type": "instant",
+  "year": 2023
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Instax Mini 40",
+  "type": "instant",
+  "year": 2021
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Instax SQ1",
+  "type": "instant",
+  "year": 2020
+ },
+ {
+  "brandId": "fujifilm",
+  "name": "Instax SQ6",
+  "type": "instant",
+  "year": 2018
+ },
+ {
+  "brandId": "konica",
+  "name": "C35",
+  "type": "35mm compact",
+  "year": 1968
+ },
+ {
+  "brandId": "konica",
+  "name": "C35 AF",
+  "type": "35mm compact",
+  "year": 1977
+ },
+ {
+  "brandId": "konica",
+  "name": "Autoreflex T",
+  "type": "35mm SLR",
+  "year": 1968
+ },
+ {
+  "brandId": "konica",
+  "name": "FS-1",
+  "type": "35mm SLR",
+  "year": 1979
+ },
+ {
+  "brandId": "konica",
+  "name": "Hexar AF",
+  "type": "35mm compact",
+  "year": 1993
+ },
+ {
+  "brandId": "konica",
+  "name": "Hexar RF",
+  "type": "35mm rangefinder",
+  "year": 1999
+ },
+ {
+  "brandId": "konica",
+  "name": "Big Mini",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "ricoh",
+  "name": "GR1",
+  "type": "35mm compact",
+  "year": 1996
+ },
+ {
+  "brandId": "ricoh",
+  "name": "GR1s",
+  "type": "35mm compact",
+  "year": 1998
+ },
+ {
+  "brandId": "ricoh",
+  "name": "GR1v",
+  "type": "35mm compact",
+  "year": 2001
+ },
+ {
+  "brandId": "ricoh",
+  "name": "GR21",
+  "type": "35mm compact",
+  "year": 2001
+ },
+ {
+  "brandId": "ricoh",
+  "name": "Auto Half",
+  "type": "35mm half-frame",
+  "year": 1962
+ },
+ {
+  "brandId": "voigtlaender",
+  "name": "Vito B",
+  "type": "35mm compact",
+  "year": 1954
+ },
+ {
+  "brandId": "voigtlaender",
+  "name": "Bessa L",
+  "type": "35mm rangefinder",
+  "year": 1999
+ },
+ {
+  "brandId": "voigtlaender",
+  "name": "Bessa R",
+  "type": "35mm rangefinder",
+  "year": 2000
+ },
+ {
+  "brandId": "voigtlaender",
+  "name": "Bessa R2",
+  "type": "35mm rangefinder",
+  "year": 2001
+ },
+ {
+  "brandId": "voigtlaender",
+  "name": "Bessa R3A",
+  "type": "35mm rangefinder",
+  "year": 2004
+ },
+ {
+  "brandId": "lomography",
+  "name": "LC-A",
+  "type": "35mm compact",
+  "year": 1984
+ },
+ {
+  "brandId": "lomography",
+  "name": "LC-A+",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "lomography",
+  "name": "Diana F+",
+  "type": "toy"
+ },
+ {
+  "brandId": "lomography",
+  "name": "Diana Mini",
+  "type": "toy"
+ },
+ {
+  "brandId": "lomography",
+  "name": "Fisheye No.2",
+  "type": "toy"
+ },
+ {
+  "brandId": "lomography",
+  "name": "Sprocket Rocket",
+  "type": "toy"
+ },
+ {
+  "brandId": "polaroid",
+  "name": "SX-70",
+  "type": "instant",
+  "year": 1972
+ },
+ {
+  "brandId": "polaroid",
+  "name": "OneStep",
+  "type": "instant",
+  "year": 1977
+ },
+ {
+  "brandId": "polaroid",
+  "name": "SLR 680",
+  "type": "instant",
+  "year": 1982
+ },
+ {
+  "brandId": "polaroid",
+  "name": "Spectra",
+  "type": "instant",
+  "year": 1986
+ },
+ {
+  "brandId": "polaroid",
+  "name": "Impulse",
+  "type": "instant",
+  "year": 1988
+ },
+ {
+  "brandId": "polaroid",
+  "name": "OneStep 2",
+  "type": "instant",
+  "year": 2017
+ },
+ {
+  "brandId": "polaroid",
+  "name": "OneStep+",
+  "type": "instant",
+  "year": 2018
+ },
+ {
+  "brandId": "polaroid",
+  "name": "Now",
+  "type": "instant",
+  "year": 2020
+ },
+ {
+  "brandId": "polaroid",
+  "name": "Now+",
+  "type": "instant",
+  "year": 2021
+ },
+ {
+  "brandId": "polaroid",
+  "name": "I-2",
+  "type": "instant",
+  "year": 2023
+ },
+ {
+  "brandId": "polaroid",
+  "name": "Go",
+  "type": "instant",
+  "year": 2021
+ },
+ {
+  "brandId": "holga",
+  "name": "120N",
+  "type": "toy"
+ },
+ {
+  "brandId": "holga",
+  "name": "120GN",
+  "type": "toy"
+ },
+ {
+  "brandId": "holga",
+  "name": "120CFN",
+  "type": "toy"
+ },
+ {
+  "brandId": "holga",
+  "name": "120GCFN",
+  "type": "toy"
+ },
+ {
+  "brandId": "zenit",
+  "name": "E",
+  "type": "35mm SLR",
+  "year": 1965
+ },
+ {
+  "brandId": "zenit",
+  "name": "B",
+  "type": "35mm SLR",
+  "year": 1968
+ },
+ {
+  "brandId": "zenit",
+  "name": "TTL",
+  "type": "35mm SLR",
+  "year": 1977
+ },
+ {
+  "brandId": "zenit",
+  "name": "122",
+  "type": "35mm SLR"
+ },
+ {
+  "brandId": "zorki",
+  "name": "4",
+  "type": "35mm rangefinder",
+  "year": 1956
+ },
+ {
+  "brandId": "fed",
+  "name": "2",
+  "type": "35mm rangefinder"
+ },
+ {
+  "brandId": "kiev",
+  "name": "4",
+  "type": "35mm rangefinder"
+ },
+ {
+  "brandId": "lomo",
+  "name": "Smena 8M",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "lomo",
+  "name": "Lubitel 166",
+  "type": "TLR"
+ },
+ {
+  "brandId": "seagull",
+  "name": "4A",
+  "type": "TLR"
+ },
+ {
+  "brandId": "praktica",
+  "name": "MTL3",
+  "type": "35mm SLR",
+  "year": 1978
+ },
+ {
+  "brandId": "praktica",
+  "name": "MTL 5B",
+  "type": "35mm SLR",
+  "year": 1985
+ },
+ {
+  "brandId": "kodak",
+  "name": "Ektar H35",
+  "type": "35mm half-frame",
+  "year": 2022
+ },
+ {
+  "brandId": "kodak",
+  "name": "Ektar H35N",
+  "type": "35mm half-frame",
+  "year": 2023
+ },
+ {
+  "brandId": "kodak",
+  "name": "Retina IIIC",
+  "type": "35mm rangefinder",
+  "year": 1954
+ },
+ {
+  "brandId": "kodak",
+  "name": "Signet 35",
+  "type": "35mm rangefinder",
+  "year": 1951
+ },
+ {
+  "brandId": "kodak",
+  "name": "Medalist",
+  "type": "medium format rangefinder",
+  "year": 1941
+ },
+ {
+  "brandId": "linhof",
+  "name": "Master Technika",
+  "type": "large format"
+ },
+ {
+  "brandId": "linhof",
+  "name": "Technika V",
+  "type": "large format"
+ },
+ {
+  "brandId": "graflex",
+  "name": "Speed Graphic",
+  "type": "large format",
+  "year": 1912
+ },
+ {
+  "brandId": "graflex",
+  "name": "Crown Graphic",
+  "type": "large format",
+  "year": 1947
+ },
+ {
+  "brandId": "argus",
+  "name": "C3",
+  "type": "35mm rangefinder",
+  "year": 1939
+ },
+ {
+  "brandId": "exakta",
+  "name": "Kine-Exakta",
+  "type": "35mm SLR",
+  "year": 1936
+ },
+ {
+  "brandId": "minox",
+  "name": "35 EL",
+  "type": "35mm compact",
+  "year": 1974
+ },
+ {
+  "brandId": "topcon",
+  "name": "Super D",
+  "type": "35mm SLR",
+  "year": 1963
+ },
+ {
+  "brandId": "kyocera",
+  "name": "T Proof",
+  "type": "35mm compact"
+ },
+ {
+  "brandId": "vivitar",
+  "name": "Ultra Wide & Slim",
+  "type": "35mm compact"
+ }
+]

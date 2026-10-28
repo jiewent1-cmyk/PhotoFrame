@@ -1,0 +1,23 @@
+[
+  {
+    "series": "cinestill",
+    "file": "film/cinestill.pdf",
+    "format": "png",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/CineStill_logo_badge.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:CineStill_logo_badge.png"
+  },
+  {
+    "series": "lucky",
+    "file": "film/lucky.pdf",
+    "format": "svg",
+    "sourceUrl": "https://luckyfilm.net/wp-content/uploads/Logo-Classic-2025-White-on-Red-TM.svg",
+    "sourcePage": "https://luckyfilm.net/"
+  },
+  {
+    "series": "fujifilm-instax",
+    "file": "film/fujifilm-instax.pdf",
+    "format": "svg",
+    "sourceUrl": "https://www.instax.com/common2/img/common/logo_02.svg",
+    "sourcePage": "https://www.instax.com/"
+  }
+]

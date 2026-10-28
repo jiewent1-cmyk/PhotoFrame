@@ -1,0 +1,42 @@
+{
+ "format": 1,
+ "version": "2026.10.27",
+ "minAppData": 1,
+ "files": [
+  {
+   "name": "brands.json",
+   "sha256": "0638d89339515c4bc6bf48032c38b2f7a615107afc81dc50f46e285d3685f3ad",
+   "bytes": 26501
+  },
+  {
+   "name": "camera_models.json",
+   "sha256": "685f28401d1acbb07d485d38fc012c785fc05d411bb698d31fb8b2a397adb460",
+   "bytes": 19872
+  },
+  {
+   "name": "phone_models.json",
+   "sha256": "8ee5b5117b83ee0c41795f2858efb6065ddf232ecf2ee5331a4032843a4f6e8c",
+   "bytes": 314369
+  },
+  {
+   "name": "film_cameras.json",
+   "sha256": "9b7a0cf46f9f95df7d6afdf0c9a1743d356b7fb7e8315b8c378a5d9b6766e777",
+   "bytes": 23730
+  },
+  {
+   "name": "film_stocks.json",
+   "sha256": "ae6190bf0438ffdee1f390a1c35a5a3296749dd0e49fc936f28b2a3007da3efa",
+   "bytes": 18748
+  },
+  {
+   "name": "film_logos.json",
+   "sha256": "781fe317b341530d5418f5e9a6aac412880d36cdb96e765a8dec3b4792f4cbf8",
+   "bytes": 722
+  },
+  {
+   "name": "platform_presets.json",
+   "sha256": "594b4d73d8d0c2b97a5259914e067830768bf146cf6b6a34f073959c3296b5ec",
+   "bytes": 2125
+  }
+ ]
+}

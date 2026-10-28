@@ -1,0 +1,1735 @@
+{
+ "sony": [
+  {
+   "name": "α1",
+   "codes": [
+    "ILCE-1"
+   ]
+  },
+  {
+   "name": "α1 II",
+   "codes": [
+    "ILCE-1M2"
+   ]
+  },
+  {
+   "name": "α9",
+   "codes": [
+    "ILCE-9"
+   ]
+  },
+  {
+   "name": "α9 II",
+   "codes": [
+    "ILCE-9M2"
+   ]
+  },
+  {
+   "name": "α9 III",
+   "codes": [
+    "ILCE-9M3"
+   ]
+  },
+  {
+   "name": "α7",
+   "codes": [
+    "ILCE-7"
+   ]
+  },
+  {
+   "name": "α7 II",
+   "codes": [
+    "ILCE-7M2"
+   ]
+  },
+  {
+   "name": "α7 III",
+   "codes": [
+    "ILCE-7M3"
+   ]
+  },
+  {
+   "name": "α7 IV",
+   "codes": [
+    "ILCE-7M4"
+   ]
+  },
+  {
+   "name": "α7 V",
+   "codes": [
+    "ILCE-7M5"
+   ]
+  },
+  {
+   "name": "α7R",
+   "codes": [
+    "ILCE-7R"
+   ]
+  },
+  {
+   "name": "α7R II",
+   "codes": [
+    "ILCE-7RM2"
+   ]
+  },
+  {
+   "name": "α7R III",
+   "codes": [
+    "ILCE-7RM3"
+   ]
+  },
+  {
+   "name": "α7R IIIA",
+   "codes": [
+    "ILCE-7RM3A"
+   ]
+  },
+  {
+   "name": "α7R IV",
+   "codes": [
+    "ILCE-7RM4"
+   ]
+  },
+  {
+   "name": "α7R IVA",
+   "codes": [
+    "ILCE-7RM4A"
+   ]
+  },
+  {
+   "name": "α7R V",
+   "codes": [
+    "ILCE-7RM5"
+   ]
+  },
+  {
+   "name": "α7R VI",
+   "codes": [
+    "ILCE-7RM6"
+   ]
+  },
+  {
+   "name": "α7S",
+   "codes": [
+    "ILCE-7S"
+   ]
+  },
+  {
+   "name": "α7S II",
+   "codes": [
+    "ILCE-7SM2"
+   ]
+  },
+  {
+   "name": "α7S III",
+   "codes": [
+    "ILCE-7SM3"
+   ]
+  },
+  {
+   "name": "α7C",
+   "codes": [
+    "ILCE-7C"
+   ]
+  },
+  {
+   "name": "α7C II",
+   "codes": [
+    "ILCE-7CM2"
+   ]
+  },
+  {
+   "name": "α7CR",
+   "codes": [
+    "ILCE-7CR"
+   ]
+  },
+  {
+   "name": "α6000",
+   "codes": [
+    "ILCE-6000"
+   ]
+  },
+  {
+   "name": "α6100",
+   "codes": [
+    "ILCE-6100"
+   ]
+  },
+  {
+   "name": "α6300",
+   "codes": [
+    "ILCE-6300"
+   ]
+  },
+  {
+   "name": "α6400",
+   "codes": [
+    "ILCE-6400"
+   ]
+  },
+  {
+   "name": "α6500",
+   "codes": [
+    "ILCE-6500"
+   ]
+  },
+  {
+   "name": "α6600",
+   "codes": [
+    "ILCE-6600"
+   ]
+  },
+  {
+   "name": "α6700",
+   "codes": [
+    "ILCE-6700"
+   ]
+  },
+  {
+   "name": "α5000",
+   "codes": [
+    "ILCE-5000"
+   ]
+  },
+  {
+   "name": "α5100",
+   "codes": [
+    "ILCE-5100"
+   ]
+  },
+  {
+   "name": "α3000",
+   "codes": [
+    "ILCE-3000"
+   ]
+  },
+  {
+   "name": "FX2",
+   "codes": [
+    "ILME-FX2"
+   ]
+  },
+  {
+   "name": "FX3",
+   "codes": [
+    "ILME-FX3"
+   ]
+  },
+  {
+   "name": "FX30",
+   "codes": [
+    "ILME-FX30"
+   ]
+  },
+  {
+   "name": "ZV-1",
+   "codes": [
+    "ZV-1"
+   ]
+  },
+  {
+   "name": "ZV-1A",
+   "codes": [
+    "ZV-1A"
+   ]
+  },
+  {
+   "name": "ZV-1F",
+   "codes": [
+    "ZV-1F"
+   ]
+  },
+  {
+   "name": "ZV-1 II",
+   "codes": [
+    "ZV-1M2"
+   ]
+  },
+  {
+   "name": "ZV-E10",
+   "codes": [
+    "ZV-E10"
+   ]
+  },
+  {
+   "name": "ZV-E10 II",
+   "codes": [
+    "ZV-E10M2"
+   ]
+  },
+  {
+   "name": "ZV-E1",
+   "codes": [
+    "ZV-E1"
+   ]
+  },
+  {
+   "name": "RX0",
+   "codes": [
+    "DSC-RX0"
+   ]
+  },
+  {
+   "name": "RX0 II",
+   "codes": [
+    "DSC-RX0M2"
+   ]
+  },
+  {
+   "name": "RX1",
+   "codes": [
+    "DSC-RX1"
+   ]
+  },
+  {
+   "name": "RX1R",
+   "codes": [
+    "DSC-RX1R"
+   ]
+  },
+  {
+   "name": "RX1R II",
+   "codes": [
+    "DSC-RX1RM2"
+   ]
+  },
+  {
+   "name": "RX1R III",
+   "codes": [
+    "DSC-RX1RM3"
+   ]
+  },
+  {
+   "name": "RX10",
+   "codes": [
+    "DSC-RX10"
+   ]
+  },
+  {
+   "name": "RX10 II",
+   "codes": [
+    "DSC-RX10M2"
+   ]
+  },
+  {
+   "name": "RX10 III",
+   "codes": [
+    "DSC-RX10M3"
+   ]
+  },
+  {
+   "name": "RX10 IV",
+   "codes": [
+    "DSC-RX10M4"
+   ]
+  },
+  {
+   "name": "RX100",
+   "codes": [
+    "DSC-RX100"
+   ]
+  },
+  {
+   "name": "RX100 II",
+   "codes": [
+    "DSC-RX100M2"
+   ]
+  },
+  {
+   "name": "RX100 III",
+   "codes": [
+    "DSC-RX100M3"
+   ]
+  },
+  {
+   "name": "RX100 IV",
+   "codes": [
+    "DSC-RX100M4"
+   ]
+  },
+  {
+   "name": "RX100 V",
+   "codes": [
+    "DSC-RX100M5"
+   ]
+  },
+  {
+   "name": "RX100 VA",
+   "codes": [
+    "DSC-RX100M5A"
+   ]
+  },
+  {
+   "name": "RX100 VI",
+   "codes": [
+    "DSC-RX100M6"
+   ]
+  },
+  {
+   "name": "RX100 VII",
+   "codes": [
+    "DSC-RX100M7"
+   ]
+  },
+  {
+   "name": "RX100 VIIA",
+   "codes": [
+    "DSC-RX100M7A"
+   ]
+  }
+ ],
+ "panasonic": [
+  {
+   "name": "LUMIX S1",
+   "codes": [
+    "DC-S1"
+   ]
+  },
+  {
+   "name": "LUMIX S1R",
+   "codes": [
+    "DC-S1R"
+   ]
+  },
+  {
+   "name": "LUMIX S1H",
+   "codes": [
+    "DC-S1H"
+   ]
+  },
+  {
+   "name": "LUMIX S1II",
+   "codes": [
+    "DC-S1M2"
+   ]
+  },
+  {
+   "name": "LUMIX S1RII",
+   "codes": [
+    "DC-S1RM2"
+   ]
+  },
+  {
+   "name": "LUMIX S5",
+   "codes": [
+    "DC-S5"
+   ]
+  },
+  {
+   "name": "LUMIX S5II",
+   "codes": [
+    "DC-S5M2"
+   ]
+  },
+  {
+   "name": "LUMIX S5IIX",
+   "codes": [
+    "DC-S5M2X"
+   ]
+  },
+  {
+   "name": "LUMIX S9",
+   "codes": [
+    "DC-S9"
+   ]
+  },
+  {
+   "name": "LUMIX G9",
+   "codes": [
+    "DC-G9"
+   ]
+  },
+  {
+   "name": "LUMIX G9II",
+   "codes": [
+    "DC-G9M2"
+   ]
+  },
+  {
+   "name": "LUMIX GH4",
+   "codes": [
+    "DMC-GH4"
+   ]
+  },
+  {
+   "name": "LUMIX GH5",
+   "codes": [
+    "DC-GH5"
+   ]
+  },
+  {
+   "name": "LUMIX GH5S",
+   "codes": [
+    "DC-GH5S"
+   ]
+  },
+  {
+   "name": "LUMIX GH5II",
+   "codes": [
+    "DC-GH5M2"
+   ]
+  },
+  {
+   "name": "LUMIX GH6",
+   "codes": [
+    "DC-GH6"
+   ]
+  },
+  {
+   "name": "LUMIX GH7",
+   "codes": [
+    "DC-GH7"
+   ]
+  },
+  {
+   "name": "LUMIX G7",
+   "codes": [
+    "DMC-G7",
+    "DMC-G70"
+   ]
+  },
+  {
+   "name": "LUMIX G85",
+   "codes": [
+    "DMC-G80",
+    "DMC-G81",
+    "DMC-G85"
+   ]
+  },
+  {
+   "name": "LUMIX G95",
+   "codes": [
+    "DC-G90",
+    "DC-G91",
+    "DC-G95",
+    "DC-G95D"
+   ]
+  },
+  {
+   "name": "LUMIX G97",
+   "codes": [
+    "DC-G97"
+   ]
+  },
+  {
+   "name": "LUMIX G100",
+   "codes": [
+    "DC-G100",
+    "DC-G110"
+   ]
+  },
+  {
+   "name": "LUMIX G100D",
+   "codes": [
+    "DC-G100D"
+   ]
+  },
+  {
+   "name": "LUMIX GX7",
+   "codes": [
+    "DMC-GX7"
+   ]
+  },
+  {
+   "name": "LUMIX GX8",
+   "codes": [
+    "DMC-GX8"
+   ]
+  },
+  {
+   "name": "LUMIX GX85",
+   "codes": [
+    "DMC-GX80",
+    "DMC-GX85"
+   ]
+  },
+  {
+   "name": "LUMIX GX9",
+   "codes": [
+    "DC-GX9"
+   ]
+  },
+  {
+   "name": "LUMIX GM1",
+   "codes": [
+    "DMC-GM1"
+   ]
+  },
+  {
+   "name": "LUMIX GM5",
+   "codes": [
+    "DMC-GM5"
+   ]
+  },
+  {
+   "name": "LUMIX GF9",
+   "codes": [
+    "DC-GF9",
+    "DC-GX800",
+    "DC-GX850"
+   ]
+  },
+  {
+   "name": "LUMIX GF10",
+   "codes": [
+    "DC-GF10"
+   ]
+  },
+  {
+   "name": "LUMIX LX100",
+   "codes": [
+    "DMC-LX100"
+   ]
+  },
+  {
+   "name": "LUMIX LX100 II",
+   "codes": [
+    "DC-LX100M2"
+   ]
+  },
+  {
+   "name": "LUMIX FZ1000",
+   "codes": [
+    "DMC-FZ1000"
+   ]
+  },
+  {
+   "name": "LUMIX FZ1000 II",
+   "codes": [
+    "DC-FZ1000M2"
+   ]
+  },
+  {
+   "name": "LUMIX ZS100",
+   "codes": [
+    "DMC-ZS100",
+    "DMC-TZ100"
+   ]
+  },
+  {
+   "name": "LUMIX ZS200",
+   "codes": [
+    "DC-ZS200",
+    "DC-TZ200"
+   ]
+  }
+ ],
+ "olympus": [
+  {
+   "name": "OM-D E-M1",
+   "codes": [
+    "E-M1"
+   ]
+  },
+  {
+   "name": "OM-D E-M1 Mark II",
+   "codes": [
+    "E-M1MarkII"
+   ]
+  },
+  {
+   "name": "OM-D E-M1 Mark III",
+   "codes": [
+    "E-M1MarkIII"
+   ]
+  },
+  {
+   "name": "OM-D E-M1X",
+   "codes": [
+    "E-M1X"
+   ]
+  },
+  {
+   "name": "OM-D E-M5 Mark II",
+   "codes": [
+    "E-M5MarkII"
+   ]
+  },
+  {
+   "name": "OM-D E-M5 Mark III",
+   "codes": [
+    "E-M5MarkIII"
+   ]
+  },
+  {
+   "name": "OM-D E-M10 Mark II",
+   "codes": [
+    "E-M10MarkII"
+   ]
+  },
+  {
+   "name": "OM-D E-M10 Mark III",
+   "codes": [
+    "E-M10MarkIII"
+   ]
+  },
+  {
+   "name": "OM-D E-M10 Mark IIIS",
+   "codes": [
+    "E-M10MarkIIIS"
+   ]
+  },
+  {
+   "name": "OM-D E-M10 Mark IV",
+   "codes": [
+    "E-M10MarkIV"
+   ]
+  },
+  {
+   "name": "PEN-F",
+   "codes": [
+    "PEN-F"
+   ]
+  },
+  {
+   "name": "PEN E-P7",
+   "codes": [
+    "E-P7"
+   ]
+  },
+  {
+   "name": "PEN E-PL9",
+   "codes": [
+    "E-PL9"
+   ]
+  },
+  {
+   "name": "PEN E-PL10",
+   "codes": [
+    "E-PL10"
+   ]
+  }
+ ],
+ "om_system": [
+  {
+   "name": "OM-1",
+   "codes": [
+    "OM-1"
+   ]
+  },
+  {
+   "name": "OM-1 Mark II",
+   "codes": [
+    "OM-1MarkII"
+   ]
+  },
+  {
+   "name": "OM-3",
+   "codes": [
+    "OM-3"
+   ]
+  },
+  {
+   "name": "OM-5",
+   "codes": [
+    "OM-5"
+   ]
+  },
+  {
+   "name": "OM-5 Mark II",
+   "codes": [
+    "OM-5MarkII"
+   ]
+  }
+ ],
+ "dji": [
+  {
+   "name": "Mini 5 Pro",
+   "codes": [
+    "FC9313"
+   ]
+  },
+  {
+   "name": "Mini 4 Pro",
+   "codes": [
+    "FC8482"
+   ]
+  },
+  {
+   "name": "Mini 4K",
+   "codes": [
+    "FC7703"
+   ]
+  },
+  {
+   "name": "Mini 3 Pro",
+   "codes": [
+    "FC3582"
+   ]
+  },
+  {
+   "name": "Mini 3",
+   "codes": [
+    "FC3682"
+   ]
+  },
+  {
+   "name": "Mini 2 SE",
+   "codes": [
+    "FC7503"
+   ]
+  },
+  {
+   "name": "Mini 2",
+   "codes": [
+    "FC7303"
+   ]
+  },
+  {
+   "name": "Mavic Mini / Mini SE",
+   "codes": [
+    "FC7203"
+   ]
+  },
+  {
+   "name": "Air 3S",
+   "codes": [
+    "FC9113",
+    "FC9184"
+   ]
+  },
+  {
+   "name": "Air 3",
+   "codes": [
+    "FC8282",
+    "FC8284"
+   ]
+  },
+  {
+   "name": "Air 2S",
+   "codes": [
+    "FC3411"
+   ]
+  },
+  {
+   "name": "Mavic Air 2",
+   "codes": [
+    "FC3170"
+   ]
+  },
+  {
+   "name": "Mavic Air",
+   "codes": [
+    "FC230",
+    "FC2103"
+   ]
+  },
+  {
+   "name": "Mavic 4 Pro",
+   "codes": [
+    "L3D-100c",
+    "FC9284",
+    "FC9287"
+   ]
+  },
+  {
+   "name": "Mavic 3 Pro",
+   "codes": [
+    "FC4382",
+    "FC4370"
+   ]
+  },
+  {
+   "name": "Mavic 3",
+   "codes": [
+    "L2D-20c",
+    "FC4170"
+   ]
+  },
+  {
+   "name": "Mavic 2 Pro",
+   "codes": [
+    "L1D-20c"
+   ]
+  },
+  {
+   "name": "Mavic 2 Zoom",
+   "codes": [
+    "FC2220"
+   ]
+  },
+  {
+   "name": "Mavic Pro",
+   "codes": [
+    "FC220"
+   ]
+  },
+  {
+   "name": "Avata 2",
+   "codes": [
+    "FC8485"
+   ]
+  },
+  {
+   "name": "Avata",
+   "codes": [
+    "FC8183"
+   ]
+  },
+  {
+   "name": "FPV",
+   "codes": [
+    "FC3305"
+   ]
+  },
+  {
+   "name": "Flip",
+   "codes": [
+    "FC8582"
+   ]
+  },
+  {
+   "name": "Neo",
+   "codes": [
+    "FC8671"
+   ]
+  },
+  {
+   "name": "Spark",
+   "codes": [
+    "FC1102"
+   ]
+  },
+  {
+   "name": "Inspire 3",
+   "codes": [
+    "FC4280"
+   ]
+  },
+  {
+   "name": "Inspire 2",
+   "codes": [
+    "FC6510"
+   ]
+  },
+  {
+   "name": "Inspire 1",
+   "codes": [
+    "FC350"
+   ]
+  },
+  {
+   "name": "Phantom 4 Pro",
+   "codes": [
+    "FC6310"
+   ]
+  },
+  {
+   "name": "Phantom 4",
+   "codes": [
+    "FC330"
+   ]
+  },
+  {
+   "name": "Phantom 3 Professional",
+   "codes": [
+    "FC300X"
+   ]
+  },
+  {
+   "name": "Phantom 3 Advanced",
+   "codes": [
+    "FC300S"
+   ]
+  },
+  {
+   "name": "Phantom 3 Standard",
+   "codes": [
+    "FC300C"
+   ]
+  },
+  {
+   "name": "Osmo Pocket 3",
+   "codes": [
+    "PP-101"
+   ]
+  },
+  {
+   "name": "Osmo Action 5 Pro",
+   "codes": [
+    "AC004"
+   ]
+  },
+  {
+   "name": "Osmo Action 4",
+   "codes": [
+    "AC003"
+   ]
+  },
+  {
+   "name": "Osmo Action 3",
+   "codes": [
+    "AC002"
+   ]
+  },
+  {
+   "name": "Osmo Action 2",
+   "codes": [
+    "MC211"
+   ]
+  },
+  {
+   "name": "Mavic 2 Enterprise",
+   "codes": [
+    "FC2204"
+   ]
+  },
+  {
+   "name": "Mavic 2 Enterprise Dual",
+   "codes": [
+    "FC2403"
+   ]
+  },
+  {
+   "name": "Mavic 2 Enterprise Advanced",
+   "codes": [
+    "MAVIC2-ENTERPRISE-ADVANCED"
+   ]
+  },
+  {
+   "name": "Mavic 3 Enterprise",
+   "codes": [
+    "M3E"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "Mavic 3 Multispectral",
+   "codes": [
+    "M3M"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "Phantom 4 Pro V2.0",
+   "codes": [
+    "FC6310S"
+   ]
+  },
+  {
+   "name": "Phantom 4 RTK",
+   "codes": [
+    "FC6310R"
+   ]
+  },
+  {
+   "name": "Phantom 4 Multispectral",
+   "codes": [
+    "FC6360"
+   ]
+  },
+  {
+   "name": "Phantom 3 4K",
+   "codes": [
+    "FC300XW"
+   ]
+  },
+  {
+   "name": "Phantom 3 SE",
+   "codes": [
+    "FC300SE"
+   ]
+  },
+  {
+   "name": "Phantom 2 Vision",
+   "codes": [
+    "PHANTOM VISION FC200"
+   ]
+  },
+  {
+   "name": "Inspire 1 · Zenmuse X5",
+   "codes": [
+    "FC550"
+   ]
+  },
+  {
+   "name": "Inspire 1 · Zenmuse X5R",
+   "codes": [
+    "FC550RAW"
+   ]
+  },
+  {
+   "name": "Inspire 2 · Zenmuse X5S",
+   "codes": [
+    "FC6520"
+   ]
+  },
+  {
+   "name": "Inspire 2 · Zenmuse X7",
+   "codes": [
+    "FC6540"
+   ]
+  },
+  {
+   "name": "Neo 2",
+   "codes": [
+    "FC9470"
+   ]
+  },
+  {
+   "name": "Avata 360",
+   "codes": [
+    "OQ001E"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "Tello",
+   "codes": [
+    "RZ001"
+   ],
+   "scoped": true
+  }
+ ],
+ "gopro": [
+  {
+   "name": "HERO13 Black",
+   "codes": [
+    "HERO13 Black"
+   ]
+  },
+  {
+   "name": "HERO12 Black",
+   "codes": [
+    "HERO12 Black"
+   ]
+  },
+  {
+   "name": "HERO11 Black",
+   "codes": [
+    "HERO11 Black"
+   ]
+  },
+  {
+   "name": "HERO10 Black",
+   "codes": [
+    "HERO10 Black"
+   ]
+  },
+  {
+   "name": "HERO9 Black",
+   "codes": [
+    "HERO9 Black"
+   ]
+  },
+  {
+   "name": "HERO8 Black",
+   "codes": [
+    "HERO8 Black"
+   ]
+  },
+  {
+   "name": "HERO7 Black",
+   "codes": [
+    "HERO7 Black"
+   ]
+  },
+  {
+   "name": "HERO6 Black",
+   "codes": [
+    "HERO6 Black"
+   ]
+  },
+  {
+   "name": "HERO5 Black",
+   "codes": [
+    "HERO5 Black"
+   ]
+  },
+  {
+   "name": "MAX",
+   "codes": [
+    "GoPro Max"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "Fusion",
+   "codes": [],
+   "prefixes": [
+    "GoPro Fusion"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HERO7 White",
+   "codes": [
+    "HERO7 White"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HERO5 Session",
+   "codes": [
+    "HERO5 Session"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HERO4 Black",
+   "codes": [
+    "HERO4 Black"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HERO4 Silver",
+   "codes": [
+    "HERO4 Silver"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HERO3+ Black Edition",
+   "codes": [
+    "HERO3+ Black Edition"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HERO3+ Silver Edition",
+   "codes": [
+    "HERO3+ Silver Edition"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HERO3 Black Edition",
+   "codes": [
+    "Hero3-Black Edition"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HERO3 Silver Edition",
+   "codes": [
+    "Hero3-Silver Edition"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "HD HERO2",
+   "codes": [
+    "HD2",
+    "HD2 U"
+   ],
+   "scoped": true
+  }
+ ],
+ "insta360": [
+  {
+   "name": "X4",
+   "codes": [
+    "Insta360 X4"
+   ]
+  },
+  {
+   "name": "ONE X",
+   "codes": [
+    "Insta360 ONE X"
+   ]
+  },
+  {
+   "name": "ONE X2",
+   "codes": [
+    "Insta360 ONE X2"
+   ]
+  },
+  {
+   "name": "X3",
+   "codes": [
+    "Insta360 X3"
+   ]
+  },
+  {
+   "name": "X5",
+   "codes": [
+    "Insta360 X5"
+   ]
+  },
+  {
+   "name": "ONE R",
+   "codes": [
+    "Insta360 OneR"
+   ]
+  },
+  {
+   "name": "ONE RS",
+   "codes": [
+    "Insta360 OneRS"
+   ]
+  },
+  {
+   "name": "GO 2",
+   "codes": [
+    "Insta360 GO 2"
+   ]
+  },
+  {
+   "name": "Pro 2",
+   "codes": [
+    "Insta360 Pro2"
+   ]
+  },
+  {
+   "name": "Ace Pro",
+   "codes": [
+    "Insta360 Ace Pro"
+   ]
+  },
+  {
+   "name": "Ace Pro 2",
+   "codes": [
+    "Insta360 Ace Pro 2"
+   ]
+  }
+ ],
+ "pentax": [
+  {
+   "name": "K-3 Mark III",
+   "codes": [
+    "PENTAX K-3 Mark III"
+   ]
+  },
+  {
+   "name": "K-3 Mark III Monochrome",
+   "codes": [
+    "PENTAX K-3 Mark III Monochrome"
+   ]
+  },
+  {
+   "name": "K-3 Mark II",
+   "codes": [
+    "PENTAX K-3 Mark II"
+   ]
+  },
+  {
+   "name": "K-3",
+   "codes": [
+    "PENTAX K-3"
+   ]
+  },
+  {
+   "name": "K-1 Mark II",
+   "codes": [
+    "PENTAX K-1 Mark II"
+   ]
+  },
+  {
+   "name": "K-1",
+   "codes": [
+    "PENTAX K-1"
+   ]
+  },
+  {
+   "name": "KP",
+   "codes": [
+    "PENTAX KP"
+   ]
+  },
+  {
+   "name": "K-70",
+   "codes": [
+    "PENTAX K-70"
+   ]
+  },
+  {
+   "name": "K-S2",
+   "codes": [
+    "PENTAX K-S2"
+   ]
+  },
+  {
+   "name": "K-S1",
+   "codes": [
+    "PENTAX K-S1"
+   ]
+  },
+  {
+   "name": "K-5 II",
+   "codes": [
+    "PENTAX K-5 II"
+   ]
+  },
+  {
+   "name": "645Z",
+   "codes": [
+    "PENTAX 645Z"
+   ]
+  }
+ ],
+ "ricoh": [
+  {
+   "name": "GR III",
+   "codes": [
+    "RICOH GR III"
+   ]
+  },
+  {
+   "name": "GR IIIx",
+   "codes": [
+    "RICOH GR IIIx"
+   ]
+  },
+  {
+   "name": "GR IV",
+   "codes": [
+    "RICOH GR IV"
+   ]
+  },
+  {
+   "name": "GR IV Monochrome",
+   "codes": [
+    "RICOH GR IV Monochrome"
+   ]
+  },
+  {
+   "name": "THETA S",
+   "codes": [
+    "RICOH THETA S"
+   ]
+  },
+  {
+   "name": "THETA V",
+   "codes": [
+    "RICOH THETA V"
+   ]
+  },
+  {
+   "name": "THETA SC2",
+   "codes": [
+    "RICOH THETA SC2"
+   ]
+  },
+  {
+   "name": "THETA Z1",
+   "codes": [
+    "RICOH THETA Z1"
+   ]
+  },
+  {
+   "name": "THETA X",
+   "codes": [
+    "RICOH THETA X"
+   ]
+  }
+ ],
+ "leica": [
+  {
+   "name": "Q3",
+   "codes": [
+    "LEICA Q3"
+   ]
+  },
+  {
+   "name": "M11",
+   "codes": [
+    "LEICA M11"
+   ]
+  }
+ ],
+ "hasselblad": [
+  {
+   "name": "X2D 100C",
+   "codes": [
+    "X2D 100C"
+   ]
+  }
+ ],
+ "nikon": [
+  {
+   "name": "Z 6II",
+   "codes": [
+    "NIKON Z 6_2"
+   ]
+  },
+  {
+   "name": "Z 7II",
+   "codes": [
+    "NIKON Z 7_2"
+   ]
+  }
+ ],
+ "autel": [
+  {
+   "name": "X-Star Premium",
+   "codes": [
+    "XB004"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "EVO",
+   "codes": [
+    "XB015"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "EVO II",
+   "codes": [
+    "XT701"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "EVO II Pro",
+   "codes": [
+    "XT705"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "EVO II Dual 640T V3",
+   "codes": [
+    "XT709",
+    "XL709"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "EVO Lite+",
+   "codes": [
+    "XL720"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "EVO Nano+",
+   "codes": [
+    "XL724"
+   ],
+   "scoped": true
+  }
+ ],
+ "parrot": [
+  {
+   "name": "Bebop",
+   "codes": [
+    "Bebop Drone"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "Bebop 2",
+   "codes": [
+    "Bebop 2"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "ANAFI",
+   "codes": [
+    "Anafi"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "ANAFI Thermal",
+   "codes": [
+    "AnafiThermal"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "ANAFI USA",
+   "codes": [
+    "AnafiUSA"
+   ],
+   "scoped": true
+  }
+ ],
+ "skydio": [
+  {
+   "name": "2",
+   "codes": [
+    "2"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "2+",
+   "codes": [
+    "2+"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "X2",
+   "codes": [
+    "X2 Narrow"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "X10",
+   "codes": [],
+   "prefixes": [
+    "VT300-"
+   ],
+   "scoped": true
+  }
+ ],
+ "potensic": [
+  {
+   "name": "ATOM",
+   "codes": [
+    "Atom"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "ATOM SE",
+   "codes": [
+    "Atom SE"
+   ],
+   "scoped": true
+  }
+ ],
+ "fimi": [
+  {
+   "name": "X8 SE",
+   "codes": [
+    "X8SE",
+    "X8SE 2020"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "X8 Mini",
+   "codes": [
+    "X8 Mini"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "PALM",
+   "codes": [
+    "YTXJ03FM"
+   ],
+   "scoped": true
+  }
+ ],
+ "yuneec": [
+  {
+   "name": "Typhoon H",
+   "codes": [],
+   "prefixes": [
+    "CGO3+",
+    "CGO3P"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "Q500 4K",
+   "codes": [],
+   "prefixes": [
+    "CGO3"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "Q500+",
+   "codes": [],
+   "prefixes": [
+    "CGO2gb"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "Breeze",
+   "codes": [
+    "Breeze"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "E90",
+   "codes": [
+    "E90"
+   ],
+   "scoped": true
+  }
+ ],
+ "sjcam": [
+  {
+   "name": "SJ4000",
+   "codes": [
+    "SJ4000"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "SJ5000 WiFi",
+   "codes": [
+    "SJ5000WIFI"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "SJ5000X Elite",
+   "codes": [
+    "SJ5000X",
+    "5000X Elite"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "SJ6 Legend",
+   "codes": [
+    "SJ6 LEGEND"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "M20",
+   "codes": [
+    "M20"
+   ],
+   "scoped": true
+  }
+ ],
+ "akaso": [
+  {
+   "name": "V50 Elite",
+   "codes": [
+    "V50 Elite"
+   ],
+   "scoped": true
+  }
+ ],
+ "yi": [
+  {
+   "name": "Action Camera",
+   "codes": [
+    "YDXJ 1"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "4K+",
+   "codes": [
+    "YIAC 3"
+   ],
+   "scoped": true
+  }
+ ],
+ "garmin": [
+  {
+   "name": "VIRB",
+   "codes": [
+    "VIRB"
+   ],
+   "scoped": true
+  },
+  {
+   "name": "VIRB 360",
+   "codes": [
+    "VIRB 360",
+    "VIRB360"
+   ],
+   "scoped": true
+  }
+ ]
+}

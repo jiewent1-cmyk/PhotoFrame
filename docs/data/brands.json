@@ -1,0 +1,1327 @@
+[
+ {
+  "id": "canon",
+  "displayName": "Canon",
+  "kinds": [
+   "camera",
+   "lens",
+   "film_camera"
+  ],
+  "exifMake": [
+   "canon"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Canon_wordmark.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Canon_wordmark.svg",
+   "variant": "wordmark",
+   "color": "#CC0000",
+   "file": "canon.pdf"
+  }
+ },
+ {
+  "id": "nikon",
+  "displayName": "Nikon",
+  "kinds": [
+   "camera",
+   "lens",
+   "film_camera"
+  ],
+  "exifMake": [
+   "nikon corporation",
+   "nikon"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Nikon_Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nikon_Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "nikon.pdf"
+  }
+ },
+ {
+  "id": "sony",
+  "displayName": "SONY",
+  "kinds": [
+   "camera",
+   "lens"
+  ],
+  "exifMake": [
+   "sony"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Sony_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "sony.pdf"
+  }
+ },
+ {
+  "id": "fujifilm",
+  "displayName": "FUJIFILM",
+  "kinds": [
+   "camera",
+   "lens",
+   "film_camera"
+  ],
+  "exifMake": [
+   "fujifilm"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Fujifilm_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Fujifilm_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "fujifilm.pdf"
+  }
+ },
+ {
+  "id": "leica",
+  "displayName": "LEICA",
+  "kinds": [
+   "camera",
+   "lens",
+   "film_camera"
+  ],
+  "exifMake": [
+   "leica camera ag",
+   "leica"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Leica_Camera_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Leica_Camera_logo.svg",
+   "variant": "symbol",
+   "color": "#E2001A",
+   "file": "leica.pdf"
+  }
+ },
+ {
+  "id": "hasselblad",
+  "displayName": "Hasselblad",
+  "kinds": [
+   "camera",
+   "film_camera"
+  ],
+  "exifMake": [
+   "hasselblad"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Hasselblad_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Hasselblad_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "hasselblad.pdf"
+  }
+ },
+ {
+  "id": "panasonic",
+  "displayName": "LUMIX",
+  "kinds": [
+   "camera",
+   "lens"
+  ],
+  "exifMake": [
+   "panasonic",
+   "lumix"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Lumix_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lumix_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "panasonic.pdf"
+  }
+ },
+ {
+  "id": "om_system",
+  "displayName": "OM SYSTEM",
+  "kinds": [
+   "camera",
+   "lens"
+  ],
+  "exifMake": [
+   "om digital solutions",
+   "om system"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:OMDS_OM-System-Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/OMDS_OM-System-Logo.svg",
+   "variant": "symbol",
+   "color": "#000000",
+   "file": "om_system.pdf"
+  }
+ },
+ {
+  "id": "olympus",
+  "displayName": "OLYMPUS",
+  "kinds": [
+   "camera",
+   "lens",
+   "film_camera"
+  ],
+  "exifMake": [
+   "olympus corporation",
+   "olympus"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Olympus_Corporation_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Olympus_Corporation_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "olympus.pdf"
+  }
+ },
+ {
+  "id": "pentax",
+  "displayName": "PENTAX",
+  "kinds": [
+   "camera",
+   "lens",
+   "film_camera"
+  ],
+  "exifMake": [
+   "pentax"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Pentax_Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pentax_Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "pentax.pdf"
+  }
+ },
+ {
+  "id": "ricoh",
+  "displayName": "RICOH",
+  "kinds": [
+   "camera",
+   "film_camera"
+  ],
+  "exifMake": [
+   "ricoh"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Ricoh_logo_2005.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ricoh_logo_2005.svg",
+   "variant": "wordmark",
+   "color": "#E60012",
+   "file": "ricoh.pdf"
+  }
+ },
+ {
+  "id": "sigma",
+  "displayName": "SIGMA",
+  "kinds": [
+   "camera",
+   "lens"
+  ],
+  "exifMake": [
+   "sigma"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Sigma's_new_updated_logo_revealed,_February_2025.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sigma%27s_new_updated_logo_revealed%2C_February_2025.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "sigma.pdf"
+  }
+ },
+ {
+  "id": "tamron",
+  "displayName": "TAMRON",
+  "kinds": [
+   "lens"
+  ],
+  "exifMake": [
+   "tamron"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Tamron_wordmark.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Tamron_wordmark.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "tamron.pdf"
+  }
+ },
+ {
+  "id": "zeiss",
+  "displayName": "ZEISS",
+  "kinds": [
+   "lens"
+  ],
+  "exifMake": [
+   "zeiss",
+   "carl zeiss ag"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Zeiss_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Zeiss_logo.svg",
+   "variant": "symbol",
+   "color": "#002F6C",
+   "file": "zeiss.pdf"
+  }
+ },
+ {
+  "id": "phase_one",
+  "displayName": "Phase One",
+  "kinds": [
+   "camera"
+  ],
+  "exifMake": [
+   "phase one",
+   "phase one a/s"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Phase_One_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Phase_One_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "phase_one.pdf"
+  }
+ },
+ {
+  "id": "dji",
+  "displayName": "DJI",
+  "kinds": [
+   "drone",
+   "action_cam"
+  ],
+  "exifMake": [
+   "dji"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:DJI_Innovations_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/DJI_Innovations_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "dji.pdf"
+  }
+ },
+ {
+  "id": "gopro",
+  "displayName": "GoPro",
+  "kinds": [
+   "action_cam"
+  ],
+  "exifMake": [
+   "gopro"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:GoPro_logo_light.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/GoPro_logo_light.svg",
+   "variant": "wordmark",
+   "color": "#FFFFFF",
+   "file": "gopro.pdf"
+  }
+ },
+ {
+  "id": "insta360",
+  "displayName": "Insta360",
+  "kinds": [
+   "action_cam"
+  ],
+  "exifMake": [
+   "insta360",
+   "arashi vision"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Insta360_logo_(transparent).svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Insta360_logo_%28transparent%29.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "insta360.pdf"
+  }
+ },
+ {
+  "id": "kodak",
+  "displayName": "Kodak",
+  "kinds": [
+   "camera",
+   "film_stock",
+   "film_camera"
+  ],
+  "exifMake": [
+   "eastman kodak company",
+   "kodak"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Eastman_Kodak_Company_logo_(2016).svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Eastman_Kodak_Company_logo_%282016%29.svg",
+   "variant": "combined",
+   "color": "#E4002B",
+   "file": "kodak.pdf"
+  }
+ },
+ {
+  "id": "samyang",
+  "displayName": "Samyang",
+  "kinds": [
+   "lens"
+  ],
+  "exifMake": [
+   "samyang"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Samyang_Corporation_2024.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Samyang_Corporation_2024.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "samyang.pdf"
+  }
+ },
+ {
+  "id": "viltrox",
+  "displayName": "Viltrox",
+  "kinds": [
+   "lens"
+  ],
+  "exifMake": [
+   "viltrox"
+  ],
+  "logo": null
+ },
+ {
+  "id": "voigtlaender",
+  "displayName": "Voigtländer",
+  "kinds": [
+   "lens",
+   "film_camera"
+  ],
+  "exifMake": [
+   "voigtländer",
+   "voigtlaender"
+  ],
+  "logo": null
+ },
+ {
+  "id": "apple",
+  "displayName": "Apple",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "apple"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+   "variant": "symbol",
+   "color": "#000000",
+   "file": "apple.pdf"
+  }
+ },
+ {
+  "id": "samsung",
+  "displayName": "Samsung",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "samsung"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Samsung_wordmark.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Samsung_wordmark.svg",
+   "variant": "wordmark",
+   "color": "#1428A0",
+   "file": "samsung.pdf"
+  }
+ },
+ {
+  "id": "google",
+  "displayName": "Google",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "google"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Pixel_wordmark.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Pixel_wordmark.svg",
+   "variant": "wordmark",
+   "color": "#4285F4",
+   "file": "google.pdf"
+  }
+ },
+ {
+  "id": "xiaomi",
+  "displayName": "Xiaomi",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "xiaomi"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Xiaomi_logo_horizontal_(2021-).svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Xiaomi_logo_horizontal_%282021-%29.svg",
+   "variant": "combined",
+   "color": "#FF6900",
+   "file": "xiaomi.pdf"
+  }
+ },
+ {
+  "id": "redmi",
+  "displayName": "REDMI",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:REDMI_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/REDMI_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "redmi.pdf"
+  }
+ },
+ {
+  "id": "poco",
+  "displayName": "POCO",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:POCO_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/POCO_logo.svg",
+   "variant": "wordmark",
+   "color": "#FFDD00",
+   "file": "poco.pdf"
+  }
+ },
+ {
+  "id": "huawei",
+  "displayName": "HUAWEI",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "huawei"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Huawei_wordmark_2019.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Huawei_wordmark_2019.svg",
+   "variant": "wordmark",
+   "color": "#CF0A2C",
+   "file": "huawei.pdf"
+  }
+ },
+ {
+  "id": "honor",
+  "displayName": "HONOR",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "honor"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Honor_Logo_(2020).svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Honor_Logo_%282020%29.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "honor.pdf"
+  }
+ },
+ {
+  "id": "oppo",
+  "displayName": "OPPO",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "oppo"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:OPPO_LOGO_2019.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/OPPO_LOGO_2019.svg",
+   "variant": "wordmark",
+   "color": "#00A651",
+   "file": "oppo.pdf"
+  }
+ },
+ {
+  "id": "oneplus",
+  "displayName": "OnePlus",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "oneplus"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:OP_LU_Reg_1L_RGB_red_copy-01.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/OP_LU_Reg_1L_RGB_red_copy-01.svg",
+   "variant": "wordmark",
+   "color": "#EB0028",
+   "file": "oneplus.pdf"
+  }
+ },
+ {
+  "id": "realme",
+  "displayName": "realme",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "realme"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Realme_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Realme_logo.svg",
+   "variant": "wordmark",
+   "color": "#FFC915",
+   "file": "realme.pdf"
+  }
+ },
+ {
+  "id": "vivo",
+  "displayName": "vivo",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "vivo"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Vivo_(China)_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Vivo_%28China%29_logo.svg",
+   "variant": "wordmark",
+   "color": "#415FFF",
+   "file": "vivo.pdf"
+  }
+ },
+ {
+  "id": "iqoo",
+  "displayName": "iQOO",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Iqoo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Iqoo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "iqoo.pdf"
+  }
+ },
+ {
+  "id": "nothing",
+  "displayName": "Nothing",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "nothing"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Nothing.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Nothing.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "nothing.pdf"
+  }
+ },
+ {
+  "id": "motorola",
+  "displayName": "motorola",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "motorola"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Motorola_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Motorola_logo.svg",
+   "variant": "symbol",
+   "color": "#000000",
+   "file": "motorola.pdf"
+  }
+ },
+ {
+  "id": "nokia",
+  "displayName": "Nokia",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "hmd global"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Nokia_-_2005_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Nokia_-_2005_logo.svg",
+   "variant": "wordmark",
+   "color": "#124191",
+   "file": "nokia.pdf"
+  }
+ },
+ {
+  "id": "asus",
+  "displayName": "ASUS",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "asus"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:ASUS_Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "asus.pdf"
+  }
+ },
+ {
+  "id": "zte",
+  "displayName": "ZTE",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "zte"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:ZTE-logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/ZTE-logo.svg",
+   "variant": "wordmark",
+   "color": "#00A9E0",
+   "file": "zte.pdf"
+  }
+ },
+ {
+  "id": "nubia",
+  "displayName": "nubia",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "nubia"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Nubia_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Nubia_logo.svg",
+   "variant": "wordmark",
+   "color": "#E60012",
+   "file": "nubia.pdf"
+  }
+ },
+ {
+  "id": "meizu",
+  "displayName": "MEIZU",
+  "kinds": [
+   "phone"
+  ],
+  "exifMake": [
+   "meizu"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Meizu.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Meizu.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "meizu.pdf"
+  }
+ },
+ {
+  "id": "contax",
+  "displayName": "Contax",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [
+   "contax"
+  ],
+  "logo": null
+ },
+ {
+  "id": "minolta",
+  "displayName": "MINOLTA",
+  "kinds": [
+   "camera",
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [
+   "minolta",
+   "konica minolta"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Minolta_Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Minolta_Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "minolta.pdf"
+  }
+ },
+ {
+  "id": "konica",
+  "displayName": "Konica",
+  "kinds": [
+   "camera",
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [
+   "konica"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Konica_Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Konica_Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "konica.pdf"
+  }
+ },
+ {
+  "id": "yashica",
+  "displayName": "YASHICA",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:YASHICA_LOGO.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/YASHICA_LOGO.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "yashica.pdf"
+  }
+ },
+ {
+  "id": "rollei",
+  "displayName": "ROLLEI",
+  "kinds": [
+   "film_camera",
+   "film_stock",
+   "lens"
+  ],
+  "exifMake": [
+   "rollei"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Rollei-Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Rollei-Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "rollei.pdf"
+  }
+ },
+ {
+  "id": "mamiya",
+  "displayName": "MAMIYA",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [
+   "mamiya"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Mamiya_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Mamiya_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "mamiya.pdf"
+  }
+ },
+ {
+  "id": "bronica",
+  "displayName": "BRONICA",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "linhof",
+  "displayName": "Linhof",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Linhof_Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Linhof_Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "linhof.pdf"
+  }
+ },
+ {
+  "id": "holga",
+  "displayName": "HOLGA",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "lomography",
+  "displayName": "Lomography",
+  "kinds": [
+   "film_camera",
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "polaroid",
+  "displayName": "Polaroid",
+  "kinds": [
+   "film_camera",
+   "film_stock",
+   "camera"
+  ],
+  "exifMake": [
+   "polaroid"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Polaroid_Logo_2020.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Polaroid_Logo_2020.svg",
+   "variant": "combined",
+   "color": "#000000",
+   "file": "polaroid.pdf"
+  }
+ },
+ {
+  "id": "zenit",
+  "displayName": "Zenit",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "praktica",
+  "displayName": "praktica",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Praktica-Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Praktica-Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "praktica.pdf"
+  }
+ },
+ {
+  "id": "chinon",
+  "displayName": "Chinon",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Chinon_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chinon_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "chinon.pdf"
+  }
+ },
+ {
+  "id": "cosina",
+  "displayName": "Cosina",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Cosina_logo_2.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cosina_logo_2.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "cosina.pdf"
+  }
+ },
+ {
+  "id": "topcon",
+  "displayName": "TOPCON",
+  "kinds": [
+   "film_camera",
+   "lens"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Topcon_company_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Topcon_company_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "topcon.pdf"
+  }
+ },
+ {
+  "id": "miranda",
+  "displayName": "Miranda",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "ilford",
+  "displayName": "Ilford",
+  "kinds": [
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Ilford_logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ilford_logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "ilford.pdf"
+  }
+ },
+ {
+  "id": "harman",
+  "displayName": "HARMAN",
+  "kinds": [
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "cinestill",
+  "displayName": "CineStill",
+  "kinds": [
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "agfaphoto",
+  "displayName": "AgfaPhoto",
+  "kinds": [
+   "film_stock",
+   "film_camera",
+   "camera"
+  ],
+  "exifMake": [
+   "agfa"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:AGFA_Photo_Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/AGFA_Photo_Logo.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "agfaphoto.pdf"
+  }
+ },
+ {
+  "id": "foma",
+  "displayName": "FOMA",
+  "kinds": [
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "kentmere",
+  "displayName": "Kentmere",
+  "kinds": [
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "adox",
+  "displayName": "ADOX",
+  "kinds": [
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "lucky",
+  "displayName": "Lucky Film",
+  "kinds": [
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "shanghai_gp3",
+  "displayName": "Shanghai GP3",
+  "kinds": [
+   "film_stock"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "argus",
+  "displayName": "Argus",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "exakta",
+  "displayName": "Exakta",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "fed",
+  "displayName": "FED",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "graflex",
+  "displayName": "Graflex",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "kiev",
+  "displayName": "Kiev",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "kyocera",
+  "displayName": "Kyocera",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "lomo",
+  "displayName": "LOMO",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "minox",
+  "displayName": "Minox",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "seagull",
+  "displayName": "Seagull",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "vivitar",
+  "displayName": "Vivitar",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "zorki",
+  "displayName": "Zorki",
+  "kinds": [
+   "film_camera"
+  ],
+  "exifMake": [],
+  "logo": null
+ },
+ {
+  "id": "autel",
+  "displayName": "Autel Robotics",
+  "kinds": [
+   "drone"
+  ],
+  "exifMake": [
+   "autel"
+  ],
+  "logo": {
+   "commonsPage": "https://en.wikipedia.org/wiki/File:Autel_Robotics_Logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Autel_Robotics_Logo.svg",
+   "variant": "wordmark",
+   "color": "#E1251B",
+   "file": "autel.pdf"
+  }
+ },
+ {
+  "id": "parrot",
+  "displayName": "Parrot",
+  "kinds": [
+   "drone"
+  ],
+  "exifMake": [
+   "parrot"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Parrot-logo.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Parrot-logo.svg",
+   "variant": "wordmark",
+   "color": "#030303",
+   "file": "parrot.pdf"
+  }
+ },
+ {
+  "id": "skydio",
+  "displayName": "Skydio",
+  "kinds": [
+   "drone"
+  ],
+  "exifMake": [
+   "skydio"
+  ],
+  "logo": {
+   "sourceUrl": "https://www.skydio.com/",
+   "variant": "combined",
+   "color": "#000000",
+   "file": "skydio.pdf"
+  }
+ },
+ {
+  "id": "potensic",
+  "displayName": "Potensic",
+  "kinds": [
+   "drone"
+  ],
+  "exifMake": [
+   "potensic"
+  ],
+  "logo": {
+   "sourceUrl": "https://www.potensic.com/",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "potensic.pdf"
+  }
+ },
+ {
+  "id": "fimi",
+  "displayName": "FIMI",
+  "kinds": [
+   "drone"
+  ],
+  "exifMake": [
+   "fimi"
+  ],
+  "logo": {
+   "sourceUrl": "https://www.fimi.com/static/images/FIMI.svg",
+   "variant": "wordmark",
+   "color": "#C4181F",
+   "file": "fimi.pdf"
+  }
+ },
+ {
+  "id": "yuneec",
+  "displayName": "Yuneec",
+  "kinds": [
+   "drone"
+  ],
+  "exifMake": [
+   "yuneec"
+  ],
+  "logo": {
+   "sourceUrl": "https://yuneec.com/wp-content/uploads/2023/11/yuneec-white.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "yuneec.pdf"
+  }
+ },
+ {
+  "id": "sjcam",
+  "displayName": "SJCAM",
+  "kinds": [
+   "action_cam"
+  ],
+  "exifMake": [
+   "sjcam"
+  ],
+  "logo": {
+   "sourceUrl": "https://www.sjcam.com/",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "sjcam.pdf"
+  }
+ },
+ {
+  "id": "akaso",
+  "displayName": "AKASO",
+  "kinds": [
+   "action_cam"
+  ],
+  "exifMake": [
+   "akaso"
+  ]
+ },
+ {
+  "id": "yi",
+  "displayName": "YI",
+  "kinds": [
+   "action_cam"
+  ],
+  "exifMake": [
+   "xiaoyi"
+  ]
+ },
+ {
+  "id": "garmin",
+  "displayName": "Garmin",
+  "kinds": [
+   "action_cam"
+  ],
+  "exifMake": [
+   "garmin"
+  ],
+  "logo": {
+   "commonsPage": "https://commons.wikimedia.org/wiki/File:Garmin_logo_2006.svg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Garmin_logo_2006.svg",
+   "variant": "wordmark",
+   "color": "#000000",
+   "file": "garmin.pdf"
+  }
+ }
+]

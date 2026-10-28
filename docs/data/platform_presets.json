@@ -1,0 +1,98 @@
+[
+ {
+  "id": "instagram-portrait",
+  "name": {
+   "en": "Instagram Portrait 4:5",
+   "zh-Hans": "Instagram 竖版 4:5"
+  },
+  "ratioW": 4,
+  "ratioH": 5,
+  "canvasWidth": 1080,
+  "canvasHeight": 1350,
+  "note": {
+   "en": "Recommended size; platforms change their limits",
+   "zh-Hans": "推荐尺寸；平台上限可能变化"
+  },
+  "updated": "2026-10-26"
+ },
+ {
+  "id": "instagram-square",
+  "name": {
+   "en": "Instagram Square 1:1",
+   "zh-Hans": "Instagram 方形 1:1"
+  },
+  "ratioW": 1,
+  "ratioH": 1,
+  "canvasWidth": 1080,
+  "canvasHeight": 1080,
+  "note": {
+   "en": "Recommended size; platforms change their limits",
+   "zh-Hans": "推荐尺寸；平台上限可能变化"
+  },
+  "updated": "2026-10-26"
+ },
+ {
+  "id": "instagram-story",
+  "name": {
+   "en": "Instagram Story 9:16",
+   "zh-Hans": "Instagram 快拍 9:16"
+  },
+  "ratioW": 9,
+  "ratioH": 16,
+  "canvasWidth": 1080,
+  "canvasHeight": 1920,
+  "note": {
+   "en": "Recommended size; platforms change their limits",
+   "zh-Hans": "推荐尺寸；平台上限可能变化"
+  },
+  "updated": "2026-10-26"
+ },
+ {
+  "id": "xiaohongshu",
+  "name": {
+   "en": "Xiaohongshu (RED) 3:4",
+   "zh-Hans": "小红书 3:4"
+  },
+  "ratioW": 3,
+  "ratioH": 4,
+  "canvasWidth": 1080,
+  "canvasHeight": 1440,
+  "note": {
+   "en": "Recommended size; platforms change their limits",
+   "zh-Hans": "推荐尺寸；平台上限可能变化"
+  },
+  "updated": "2026-10-26"
+ },
+ {
+  "id": "weibo-square",
+  "name": {
+   "en": "Weibo Square 1:1",
+   "zh-Hans": "微博方形 1:1"
+  },
+  "ratioW": 1,
+  "ratioH": 1,
+  "canvasWidth": 1080,
+  "canvasHeight": 1080,
+  "note": {
+   "en": "Recommended size; platforms change their limits",
+   "zh-Hans": "推荐尺寸；平台上限可能变化"
+  },
+  "updated": "2026-10-26"
+ },
+ {
+  "id": "weibo-portrait",
+  "name": {
+   "en": "Weibo Portrait 4:5",
+   "zh-Hans": "微博竖版 4:5"
+  },
+  "ratioW": 4,
+  "ratioH": 5,
+  "canvasWidth": 1080,
+  "canvasHeight": 1350,
+  "note": {
+   "en": "Recommended size; platforms change their limits",
+   "zh-Hans": "推荐尺寸；平台上限可能变化"
+  },
+  "updated": "2026-10-26"
+ }
+]
