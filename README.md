@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.0/PhotoFrame-1.4.0.dmg"><b>⬇️ 下载 macOS 版（约 3.8 MB）</b></a>
+  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.1/PhotoFrame-1.4.1.dmg"><b>⬇️ 下载 macOS 版（约 3.8 MB）</b></a>
   &nbsp;·&nbsp;
   <a href="https://jiewent1-cmyk.github.io/PhotoFrame/">🌐 产品主页 / 在线试用</a>
 </p>
@@ -39,6 +39,11 @@
 <p align="center">
   <img src="docs/assets/shot-light-ratio.jpg" alt="4:5 画布比例，自动主色调边框" width="900">
 </p>
+
+## 1.4.1
+
+- **App 内更新**：启动时检查官网新版本，一键下载、校验签名并自动替换重启（App 菜单「检查更新…」，可关闭）；从 1.4.0 及更早版本需手动下载这一次
+- 修复：导入的个人水印图片无法添加到相框
 
 ## 1.4 新增
 
@@ -75,7 +80,7 @@
 
 ## 安装
 
-1. [下载 PhotoFrame-1.4.0.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.0/PhotoFrame-1.4.0.dmg)，打开后把「Encadré」拖到「Applications（应用程序）」文件夹。
+1. [下载 PhotoFrame-1.4.1.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.1/PhotoFrame-1.4.1.dmg)，打开后把「Encadré」拖到「Applications（应用程序）」文件夹。
 2. 第一次打开时，macOS 可能会提示「无法验证开发者」。这是因为本 App 没有付费的 Apple 开发者签名，并不是病毒。任选一种方法放行：
    - 打开「系统设置 → 隐私与安全性」，滚到页面底部，点「仍要打开」；
    - 或者在「终端」里运行下面这行命令，然后再打开 App：
@@ -83,7 +88,7 @@
      xattr -dr com.apple.quarantine "/Applications/Encadré.app"
      ```
 
-系统要求：macOS 13 Ventura 或更新版本，Apple 芯片和 Intel 芯片都支持。所有处理都在本地完成，App 不联网。
+系统要求：macOS 13 Ventura 或更新版本，Apple 芯片和 Intel 芯片都支持。所有处理都在本地完成，照片不会上传；App 只下载公开的机型库与版本信息（可在 App 菜单关闭）。
 
 ---
 

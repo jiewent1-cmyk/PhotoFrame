@@ -1,0 +1,13 @@
+{
+  "bytes" : 3985579,
+  "format" : 1,
+  "minimumSystemVersion" : "13.0",
+  "notes" : {
+    "en" : "• Fixed: imported watermark images couldn't be added to the frame (click an image in the watermark library to add it; newly imported images are added automatically)\n• New: in-app updates — get notified of new versions and install them with one click (App menu › Check for Updates…; automatic checks can be turned off in the App menu)",
+    "zh-Hans" : "• 修复：导入个人水印图片后无法添加到相框（在水印图片库里点选图片即可添加，导入后自动添加）\n• 新增：App 内检查更新——有新版本时提示，一键下载、校验并自动安装（App 菜单「检查更新…」，可在 App 菜单关闭自动检查）"
+  },
+  "sha256" : "04d6a3164200aa173552999acf0d242f0c093d0a6ed534fd4c39d6422825ade9",
+  "signature" : "KkfievXGlwIsXmjAmc7bnZKMKXtnLrxPNUMBvKWviKHmg5XMBxwfwQCmu6cbg16UynFEl6sunfySyyg6G09PDQ==",
+  "url" : "https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.1/PhotoFrame-1.4.1.dmg",
+  "version" : "1.4.1"
+}
