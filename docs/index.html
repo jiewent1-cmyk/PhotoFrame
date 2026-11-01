@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Encadré — 给照片加边框，不损失一个像素</title>
-<meta name="description" content="Encadré：Mac 照片批量加边框工具。多种边框尺寸、吸管取色、自动主色调、相机水印（数码读 EXIF，胶片手选机身）、平台尺寸导出与预设，JPG 无损导出，不损失画质与色彩。">
-<meta property="og:title" content="Encadré — 给照片加边框，不损失一个像素">
-<meta property="og:description" content="Mac 原生 App：批量加边框、吸管取色、自动主色调、相机水印、平台尺寸导出与预设，JPG 原图无损导出。iPhone / iPad 版即将上架 App Store。">
+<title>Encadré — 给照片加边框：真实胶片底片、相框模板、HDR 与九宫格导出</title>
+<meta name="description" content="Encadré：Mac 照片批量加边框工具。多种边框尺寸、吸管取色、自动主色调、相机水印与我的机身，真实胶片底片边框、16 款相框模板、HDR 与 HEIC 导出、九宫格切图，JPG 原图无损导出。">
+<meta property="og:title" content="Encadré — 给照片加边框：真实胶片底片、相框模板、HDR 与九宫格导出">
+<meta property="og:description" content="Mac 原生 App：批量加边框、吸管取色、自动主色调、真实胶片底片边框、16 款相框模板、相机水印与我的机身、HDR 与 HEIC 导出、九宫格切图、平台尺寸导出，JPG 原图无损导出。iPhone / iPad 版即将上架 App Store。">
 <meta property="og:image" content="assets/shot-dark.jpg">
 <link rel="icon" href="assets/icon.png">
 <style>
@@ -234,6 +234,11 @@ details p { color: var(--text-2); margin: 12px 0 0; font-size: 15px; }
 footer { padding: 70px 0 50px; text-align: center; color: var(--text-3); font-size: 14px; }
 footer .btn { margin-bottom: 22px; }
 
+/* 链接变多后，中等宽度收紧间距，避免导航横向溢出 */
+@media (max-width: 1100px) {
+  nav .wrap { gap: 18px; }
+  nav .links { gap: 14px; font-size: 13px; }
+}
 @media (max-width: 900px) {
   .modes, .steps, .stats { grid-template-columns: 1fr; }
   .demo, .quality { grid-template-columns: 1fr; }
@@ -251,6 +256,96 @@ footer .btn { margin-bottom: 22px; }
   .wm-frame { padding: 14px; }
   .wm-frame img { max-height: 420px; }
 }
+
+/* 胶片边框 section（docs/_fragments/film.html） */
+
+/* 胶卷切换 */
+.film-tabs { flex-wrap: wrap; justify-content: center; max-width: 100%; }
+.film-shot { display: none; }
+.film-shot.on { display: block; animation: filmFade .35s ease; }
+@keyframes filmFade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* 胶卷清单 */
+.film-tags { justify-content: center; margin: 30px 0 24px; }
+
+/* 图片外框 */
+.film-frame {
+  background: var(--card); border-radius: var(--radius); padding: 20px;
+  box-shadow: 0 0 0 1px var(--line); text-align: center;
+}
+.film-frame picture { display: block; }
+.film-frame img {
+  max-height: 600px; width: auto; max-width: 100%; margin: 0 auto; object-fit: contain;
+  box-shadow: 0 12px 34px rgba(0,0,0,.18);
+}
+.film-frame-strip { padding: 14px; }
+.film-frame-strip img { max-height: none; width: 100%; }
+.film-cap { color: var(--text-2); margin-top: 16px; font-size: 15px; }
+.film-note { color: var(--text-3); font-size: 14px; margin: 14px 0 0; }
+
+/* 小标题 */
+.film-block { margin-top: 68px; }
+.film-title { margin: 8px 0 10px; font-size: clamp(21px, 2.6vw, 27px); line-height: 1.3; letter-spacing: -.01em; }
+.film-lead { color: var(--text-2); font-size: 16px; margin: 0 0 26px; max-width: 760px; }
+
+/* 竖构图一栏文案 + 一栏图片 */
+.film-pair { display: grid; grid-template-columns: 1.15fr 1fr; gap: 44px; align-items: center; margin-top: 68px; }
+.film-pair > * { min-width: 0; }
+.film-mini { margin-top: 4px; }
+
+/* 两条一组的要点 */
+.film-checks { margin-top: 56px; grid-template-columns: repeat(2, 1fr); gap: 24px 44px; }
+
+@media (max-width: 900px) {
+  .film-pair { grid-template-columns: 1fr; gap: 28px; }
+  .film-checks { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .film-frame { padding: 12px; }
+  .film-frame img { max-height: 420px; }
+  .film-frame-strip img { max-height: none; }
+  .film-block, .film-pair { margin-top: 52px; }
+  .film-tags { margin: 26px 0 20px; }
+  .film-tabs button { padding: 7px 12px; font-size: 13px; }
+  .film-checks { margin-top: 44px; }
+}
+
+/* ===== 片段配套样式：#templates（相框模板）+ #grid（九宫格切图） =====
+ * 合并时整段放进 index.html 的 <style> 末尾即可。
+ * 新类名统一带 b- 前缀，避免和现有类冲突；颜色全部走现有 CSS 变量，深浅色都正常。 */
+
+/* ---- 相框模板 ---- */
+.b-tpl-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.b-tpl-card { margin: 0; background: var(--card); border-radius: var(--radius); box-shadow: 0 0 0 1px var(--line); padding: 14px 14px 16px; }
+.b-tpl-stage {
+  height: 250px; border-radius: 12px; display: grid; place-items: center; padding: 18px; margin-bottom: 12px;
+  background: linear-gradient(160deg, #d9d4ca, #c7c1b6); /* 沿用 .mode-card .stage 的底色 */
+}
+.b-tpl-stage img { max-height: 214px; max-width: 100%; width: auto; height: auto; object-fit: contain; box-shadow: 0 10px 28px rgba(0,0,0,.22); }
+.b-tpl-card figcaption { font-size: 14px; font-weight: 600; text-align: center; line-height: 1.5; }
+.b-tpl-card figcaption span { display: block; font-size: 12.5px; font-weight: 400; color: var(--text-3); margin-top: 2px; }
+.b-tpl-tags { margin: 36px 0 0; justify-content: center; }
+.b-subject {
+  margin-top: 26px; background: var(--card); border-radius: var(--radius); box-shadow: 0 0 0 1px var(--line);
+  border-left: 4px solid var(--accent); padding: 22px 26px;
+}
+.b-subject h3 { margin: 0 0 6px; font-size: 17px; }
+.b-subject p { margin: 6px 0; color: var(--text-2); font-size: 15px; }
+
+/* ---- 九宫格切图（其余复用 .demo / .window / .checks / .tags） ---- */
+.b-grid-tags { margin: 0 0 30px; }
+/* 竖幅引导图别顶满整栏，限制高度并居中（写法同 .wm-frame img） */
+#grid .window img { max-height: 620px; width: auto; margin: 0 auto; }
+
+@media (max-width: 900px) {
+  .b-tpl-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .b-tpl-grid { gap: 12px; }
+  .b-tpl-stage { height: 180px; padding: 10px; }
+  .b-tpl-stage img { max-height: 160px; }
+  .b-subject { padding: 16px 18px; }
+}
 </style>
 </head>
 <body>
@@ -260,10 +355,13 @@ footer .btn { margin-bottom: 22px; }
     <a class="brand" href="#"><picture><source type="image/webp" srcset="assets/icon.webp"><img src="assets/icon.png" alt="" width="256" height="256"></picture>Encadré</a>
     <div class="links">
       <a href="#modes">边框样式</a>
+      <a href="#film">胶片</a>
+      <a href="#templates">模板</a>
       <a href="#demo">取色</a>
       <a href="#watermark">水印</a>
       <a href="#quality">画质</a>
       <a href="#platforms">平台导出</a>
+      <a href="#grid">九宫格</a>
       <a href="#batch">批量与预设</a>
       <a href="#install">安装</a>
       <a href="#faq">常见问题</a>
@@ -276,7 +374,7 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <span class="badge">● Mac 原生 App · 全部功能免费</span>
     <h1>给照片加一道边框，<br><em>不损失一个像素。</em></h1>
-    <p class="lead">批量为照片加上等宽、画布比例或拍立得风格的边框；用吸管从画面里取色，或者自动匹配照片的主色调。还能加相机水印：数码照片读 EXIF 自动填机型和参数，胶片照片手选机身和胶卷。JPG 原图直接无损拼接，画质和色彩都和原图一样。iPhone 与 iPad 版已提交 App Store 审核，即将上架。</p>
+    <p class="lead">批量为照片加上等宽、画布比例或拍立得风格的边框，也可以用真实翻拍的胶片底片边框和 16 款相框模板；吸管取色，或者自动匹配照片的主色调。还能加相机水印：数码照片读 EXIF 自动填机型和参数，胶片照片手选机身和胶卷。HDR 照片加完边框仍是 HDR（JPG Ultra HDR 或 HEIC），整张图还能切成九宫格。JPG 原图直接无损拼接，画质和色彩都和原图一样。iPhone 与 iPad 版已提交 App Store 审核，即将上架。</p>
     <div class="cta">
       <a class="btn" href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.6.0/PhotoFrame-1.6.0.dmg">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
@@ -315,6 +413,155 @@ footer .btn { margin-bottom: 22px; }
         <p>上下左右分别设置。下边加宽就是经典的拍立得相纸效果。</p>
         <div class="tags"><span class="tag">拍立得</span><span class="tag">上下留白</span><span class="tag">任意组合</span></div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="film" class="banded">
+  <div class="wrap">
+    <div class="center">
+      <div class="eyebrow">胶片边框</div>
+      <h2>用真实拍下来的底片给照片加边框</h2>
+      <p class="sub">齿孔、片基、厂商边码全部翻拍自真底片，不是画出来的贴图。目前 4 种胶卷，每种 2 张底片。</p>
+    </div>
+
+    <div class="tags film-tags">
+      <span class="tag">135 Kodak 100</span>
+      <span class="tag">135 Kodak Vision3 250D 5207</span>
+      <span class="tag">120 Kodak Gold 200（6×6）</span>
+      <span class="tag">120 Kodak Ektar 100（6×6）</span>
+    </div>
+
+    <div class="center">
+      <div class="tabs film-tabs" id="filmTabs">
+        <button data-t="0" class="on">135 Kodak 100</button>
+        <button data-t="1">135 Vision3 5207</button>
+        <button data-t="2">120 Gold 200</button>
+        <button data-t="3">120 Ektar 100</button>
+      </div>
+    </div>
+
+    <div class="film-shot on">
+      <div class="film-frame">
+        <picture><source type="image/webp" srcset="assets/film-kodak100.webp"><img src="assets/film-kodak100.jpg" alt="135 Kodak 100 真实底片边框：照片上下各有一排齿孔，片边印着帧号和 KODAK 边码" width="1600" height="1065" loading="lazy" decoding="async"></picture>
+      </div>
+      <p class="film-cap">135 Kodak 100 · 上下两排齿孔，片边印着帧号和 KODAK 边码。</p>
+    </div>
+
+    <div class="film-shot">
+      <div class="film-frame">
+        <picture><source type="image/webp" srcset="assets/film-vision3.webp"><img src="assets/film-vision3.jpg" alt="135 Kodak Vision3 250D 5207 真实底片边框：上下两排齿孔，片边印着 EASTMAN 5207 边码" width="1600" height="1200" loading="lazy" decoding="async"></picture>
+      </div>
+      <p class="film-cap">135 Kodak Vision3 250D 5207 · 电影卷，片边印着 EASTMAN 5207 边码。</p>
+    </div>
+
+    <div class="film-shot">
+      <div class="film-frame">
+        <picture><source type="image/webp" srcset="assets/film-gold200.webp"><img src="assets/film-gold200.jpg" alt="120 Kodak Gold 200 真实底片边框：6×6 方画幅，片边印着 KODAK 边码和帧号" width="1590" height="1600" loading="lazy" decoding="async"></picture>
+      </div>
+      <p class="film-cap">120 Kodak Gold 200 · 6×6 方画幅，片边印着 KODAK 边码和帧号。</p>
+    </div>
+
+    <div class="film-shot">
+      <div class="film-frame">
+        <picture><source type="image/webp" srcset="assets/film-ektar100.webp"><img src="assets/film-ektar100.jpg" alt="120 Kodak Ektar 100 真实底片边框：6×6 方画幅，片边印着 KODAK EKTAR 100 边码" width="1600" height="1580" loading="lazy" decoding="async"></picture>
+      </div>
+      <p class="film-cap">120 Kodak Ektar 100 · 6×6 方画幅，边码换成 KODAK EKTAR 100。</p>
+    </div>
+
+    <div class="film-pair">
+      <div>
+        <div class="eyebrow">竖构图 · 比例对不上</div>
+        <h3 class="film-title">照片比例和底片不一样时怎么办</h3>
+        <p class="film-lead">照片和底片的画幅不一样，有两种处理：一种居中裁切，一种在画幅窗口里留出片基色。后者不裁掉任何内容，照片像素照旧无损。</p>
+        <ul class="checks film-mini">
+          <li><div class="ic" style="background:var(--blue)">✓</div><div><b>居中裁切</b><span>照片铺满整个画幅，边缘可能切掉一点。</span></div></li>
+          <li><div class="ic" style="background:var(--green)">✓</div><div><b>留片基色</b><span>画幅窗口里空出来的部分补成底片本身的颜色，不丢内容，还是无损拼接。</span></div></li>
+          <li><div class="ic" style="background:var(--accent)">✓</div><div><b>竖着拍的照片</b><span>底片边框跟着转成竖幅，竖构图照片直接套用。</span></div></li>
+        </ul>
+      </div>
+      <div>
+        <div class="film-frame">
+          <picture><source type="image/webp" srcset="assets/film-kodak100-portrait.webp"><img src="assets/film-kodak100-portrait.jpg" alt="135 Kodak 100 竖幅底片边框：竖拍照片，齿孔和边码竖着排在两侧" width="1065" height="1600" loading="lazy" decoding="async"></picture>
+        </div>
+        <p class="film-cap">135 Kodak 100 · 竖构图底片，齿孔和边码竖着排。</p>
+      </div>
+    </div>
+
+    <div class="film-block">
+      <div class="eyebrow">胶片连续条</div>
+      <h3 class="film-title">多张照片接成一条连续的胶片</h3>
+      <p class="film-lead">一次选 3–6 张照片，接成一条连续的胶片条；也可以排成 8×10 接触印样，一整组照片一次看完。</p>
+      <div class="film-frame film-frame-strip">
+        <picture><source type="image/webp" srcset="assets/film-strip.webp"><img src="assets/film-strip.jpg" alt="胶片连续条：4 帧照片接在同一条胶片上，上下两排齿孔，片边印着连续的帧号" width="2000" height="450" loading="lazy" decoding="async"></picture>
+      </div>
+      <p class="film-cap">4 帧示例。齿孔和帧号一格一格接下去，像从同一条底片上剪下来的一段。</p>
+    </div>
+
+    <div class="film-block">
+      <div class="eyebrow">胶片 HDR · 灯箱透光</div>
+      <h3 class="film-title">像放在灯箱上一样发光</h3>
+      <p class="film-lead">齿孔和边码会透出光，照片本身不是 HDR 也能输出成这种效果。</p>
+      <div class="film-frame">
+        <img src="assets/film-hdr.jpg" alt="胶片 HDR 灯箱透光：135 Kodak 100 底片边框里的海边日落，齿孔和边码发着光" width="1659" height="1105" loading="lazy" decoding="async">
+      </div>
+      <p class="film-note">💡 需要在支持 HDR 的屏幕上才看得到：iPhone、近几年的 Mac、Chrome 浏览器等。</p>
+    </div>
+
+    <ul class="checks film-checks">
+      <li><div class="ic" style="background:var(--green)">✓</div><div><b>真底片，不是贴图</b><span>齿孔、片基、厂商边码、条码都来自翻拍的真实底片，4 种胶卷各 2 张底片可选。</span></div></li>
+      <li><div class="ic" style="background:var(--blue)">✓</div><div><b>比例对不上：裁切或留片基色</b><span>居中裁切铺满画幅，或者在画幅窗口里留出片基色；后者不裁内容，照片像素照旧无损。</span></div></li>
+      <li><div class="ic" style="background:#d6457a">✓</div><div><b>胶片连续条</b><span>3–6 张照片接成一条连续的胶片条，也能排成 8×10 接触印样。</span></div></li>
+      <li><div class="ic" style="background:#f0b429">✓</div><div><b>漏光与瑕疵</b><span>随机漏光、划痕、灰尘，分轻 / 中 / 重三档。同一个随机种子结果一样，随时能复现。</span></div></li>
+      <li><div class="ic" style="background:var(--accent)">✓</div><div><b>胶片 HDR：像灯箱一样发光</b><span>齿孔和边码透出光，照片本身不是 HDR 也能输出。在支持 HDR 的屏幕上才看得到；小红书在 iPhone 上发 JPG，实测能正常显示 HDR。</span></div></li>
+      <li><div class="ic" style="background:var(--green)">✓</div><div><b>照旧本地处理、无损导出</b><span>照片不上传；原尺寸 JPG 加边仍然是无损拼接。</span></div></li>
+    </ul>
+  </div>
+
+  <script>
+  (() => {
+    const tabs = document.querySelectorAll('#filmTabs button');
+    const shots = document.querySelectorAll('#film .film-shot');
+    tabs.forEach(t => t.onclick = () => {
+      tabs.forEach(x => x.classList.toggle('on', x === t));
+      shots.forEach((s, i) => s.classList.toggle('on', String(i) === t.dataset.t));
+    });
+  })();
+  </script>
+</section>
+
+<section id="templates">
+  <div class="wrap">
+    <div class="center">
+      <div class="eyebrow">相框模板</div>
+      <h2>16 个相框模板，从拍立得到实木画框</h2>
+      <p class="sub">每个模板都带立体感细节：投影、卡纸斜边、纸张厚度，强度可以调。部分模板保持原图无损，需要重新编码的会在界面里标明。</p>
+    </div>
+    <div class="b-tpl-grid">
+      <figure class="b-tpl-card">
+        <div class="b-tpl-stage"><picture><source type="image/webp" srcset="assets/tpl-gallery-mat.webp"><img src="assets/tpl-gallery-mat.jpg" alt="画廊卡纸模板：照片外留一圈宽卡纸，像装裱好的画" width="1600" height="1271" loading="lazy" decoding="async"></picture></div>
+        <figcaption>画廊卡纸<span>宽卡纸留白，斜边切角</span></figcaption>
+      </figure>
+      <figure class="b-tpl-card">
+        <div class="b-tpl-stage"><picture><source type="image/webp" srcset="assets/tpl-polaroid.webp"><img src="assets/tpl-polaroid.jpg" alt="拍立得模板：白色相纸边框，下边更宽" width="1312" height="1600" loading="lazy" decoding="async"></picture></div>
+        <figcaption>拍立得<span>经典白相纸，下边加宽</span></figcaption>
+      </figure>
+      <figure class="b-tpl-card">
+        <div class="b-tpl-stage"><picture><source type="image/webp" srcset="assets/tpl-blur-fill.webp"><img src="assets/tpl-blur-fill.jpg" alt="模糊背景模板：照片居中，四周用画面本身放大的模糊效果补满" width="1280" height="1600" loading="lazy" decoding="async"></picture></div>
+        <figcaption>模糊背景<span>比例不同，用画面自己补满</span></figcaption>
+      </figure>
+      <figure class="b-tpl-card">
+        <div class="b-tpl-stage"><picture><source type="image/webp" srcset="assets/tpl-floating-card.webp"><img src="assets/tpl-floating-card.jpg" alt="圆角悬浮卡片模板：圆角照片浮在卡片上，带投影" width="1600" height="1187" loading="lazy" decoding="async"></picture></div>
+        <figcaption>圆角悬浮卡片<span>照片浮在卡片上</span></figcaption>
+      </figure>
+    </div>
+    <div class="tags b-tpl-tags">
+      <span class="tag">拍立得</span><span class="tag">模糊背景</span><span class="tag">圆角悬浮卡片</span><span class="tag">画廊卡纸</span><span class="tag">电影宽银幕</span><span class="tag">取景器</span><span class="tag">邮票</span><span class="tag">票根</span><span class="tag">杂志封面</span><span class="tag">金属细框</span><span class="tag">手机样机</span><span class="tag">相纸背印</span><span class="tag">明信片</span><span class="tag">实木画框</span><span class="tag">透视样机</span><span class="tag">主体出框</span>
+    </div>
+    <div class="b-subject">
+      <h3>主体出框：让照片里的人和动物探出相框</h3>
+      <p>App 会自动认出照片里的主体——人、动物这些，让主体越出相框边缘，像从画框里探出来。识别用的是 Apple Vision，全部在本地完成，照片不上传。</p>
+      <p>1.6 起，画面里有多个主体时，可以自己选让哪几个出框。</p>
     </div>
   </div>
 </section>
@@ -360,7 +607,7 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <div class="eyebrow">相机水印</div>
     <h2>给照片加一条相机水印</h2>
-    <p class="sub">数码照片读 EXIF，机型、镜头、光圈、快门、ISO 自动填好；胶片照片自己选机身和胶卷。水印和边框可以一起用。</p>
+    <p class="sub">数码照片读 EXIF，机型、镜头、光圈、快门、ISO 自动填好；胶片照片自己选机身和胶卷。还可以自定义「我的机身」，绑定相机后自动套用。水印和边框可以一起用。</p>
     <div class="stats">
       <div class="stat"><b>5900+</b><span>数码机型可自动识别：188 款相机 + 5700+ 款手机，读 EXIF 就对上号。现在也认识无人机与运动相机</span></div>
       <div class="stat"><b>269</b><span>胶片机身可选，共 35 个品牌，从徕卡哈苏到海鸥、Holga</span></div>
@@ -373,6 +620,7 @@ footer .btn { margin-bottom: 22px; }
       <button data-t="0" class="on">数码模式</button>
       <button data-t="1">胶片模式</button>
       <button data-t="2">角标</button>
+      <button data-t="3">竖图版式</button>
     </div>
     <div class="wm-shot on">
       <div class="wm-frame"><picture><source type="image/webp" srcset="assets/wm-digital.webp"><img src="assets/wm-digital.jpg" alt="数码模式水印：照片底部的信息条，左边是机型名 Nikon Z 8 和镜头 NIKKOR Z 24-70mm f/2.8 S，右边是 Nikon 品牌标志和参数 f/2.8 1/250s ISO 64" width="1100" height="857" loading="lazy" decoding="async"></picture></div>
@@ -386,15 +634,21 @@ footer .btn { margin-bottom: 22px; }
       <div class="wm-frame"><picture><source type="image/webp" srcset="assets/wm-corner.webp"><img src="assets/wm-corner.jpg" alt="角标水印：加了黑色边框的竖幅照片，右下角是机型名 Nikon Z 8 和参数 f/2.8 1/250s ISO 64" width="900" height="1100" loading="lazy" decoding="async"></picture></div>
       <p>角标模板：机身和参数压在右下角。这张是照片加了边框之后，再叠一层水印。</p>
     </div>
+    <div class="wm-shot">
+      <div class="wm-frame"><picture><source type="image/webp" srcset="assets/wm-portrait.webp"><img src="assets/wm-portrait.jpg" alt="竖拍照片的底部信息条：品牌 Logo、机身 Leica M6、镜头 50mm f/2 和参数 ISO 400 居中堆叠排列" width="826" height="1200" loading="lazy" decoding="async"></picture></div>
+      <p>竖图版式（1.6）：竖拍照片的底部信息条自动改成居中堆叠 —— 品牌 Logo、机型和参数从上到下排，不再挤在一行；横图保持原来的版式，这个自动版式可以关掉。</p>
+    </div>
     <ul class="checks wm-checks">
       <li><div class="ic" style="background:var(--green)">✓</div><div><b>数码模式：读 EXIF 自动填</b><span>机型、镜头、光圈、快门、ISO 都从 EXIF 里读出来，日期想加就加。机型名是完整名，「Nikon Z 8」这种品牌加型号的写法。</span></div></li>
       <li><div class="ic" style="background:var(--blue)">✓</div><div><b>胶片模式：机身和胶卷手选</b><span>自己挑胶片机身和胶卷，比如 Nikon F100 配 Kodak Portra 400。扫描翻拍的照片不会误读扫描仪的 EXIF。</span></div></li>
       <li><div class="ic" style="background:#d6457a">✓</div><div><b>7 套模板，元素逐项开关</b><span>经典、经典深色、居中、签名、角标、胶片、极简，深浅色都能用。品牌 Logo、机型、参数、日期可以单独关掉，摆放方式在底部信息条和照片角标之间选。</span></div></li>
       <li><div class="ic" style="background:#f0b429">✓</div><div><b>没有 EXIF 也能手选机型</b><span>照片没写机型，或者识别不出来，手动挑一个品牌和型号就行，水印照常出。</span></div></li>
-      <li><div class="ic" style="background:var(--accent)">✓</div><div><b>和边框一起用，JPG 仍然无损</b><span>信息条画在边框区域，照片像素一个都不重新压缩，JPG 无损拼接照旧；导出还是一张 JPG。</span></div></li>
+      <li><div class="ic" style="background:var(--accent)">✓</div><div><b>和边框一起用，JPG 仍然无损</b><span>信息条画在边框区域，照片像素一个都不重新压缩，JPG 无损拼接照旧；导出默认还是一张 JPG。</span></div></li>
       <li><div class="ic" style="background:var(--green)">✓</div><div><b>胶片水印的细部控制</b><span>可以手填镜头焦距和光圈；胶卷名旁边可以显示官方胶卷 Logo；镜头行和胶卷 Logo 都可以单独开关。</span></div></li>
       <li><div class="ic" style="background:#d6457a">✓</div><div><b>每个元素都能拖，水印单独存成预设</b><span>在预览里直接拖动 Logo、机型、参数、日期，摆到你想要的位置，双击复位。调好的水印可以单独存成水印预设，一键应用到全部照片。</span></div></li>
       <li><div class="ic" style="background:var(--blue)">✓</div><div><b>无人机与运动相机</b><span>大疆 DJI 各系列无人机和 Osmo、Insta360、GoPro、Autel、Parrot、Skydio 等也在机型库里，读 EXIF 一样对上号。</span></div></li>
+      <li><div class="ic" style="background:#d6457a">✓</div><div><b>我的机身：换成你自己的机身名</b><span>自定义机身名、品牌、Logo 和镜头名，绑定到相机后，这台相机拍的照片自动套用。改装机或者想显示自己喜欢的名字时很好用。</span></div></li>
+      <li><div class="ic" style="background:var(--accent)">✓</div><div><b>竖图信息条自动版式</b><span>竖拍照片的底部信息条自动改成 Logo、机型、参数居中堆叠，不再三栏挤在一行；横图保持原样，这个自动版式可以关掉。</span></div></li>
     </ul>
   </div>
 </section>
@@ -403,7 +657,7 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <div class="eyebrow">画质</div>
     <h2>导出的 JPG，画质和原图一样</h2>
-    <p class="sub">大部分加边框工具会把整张照片重新压缩一遍，每导出一次画质就降一点。Encadré 换了一种做法。</p>
+    <p class="sub">大部分加边框工具会把整张照片重新压缩一遍，每导出一次画质就降一点。Encadré 换了一种做法：原尺寸 JPG 加边仍然是无损拼接，HDR 照片也能保留 HDR 导出。</p>
     <div class="quality">
       <div>
         <div class="stats">
@@ -413,7 +667,9 @@ footer .btn { margin-bottom: 22px; }
         </div>
         <ul class="checks">
           <li><div class="ic" style="background:var(--green)">✓</div><div><b>JPG：在 DCT 域无损拼接</b><span>直接复用原图压缩后的数据块，只为边框编码新的块。照片部分完全不重新压缩。</span></div></li>
-          <li><div class="ic" style="background:var(--blue)">✓</div><div><b>其他格式：高精度编码</b><span>HEIC、PNG、TIFF 等用 Q100、4:4:4 不做色度抽样的自研编码器，精度高于常见编码器。</span></div></li>
+          <li><div class="ic" style="background:var(--blue)">✓</div><div><b>其他格式：高精度编码</b><span>HEIC、PNG、TIFF 等原图用 Q100、4:4:4 不做色度抽样的自研编码器，精度高于常见编码器。</span></div></li>
+          <li><div class="ic" style="background:#d6457a">✓</div><div><b>HDR：加完边框还是 HDR</b><span>iPhone 等设备拍的 HDR 照片，加上边框导出后仍然是 HDR，写成 JPG Ultra HDR（带 gain map），强度可以调。胶片的灯箱透光效果，照片本身不是 HDR 也能输出。</span></div></li>
+          <li><div class="ic" style="background:var(--accent)">✓</div><div><b>1.6 新增 HEIC 导出</b><span>HEIC 可以带 HDR 一起存回相册、iCloud 和 iMessage；发到社交平台建议用 JPG。需要重新编码的格式不是无损路径，原尺寸 JPG 加边仍然是无损拼接。</span></div></li>
           <li><div class="ic" style="background:#d6457a">✓</div><div><b>色彩与元数据原样保留</b><span>沿用 sRGB / Adobe RGB / Display P3 原色彩空间和 ICC；相机、镜头、曝光、GPS 等 EXIF 信息全部保留。</span></div></li>
           <li><div class="ic" style="background:var(--accent)">✓</div><div><b>隐私三档，原图不动</b><span>全部保留 / 去除位置 / 再去除机身与镜头序列号、机主姓名等身份信息。无论哪一档，原图文件都不会被改动。</span></div></li>
           <li><div class="ic" style="background:#f0b429">!</div><div><b>自动识别损坏文件</b><span>拷贝中断、被截断的照片会被标记出来并跳过，不会导出花屏的图。</span></div></li>
@@ -436,7 +692,7 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <div class="eyebrow">导出</div>
     <h2>为平台而导出</h2>
-    <p class="sub">社交平台各有自己的尺寸要求。选一个平台尺寸，导出直接得到对应像素，不用事后再裁再缩。</p>
+    <p class="sub">社交平台各有自己的尺寸要求。选一个平台尺寸，导出直接得到对应像素，不用事后再裁再缩；每个平台预设还会标出它是否显示 HDR、建议用什么格式。</p>
     <div class="demo">
       <div class="window"><picture><source type="image/webp" srcset="assets/shot-export.webp"><img src="assets/shot-export.jpg" alt="Encadré 导出设置：输出尺寸选小红书 3:4（1080×1440），同时导出原尺寸与 Instagram 竖版 4:5，隐私选去除位置与身份信息；中间是带胶片水印的 3:4 预览" width="2000" height="1335" loading="lazy" decoding="async"></picture></div>
       <ul class="checks">
@@ -444,6 +700,27 @@ footer .btn { margin-bottom: 22px; }
         <li><div class="ic" style="background:var(--blue)">✓</div><div><b>导出即平台像素</b><span>比例不同会先在两侧补边，再高质量缩放到目标尺寸，导出的文件就是平台要的像素。</span></div></li>
         <li><div class="ic" style="background:#d6457a">✓</div><div><b>同时导出多个尺寸</b><span>原尺寸也算一种。原尺寸副本仍然无损，缩放副本是高质量重新编码。</span></div></li>
         <li><div class="ic" style="background:#f0b429">✓</div><div><b>平台优化（文件更小）</b><span>需要控制体积时打开这个开关，导出的文件更小。</span></div></li>
+        <li><div class="ic" style="background:var(--accent)">✓</div><div><b>平台标注 HDR 支持情况</b><span>每个平台尺寸预设都会标出这个平台是否显示 HDR、建议用什么格式：小红书在 iPhone 上实测 JPG 能正常显示、HEIC 会显示成普通 SDR；Instagram 信息流和多图支持 HDR；部分平台只在部分设备上支持。</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="grid" class="banded">
+  <div class="wrap">
+    <div class="eyebrow">九宫格切图</div>
+    <h2>加好边框，再切成一组九宫格</h2>
+    <p class="sub">把加好边框的整图切成 N 张，各平台的宫格预设都内置了，导出就能直接发。</p>
+    <div class="tags b-grid-tags">
+      <span class="tag">朋友圈 九宫格</span><span class="tag">朋友圈 六宫格</span><span class="tag">朋友圈 四宫格</span><span class="tag">小红书 九宫格</span><span class="tag">小红书 无缝全景轮播</span><span class="tag">小红书 长图分页</span><span class="tag">微博 九宫格</span><span class="tag">Instagram 主页九宫格</span><span class="tag">Instagram 六宫格</span><span class="tag">Instagram 横幅</span><span class="tag">Instagram / Threads 无缝全景轮播</span><span class="tag">抖音图集</span>
+    </div>
+    <div class="demo">
+      <div class="window"><picture><source type="image/webp" srcset="assets/grid-guide.webp"><img src="assets/grid-guide.jpg" alt="九宫格发布引导图：切好的图按顺序标着 1 到 9 的序号和箭头，提示按顺序发布" width="986" height="1200" loading="lazy" decoding="async"></picture></div>
+      <ul class="checks">
+        <li><div class="ic" style="background:var(--green)">✓</div><div><b>Instagram 主页九宫格自动倒序</b><span>主页九宫格、六宫格和横幅会按发布顺序自动倒序排好，从最后一张发到第一张，主页上拼出来就是完整的一张图。</span></div></li>
+        <li><div class="ic" style="background:var(--blue)">✓</div><div><b>另出一张发布引导图</b><span>除了切图，还会导出一张「按 1→9 顺序发布」的引导图——就像左边这张，序号和箭头都标好了，照着发就不会乱序。</span></div></li>
+        <li><div class="ic" style="background:#d6457a">✓</div><div><b>序号角标</b><span>可以给每张切图加上序号角标，看的人一眼就知道先看哪张。</span></div></li>
+        <li><div class="ic" style="background:#f0b429">✓</div><div><b>竖拍照片方向正确</b><span>竖拍照片切出来的每一张方向都是对的，不会横过来。</span></div></li>
       </ul>
     </div>
   </div>
@@ -521,14 +798,17 @@ footer .btn { margin-bottom: 22px; }
   <div class="wrap">
     <div class="center"><div class="eyebrow">常见问题</div><h2>常见问题</h2></div>
     <div class="faq" style="margin-top:34px">
-      <details><summary>支持哪些照片格式？</summary><p>导入支持 JPG、HEIC、PNG、TIFF、WebP，以及常见的相机 RAW（NEF、CR3、ARW、DNG 等）。导出统一为 JPG。</p></details>
+      <details><summary>支持哪些照片格式？</summary><p>导入支持 JPG、HEIC、PNG、TIFF、WebP，以及常见的相机 RAW（NEF、CR3、ARW、DNG 等）。导出默认是 JPG；1.6 起也可以选 HEIC（带 HDR 存回相册和 iCloud）。</p></details>
       <details><summary>照片会上传到网上吗？</summary><p>不会。所有处理都在你的设备本地完成，照片不会离开你的设备。App 只会在启动时从本官网下载公开的机型库更新、检查有没有新版本（不上传任何内容，都可在菜单里关闭）；App Store 版另有可选的 iCloud 预设同步，同步的只是设置，不含照片。</p></details>
       <details><summary>为什么边框位置会微调几个像素？</summary><p>无损拼接要求左边、上边的边框宽度是 JPEG 数据块（8 或 16 像素）的整数倍，所以边框可能会挪动几个像素，画布总尺寸不变。如果边框太窄、对不齐，App 会自动改用高精度重新编码，并在导出结果里说明。</p></details>
       <details><summary>可以批量处理吗？会覆盖原图吗？</summary><p>可以把整个文件夹拖进来一次处理完。导出的文件放在你指定的输出文件夹，文件名会加上后缀（默认 _border），永远不会覆盖原图；遇到同名文件会自动加序号。</p></details>
       <details><summary>边框颜色和我选的完全一样吗？</summary><p>JPG 使用 YCbCr 色彩编码，有些 RGB 颜色没法精确表示，边框颜色可能在某个通道上差 1 个色阶（满分 255）。这已经是标准 JPG 能做到的最好结果，肉眼看不出差别。</p></details>
-      <details><summary>加水印会影响画质吗？</summary><p>底部信息条的水印画在边框区域，照片像素和原来一样，一个都不重新压缩，JPG 无损拼接照旧，导出也还是一张 JPG。如果改成角标、把水印压在照片上，那只有被水印盖住的那几个数据块会重新编码，其他地方不动。</p></details>
+      <details><summary>加水印会影响画质吗？</summary><p>底部信息条的水印画在边框区域，照片像素和原来一样，一个都不重新压缩，JPG 无损拼接照旧，导出默认还是一张 JPG。如果改成角标、把水印压在照片上，那只有被水印盖住的那几个数据块会重新编码，其他地方不动。</p></details>
+      <details><summary>HDR 照片加边框后还是 HDR 吗？</summary><p>是。iPhone 等设备拍的 HDR 照片，加上边框导出后仍然是 HDR，写成 JPG Ultra HDR（带 gain map），强度可以调。要在支持 HDR 的屏幕上才看得到：iPhone、近年的 Mac、Chrome 浏览器等。另外胶片的灯箱透光效果，照片本身不是 HDR 也能输出成 HDR。</p></details>
+      <details><summary>HEIC 和 JPG 选哪个？</summary><p>存回相册、发 iMessage、放进 iCloud，用 HEIC：1.6 起 HEIC 可以带 HDR 一起存。发到社交平台用 JPG：小红书在 iPhone 上实测 JPG 能正常显示 HDR，HEIC 会显示成普通 SDR。不确定就先用默认的 JPG。</p></details>
       <details><summary>iCloud 同步在哪个版本有？</summary><p>App Store 版（iPhone / iPad / Mac）可以通过你自己的 iCloud 同步预设，走的是你的 iCloud 账号，开发者无法访问。官网 DMG 版没有 iCloud 同步，预设只存在本机。</p></details>
       <details><summary>平台尺寸导出为什么不是无损？</summary><p>原尺寸副本仍然是 JPG 无损拼接，像素和原图一致。按平台比例补边、缩放得到的副本需要重新编码，用的是高质量编码器；开启「平台优化（文件更小）」时文件还会再小一些。</p></details>
+      <details><summary>胶片边框是真的底片吗？</summary><p>是真的。胶片边框用的是真实翻拍的胶片底片，齿孔、片基和厂商边码都是实拍下来的，不是画上去的。目前 4 种胶卷、每种 2 张底片：135 Kodak 100、135 Kodak Vision3 250D 5207（电影卷）、120 Kodak Gold 200（6×6）、120 Kodak Ektar 100（6×6）。多张照片还能合成一条连续的胶片条（3–6 帧）。</p></details>
       <details><summary>界面支持哪些语言？</summary><p>中文和英文，跟随系统语言自动切换。</p></details>
     </div>
   </div>
