@@ -1,13 +1,13 @@
 {
-  "bytes" : 3985579,
+  "bytes" : 9698588,
   "format" : 1,
   "minimumSystemVersion" : "13.0",
   "notes" : {
-    "en" : "• Fixed: imported watermark images couldn't be added to the frame (click an image in the watermark library to add it; newly imported images are added automatically)\n• New: in-app updates — get notified of new versions and install them with one click (App menu › Check for Updates…; automatic checks can be turned off in the App menu)",
-    "zh-Hans" : "• 修复：导入个人水印图片后无法添加到相框（在水印图片库里点选图片即可添加，导入后自动添加）\n• 新增：App 内检查更新——有新版本时提示，一键下载、校验并自动安装（App 菜单「检查更新…」，可在 App 菜单关闭自动检查）"
+    "en" : "• Film borders: 135 / 120 frames and contact strips built from real negative scans, with light leaks and defects; film lightbox HDR\n• 3D frames and new templates; choose which subjects pop out of the frame\n• My Bodies: custom body name, brand, logo and lens, applied automatically to the bound camera\n• HDR export: keeps iPhone HDR (JPG Ultra HDR); new HEIC format for Photos / iCloud\n• Grid split; centered info bar layout for portrait photos; platform presets show HDR support\n• Fixed: border color reset on launch, reversed template shadows, preset library loss when the file was damaged, and more",
+    "zh-Hans" : "• 胶片边框：基于真实翻拍底片的 135 / 120 边框与连续条，可加漏光和瑕疵；胶片灯箱 HDR\n• 立体相框与新模板；主体出框可选择出框的主体\n• 我的机身：自定义机身名、品牌、Logo 和镜头，绑定相机自动套用\n• HDR 导出：保留 iPhone HDR（JPG Ultra HDR），新增 HEIC 格式（存回相册、iCloud）\n• 九宫格切图；竖图信息条自动居中排版；平台尺寸标注是否支持 HDR\n• 修复：启动时边框颜色被重置、带投影模板的投影方向、预设库损坏时丢失等多项问题"
   },
-  "sha256" : "04d6a3164200aa173552999acf0d242f0c093d0a6ed534fd4c39d6422825ade9",
-  "signature" : "KkfievXGlwIsXmjAmc7bnZKMKXtnLrxPNUMBvKWviKHmg5XMBxwfwQCmu6cbg16UynFEl6sunfySyyg6G09PDQ==",
-  "url" : "https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.1/PhotoFrame-1.4.1.dmg",
-  "version" : "1.4.1"
+  "sha256" : "81c46bb586c9036f44c5f7705607f06f2c5de2b3dfa0a31ea8b5cf1f63a3e868",
+  "signature" : "X0aNFKH36bnvTAfk7fwkdL+TCdRUudvT25qyXz2H6aweH8bJMZT4U/rpcAaljEtiAg7JsnrWp9NVTBju+bQ2CQ==",
+  "url" : "https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.6.0/PhotoFrame-1.6.0.dmg",
+  "version" : "1.6.0"
 }

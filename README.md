@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.1/PhotoFrame-1.4.1.dmg"><b>⬇️ 下载 macOS 版（约 3.8 MB）</b></a>
+  <a href="https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.6.0/PhotoFrame-1.6.0.dmg"><b>⬇️ 下载 macOS 版（约 9.7 MB）</b></a>
   &nbsp;·&nbsp;
   <a href="https://jiewent1-cmyk.github.io/PhotoFrame/">🌐 产品主页 / 在线试用</a>
 </p>
@@ -39,6 +39,15 @@
 <p align="center">
   <img src="docs/assets/shot-light-ratio.jpg" alt="4:5 画布比例，自动主色调边框" width="900">
 </p>
+
+## 1.6
+
+- **胶片边框**：基于真实翻拍底片的 135 / 120 边框与连续条，可加漏光和瑕疵；胶片灯箱 HDR
+- **立体相框与新模板**；主体出框可以选择哪些主体出框
+- **我的机身**：自定义机身名、品牌、Logo 和镜头，绑定相机后自动套用
+- **HDR 导出**：保留 iPhone 的 HDR（JPG Ultra HDR），新增 HEIC 格式（存回相册、iCloud）
+- **九宫格切图**；竖图信息条自动居中排版；平台尺寸标注是否支持 HDR
+- 修复：启动时边框颜色被重置、带投影模板的投影方向反了、预设库文件损坏时丢失等
 
 ## 1.4.1
 
@@ -80,7 +89,7 @@
 
 ## 安装
 
-1. [下载 PhotoFrame-1.4.1.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.4.1/PhotoFrame-1.4.1.dmg)，打开后把「Encadré」拖到「Applications（应用程序）」文件夹。
+1. [下载 PhotoFrame-1.6.0.dmg](https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.6.0/PhotoFrame-1.6.0.dmg)，打开后把「Encadré」拖到「Applications（应用程序）」文件夹。
 2. 第一次打开时，macOS 可能会提示「无法验证开发者」。这是因为本 App 没有付费的 Apple 开发者签名，并不是病毒。任选一种方法放行：
    - 打开「系统设置 → 隐私与安全性」，滚到页面底部，点「仍要打开」；
    - 或者在「终端」里运行下面这行命令，然后再打开 App：
