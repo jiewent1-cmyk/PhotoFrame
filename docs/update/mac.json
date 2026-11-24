@@ -1,13 +1,13 @@
 {
-  "bytes" : 9698588,
+  "bytes" : 13894139,
   "format" : 1,
   "minimumSystemVersion" : "13.0",
   "notes" : {
-    "en" : "• Film borders: 135 / 120 frames and contact strips built from real negative scans, with light leaks and defects; film lightbox HDR\n• 3D frames and new templates; choose which subjects pop out of the frame\n• My Bodies: custom body name, brand, logo and lens, applied automatically to the bound camera\n• HDR export: keeps iPhone HDR (JPG Ultra HDR); new HEIC format for Photos / iCloud\n• Grid split; centered info bar layout for portrait photos; platform presets show HDR support\n• Fixed: border color reset on launch, reversed template shadows, preset library loss when the file was damaged, and more",
-    "zh-Hans" : "• 胶片边框：基于真实翻拍底片的 135 / 120 边框与连续条，可加漏光和瑕疵；胶片灯箱 HDR\n• 立体相框与新模板；主体出框可选择出框的主体\n• 我的机身：自定义机身名、品牌、Logo 和镜头，绑定相机自动套用\n• HDR 导出：保留 iPhone HDR（JPG Ultra HDR），新增 HEIC 格式（存回相册、iCloud）\n• 九宫格切图；竖图信息条自动居中排版；平台尺寸标注是否支持 HDR\n• 修复：启动时边框颜色被重置、带投影模板的投影方向、预设库损坏时丢失等多项问题"
+    "en" : "• Collage: 11 new layouts for 1 to 12 photos — photo strips, grid wall, nine-grid tiles, film contact sheet, XPan vertical, half-frame pairs and more. Multi-page sets export in one go.\n• Film borders, rebuilt: 11 formats from 35 mm, half-frame and XPan to 120 (645 up to 6×17), with edge print, DX code, frame numbers and an optional date stamp. Lettering stays crisp at full resolution.\n• A film border never changes your picture: it only crops, and you choose the crop with Framing.\n• New Camera Showcase template: your photo on the screen of a compact camera against a plaster wall, 3:4.\n• The pop-out template has been removed. Presets that used it switch to Gallery Mat.",
+    "zh-Hans" : "• 拼图：11 种新版式，支持 1 到 12 张照片：横条拼接、照片墙、九宫格切图、胶卷条、XPan 竖幅、半格对拼等，多页一次导出。\n• 胶片边框重做：11 种片幅，从 135、半格、XPan 到 120（645 至 6×17），带边码、DX 码、格号，可加日期背印；原尺寸下字迹清晰锐利。\n• 胶片边框不改动画面，只做裁剪；裁剪范围在「取景」里自己选。\n• 新模板「相机展示」：作品放进一台便携相机的屏幕，背后是石膏墙，整张 3:4。\n• 移除「主体出框」模板，用过它的预设会改用「画廊卡纸」。"
   },
-  "sha256" : "81c46bb586c9036f44c5f7705607f06f2c5de2b3dfa0a31ea8b5cf1f63a3e868",
-  "signature" : "X0aNFKH36bnvTAfk7fwkdL+TCdRUudvT25qyXz2H6aweH8bJMZT4U/rpcAaljEtiAg7JsnrWp9NVTBju+bQ2CQ==",
-  "url" : "https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.6.0/PhotoFrame-1.6.0.dmg",
-  "version" : "1.6.0"
+  "sha256" : "1cddc2b02a4b34d13e1e0f3dd954893e74f281193ce8f3237a8f95358cedc2ca",
+  "signature" : "Y4PoyIfRwzRimgXLvgCj2aa88SiCXWHcTUaZ8oBwd9NVcrVgi+bmjX2E8rY3By4pqaHSFWkaDKhblwLrym2ZAQ==",
+  "url" : "https://github.com/jiewent1-cmyk/PhotoFrame/releases/download/v1.8.0/PhotoFrame-1.8.0.dmg",
+  "version" : "1.8.0"
 }
